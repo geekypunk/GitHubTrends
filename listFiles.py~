@@ -1,0 +1,6 @@
+from json import JSONDecoder
+import glob
+import os
+os.chdir("/home/kira/GitHubTrends")
+for files in os.listdir("."):
+        print files

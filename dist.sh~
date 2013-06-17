@@ -1,0 +1,21 @@
+FILES=githubdata/*.json
+i=0
+mkdir 'dump/0'
+folder = "dump/$i"
+for f in $FILES
+
+do
+  echo "Processing $f file..."
+  cp $f $folder
+	
+  val=$((i%10))
+  if [ $val == 0 ] 
+  then	
+	mkdir  "dump/$i"
+        folder = "dump/$i"
+		
+  fi	
+  i=$((i+1))
+  echo $i 	
+  
+done

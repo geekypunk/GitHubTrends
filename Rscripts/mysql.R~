@@ -1,0 +1,14 @@
+# Call this once, when fresh prompt library(RMySQL)
+
+con = dbConnect(MySQL(), user="root", password="root",dbname="github", host="localhost")
+dbListTables(con)
+repos = dbGetQuery(con,statement='SELECT repo_url from WatchEvents')
+totalRepoCount = dbGetQuery(con,statement='SELECT DISTINCT count(*) repo_url from WatchEvents')
+mostWatchedRepos = dbGetQuery(con,statement='SELECT DISTINCT  repo_url from WatchEvents order by repo_watchers DESC LIMIT 10')
+mostFollowedUsers = dbGetQuery(con,statement='SELECT DISTINCT  followedUser_login from FollowEvents order by followedUser_followers DESC LIMIT 10')
+
+
+
+
+
+
