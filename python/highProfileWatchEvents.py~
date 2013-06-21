@@ -1,0 +1,96 @@
+#!/usr/bin/python
+
+import os
+import MySQLdb as mdb
+import datetime
+import sys, os
+
+def growthCurveByRepoURL(event):
+	con = mdb.connect('localhost', 'root', 'root', 'github')
+	try:
+		cur = con.cursor()	
+		sql = 'SELECT repo_watchers,timeStamp from AllEvents WHERE repo_url="'+event.repo_url+'"'
+		cur.execute(sql)
+		innerRows = cur.fetchall()
+		innerX = []
+		innerY = []
+		for innerRow in innerRows:
+			innerX.append(innerRow[0])
+			rawTime = innerRow[1]	
+			try:
+				timeStamp = datetime.datetime.strptime(rawTime[:rawTime.rfind('-')],'%Y-%m-%dT%H:%M:%S')
+			except Exception as e:
+				timeStamp = datetime.datetime.strptime(rawTime[:rawTime.rfind(' ')],'%Y/%m/%d %H:%M:%S')
+				pass
+			t1 = timeStamp.timetuple()
+			innerY.append(time.mktime(t1))
+		try:
+			popt, pcov = curve_fit(func, innerX, innerY)
+			yAdjusted = func(innerX,popt[0],popt[1],popt[2])
+			allCurvesX.append(innerX)
+			allCurvesY.append(yAdjusted)
+			class Object(object):
+				pass
+			a = Object()
+			a.X = innerX
+			a.AdjY = yAdjusted
+			a.Y = innerY
+			return a
+		except Exception, e:
+			pass
+		finally:
+			pass
+
+
+def getGrowthDelta(growthCurve,timeStamp):
+	actualY = growthCurve.Y
+	predictedY = growthCurve.AdjY
+	effect = 0;
+	for x, y in zip(actualY, predictedY):
+		if x > timeStamp and x < timeStamp + datetime.timedelta(minutes=60):
+			effect += x - y;
+		return effect
+
+
+
+
+try:
+	con = mdb.connect('localhost', 'root', 'root', 'github')
+	cur = con.cursor()	
+	#Selecting top 100 users	
+	cur.execute("SELECT followedUser_login from FollowEvents GROUP BY followedUser_login ORDER BY followedUser_followers DESC")
+	rows = cur.fetchall()
+	objList = []
+	for row in rows:
+		sql = 'SELECT repo_url,timeStamp,repo_watchers,actor from AllEvents WHERE actor="'+row[0]+'" AND eventType = "WatchEvent" GROUP BY repo_url'
+		cur.execute(sql)
+		innerRows = cur.fetchall()	
+		intialWatchCount=0
+		finalWatchCount=0
+		actor=""
+		for iRow in innerRows:
+			#sql = 'INSERT INTO highProfileWatchEvents VALUES('+'"'+mdb.escape_string(iRow[0])+'","'+iRow[1]+'",'+str(iRow[2])+',"'+iRow[3]+'")'
+			#cur.execute(sql)
+			#con.commit()
+			class Object(object):
+				pass
+			a = Object()
+			a.repo_url = iRow[0]
+			a.timeStamp = iRow[1]
+			a.repo_watchers = iRow[2]
+			a.actor = iRow[3]
+			objList.append(a)		
+			growthCurve = growthCurveByRepoURL(a)
+			if growthCurve is not None:
+				growthFactor = getGrowthDelta(growthCurve,a.timeStamp)
+			print growthFactor
+
+except Exception as e:
+	print e
+	print sys.exc_traceback.tb_lineno 
+	pass
+		
+finally:
+	
+	if con:
+		con.close()
