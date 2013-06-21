@@ -146,16 +146,16 @@ try:
 				growthFactor = getGrowthDelta(growthCurve,getFloatTime(a.timeStamp))
 				if growthFactor is not 0:
 					print "growthFactor="+str(growthFactor)+' on '+a.repo_url+' by '+a.actor
-					#if abs(growthFactor) > 10:
-					plt.plot(growthCurve.X,growthCurve.Y)
-					plt.plot(growthCurve.X,growthCurve.AdjY)
-					#plt.xlabel(a.actor+' --> '+a.repo_url+' | impact = '+str(growthFactor), fontsize=10)
-					plt.xlabel(a.actor+' --> '+a.repo_url, fontsize=10)
-					#plt.text(0.5, 0.5,a.actor +'-->'+,horizontalalignment='center',verticalalignment='center', fontsize=12)
-					plt.axvline(growthCurve.startTime, color='r', linestyle='dashed', linewidth=1)
-					plt.legend(['Actual', 'Predicted','impactRegion'], loc='upper left')
-					plb.savefig('plotImages/'+a.repo_url[a.repo_url.rfind('/')+1:]+'.png')
-					plt.close()
+					if abs(growthFactor) > 10:
+						plt.plot(growthCurve.X,growthCurve.Y)
+						plt.plot(growthCurve.X,growthCurve.AdjY)
+						#plt.xlabel(a.actor+' --> '+a.repo_url+' | impact = '+str(growthFactor), fontsize=10)
+						plt.xlabel(a.actor+' --> '+a.repo_url, fontsize=10)
+						#plt.text(0.5, 0.5,a.actor +'-->'+,horizontalalignment='center',verticalalignment='center', fontsize=12)
+						plt.axvline(growthCurve.startTime, color='r', linestyle='dashed', linewidth=1)
+						plt.legend(['Actual', 'Predicted','impactRegion'], loc='upper left')
+						plb.savefig('plotImages/'+a.repo_url[a.repo_url.rfind('/')+1:]+'.png')
+						plt.close()
 
 except Exception as e:
 	print e

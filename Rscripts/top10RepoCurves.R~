@@ -1,4 +1,4 @@
-mostWatchedRepos = dbGetQuery(con,statement='SELECT repo_url,repo_watchers,repo_forks,repo_stargazers from AllEvents GROUP BY repo_url ORDER BY repo_watchers DESC LIMIT 10')
+mostWatchedRepos = dbGetQuery(con,statement='SELECT repo_url,repo_watchers,repo_forks,repo_stargazers from AllEvents GROUP BY repo_url ORDER BY repo_watchers DESC LIMIT 1100 OFFSET 10')
 
 for(i in 1 : length(mostWatchedRepos$repo_url)) {
 	sql = cbind("SELECT timeStamp,repo_watchers FROM AllEvents WHERE repo_url = '", mostWatchedRepos$repo_url[i],"' ORDER BY timeStamp")
