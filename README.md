@@ -38,3 +38,5 @@ impactRegion : point from which a “high-profile” user has starting watching 
 The text below x-axis is of the format
 
 impactUserName --> repo he impacted | change in number of watchers in 1 hour
+
+The growthcurves images comparing the actual and predicted growth are in *growthCurvesBackup[https://github.com/geekypunk/GitHubTrends/tree/master/python/growthCurvesBackup] folder*
