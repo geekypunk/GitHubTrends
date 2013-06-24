@@ -41,4 +41,4 @@ The text below x-axis is of the format
 
 impactUserName --> repo he impacted | change in number of watchers in 1 hour
 
-The growthcurves images comparing the actual and predicted growth are in *growthCurvesBackup[https://github.com/geekypunk/GitHubTrends/tree/master/python/currentGeneratedCurves] folder*
+The growthcurves images comparing the actual and predicted growth are in *currentGeneratedCurves[https://github.com/geekypunk/GitHubTrends/tree/master/python/currentGeneratedCurves] folder*
