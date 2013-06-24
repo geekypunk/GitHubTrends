@@ -42,3 +42,10 @@ The text below x-axis is of the format
 impactUserName --> repo he impacted | change in number of watchers in 1 hour
 
 The growthcurves images comparing the actual and predicted growth are in *currentGeneratedCurves[https://github.com/geekypunk/GitHubTrends/tree/master/python/currentGeneratedCurves] folder*
+
+Observations
+---------------------
+
+    - By looking at the plot images, most of the plots show an increased growth rate after a high profile user starts watching. The rate slowly saturates with time
+    - If a user has particularly high number of followers, the growth rate increases substantially
+    - If a user has lower than average number of followers(average calculated from the data), the chance of the growth rate being continually increasing is less, showing that the growth rate is mostly independent of his impact
