@@ -127,7 +127,7 @@ try:
 					plt.xlabel(a.actor+' --> '+a.repo_url, fontsize=10)
 					plt.axvline(growthCurve.startTime, color='r', linestyle='dashed', linewidth=1)
 					plt.legend(['Actual', 'Predicted','impactRegion'], loc='upper left')
-					plb.savefig('plotImages/'+a.repo_url[a.repo_url.rfind('/')+1:]+'.png')
+					plb.savefig('currentGeneratedCurves/'+a.repo_url[a.repo_url.rfind('/')+1:]+'.png')
 					plt.close()
 
 except Exception as e:
