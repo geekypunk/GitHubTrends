@@ -12,6 +12,7 @@ import numpy as np
 import pylab as plb  
 import shutil
 
+#Two formats of timestamp present in the data
 def getParsedTime(rawTime):
 	try:
 		timeStamp = datetime.datetime.strptime(rawTime[:rawTime.rfind('-')],'%Y-%m-%dT%H:%M:%S')
@@ -21,50 +22,31 @@ def getParsedTime(rawTime):
 		return timeStamp
 		pass
 
-#Get float time after substraction from max possible time(For rescaling)
-#To solve curve_fit issues
-timeMax = 1346095801.0
+#Get float time 
 def getFloatTime(timeStamp):
 		t1 = timeStamp.timetuple()
 		return time.mktime(t1)
 
+#Quadratic for curve fitting
 def func(x, a, b, c):
     return a*x**b + c
+
+#Return the predicted values obtained by curve_fit function in scipy
 def growthCurveByRepoURL(event):
 
 	con = mdb.connect('localhost', 'root', 'root', 'github')
 	try:
 		cur = con.cursor()	
 		sql = 'SELECT repo_watchers,timeStamp from AllEvents WHERE repo_url="'+event.repo_url+'" ORDER BY repo_watchers'
-		#print sql
 		cur.execute(sql)
 		innerRows = cur.fetchall()
 		innerX = []
 		innerY = []
 		allObjsList = []
 		for row in innerRows:
-			class Object(object):
-				pass
-			a = Object()
-			a.repo_watchers = row[0]
-			a.timeStamp = getFloatTime(getParsedTime(row[1]))
-			allObjsList.append(a)
-
-		#Sort on decreasing time difference	
-		#allObjsList.sort(key = lambda x: x.timeStamp)
-		#allObjsList.reverse()
-		for obj in allObjsList:
-			innerY.append(obj.repo_watchers)
-			innerX.append(obj.timeStamp)
-		#innerX.sort(reverse=True)
-		#innerX = np.array(innerX)	
-		#innerX = (innerX/max(innerX))*1000000
-		#newX = np.array(innerX)
-		#newY = np.array(innerY)
-		print event.repo_url
-		print innerX
-		print innerY
-		print "-----------------------------"
+			innerY.append(row[0])
+			innerX.append(getFloatTime(getParsedTime(row[1])))
+			
 		try:
 			popt, pcov = curve_fit(func, innerX, innerY,maxfev=10000)
 			yAdjusted = func(innerX,popt[0],popt[1],popt[2])
@@ -93,15 +75,11 @@ def growthCurveByRepoURL(event):
 			con.close()
 
 
+#Calculates the delta between the predicted and actual number of watchers till 1 hour after a high profile user has started watching
 def getGrowthDelta(growthCurve,timeStamp):
 	actualY = growthCurve.Y
 	predictedY = growthCurve.AdjY
 	actualX = growthCurve.X
-	#print "in getGrowthDelta"
-	#print actualY
-	#print predictedY
-	#print actualX
-	#print timeStamp
 	effect = 0;
 	for x, y ,z in zip(actualY, predictedY,actualX):
 		if z > timeStamp and z < timeStamp + 3600:
@@ -119,7 +97,7 @@ try:
 	
 	con = mdb.connect('localhost', 'root', 'root', 'github')
 	cur = con.cursor()	
-	#Selecting top 100 users	
+	#Selecting top 100 users for data pruning	
 	cur.execute("SELECT followedUser_login from FollowEvents GROUP BY followedUser_login ORDER BY followedUser_followers DESC")
 	rows = cur.fetchall()
 	objList = []
@@ -142,20 +120,15 @@ try:
 			objList.append(a)		
 			growthCurve = growthCurveByRepoURL(a)
 			if growthCurve is not None:
-				#print "ssup!"
 				growthFactor = getGrowthDelta(growthCurve,getFloatTime(a.timeStamp))
-				if growthFactor is not 0:
-					print "growthFactor="+str(growthFactor)+' on '+a.repo_url+' by '+a.actor
-					if abs(growthFactor) > 10:
-						plt.plot(growthCurve.X,growthCurve.Y)
-						plt.plot(growthCurve.X,growthCurve.AdjY)
-						#plt.xlabel(a.actor+' --> '+a.repo_url+' | impact = '+str(growthFactor), fontsize=10)
-						plt.xlabel(a.actor+' --> '+a.repo_url, fontsize=10)
-						#plt.text(0.5, 0.5,a.actor +'-->'+,horizontalalignment='center',verticalalignment='center', fontsize=12)
-						plt.axvline(growthCurve.startTime, color='r', linestyle='dashed', linewidth=1)
-						plt.legend(['Actual', 'Predicted','impactRegion'], loc='upper left')
-						plb.savefig('plotImages/'+a.repo_url[a.repo_url.rfind('/')+1:]+'.png')
-						plt.close()
+				if abs(growthFactor) > 10:
+					plt.plot(growthCurve.X,growthCurve.Y)
+					plt.plot(growthCurve.X,growthCurve.AdjY)
+					plt.xlabel(a.actor+' --> '+a.repo_url, fontsize=10)
+					plt.axvline(growthCurve.startTime, color='r', linestyle='dashed', linewidth=1)
+					plt.legend(['Actual', 'Predicted','impactRegion'], loc='upper left')
+					plb.savefig('plotImages/'+a.repo_url[a.repo_url.rfind('/')+1:]+'.png')
+					plt.close()
 
 except Exception as e:
 	print e

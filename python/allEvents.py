@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#To extract all github event from the JSON dumps and save it to the DB
 from json import JSONDecoder
 import os
 import MySQLdb as mdb
