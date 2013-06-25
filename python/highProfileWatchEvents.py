@@ -27,11 +27,13 @@ def getFloatTime(timeStamp):
 		t1 = timeStamp.timetuple()
 		return time.mktime(t1)
 
-#Quadratic for curve fitting
+#Quadratic for curve fitting y = a(x)^b +c
 def func(x, a, b, c):
     return a*x**b + c
-#Obtain the genuineness of an impact by a user by calculating the standard deviation of his impact on all repos
-def getImpactValueOfUser(user):
+
+#This function returns the consolidated impact vector of a user, representing his impact on all the repos he started watching
+#growthDelta table contains the effects after 1 day the user has started watching 
+def getUserRepoImpactVector(user):
 	con = mdb.connect('localhost', 'root', 'root', 'github')
 	try:
 		for user in users:
@@ -39,12 +41,35 @@ def getImpactValueOfUser(user):
 			cur.execute(sql)
 			impactRows = cur.fetchall()
 			#Calculate standard deviation in impact
-			impact =[]
+			impactVector =[]
 			for row in impactRows:
-				impact.append(row[2]-row[1])
-			weightVector = np.array(impact)
-			std = np.std(weightVector)
-			return std
+				class Object(object):
+					pass
+				a = Object()
+				a.repo_url = row[0]
+				a.impact = row[2]-row[1]
+				impactVector.append(a)
+				
+			return impactVector
+	except Exception as e:
+		print e
+		print sys.exc_traceback.tb_lineno 
+		pass
+		
+	finally:
+
+		if con:
+			con.close()	
+#Obtain the genuineness of an impact by a user by calculating the standard deviation of his impact on all repos
+def getImpactValueOfUser(user):
+	con = mdb.connect('localhost', 'root', 'root', 'github')
+	try:
+		weightVector = getUserRepoImpactVector(user)
+		impactVector = []
+		for weight in weightVector:
+			impactVector.append(weight.impact)
+		std = np.std(weightVector)
+		return std
 	except Exception as e:
 		print e
 		print sys.exc_traceback.tb_lineno 
@@ -101,6 +126,7 @@ def growthCurveByRepoURL(event):
 	
 		try:
 			popt, pcov = curve_fit(func, innerX, innerY,maxfev=10000)
+			#popt is the coeffcient a,b,c of the function func
 			yAdjusted = func(innerX,popt[0],popt[1],popt[2])
 			class Object(object):
 				pass
@@ -144,7 +170,15 @@ def getGrowthDelta(growthCurve,timeStamp):
 		
 	return effect
 
-
+def getDeviationOfRepo():
+	try:
+		sql = 'SELECT INTO '
+	except Exception, e:
+		print e
+		print sys.exc_traceback.tb_lineno 
+		pass
+	finally:
+		pass
 
 
 try:
