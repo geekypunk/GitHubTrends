@@ -36,22 +36,42 @@ def func(x, a, b, c):
 def getUserRepoImpactVector(user):
 	con = mdb.connect('localhost', 'root', 'root', 'github')
 	try:
-		for user in users:
-			sql = 'SELECT repo_url, initialCount,finalCount FROM growthDelta WHERE actor='+'"'+user+'"'
-			cur.execute(sql)
-			impactRows = cur.fetchall()
-			#Calculate standard deviation in impact
-			impactVector =[]
-			for row in impactRows:
-				class Object(object):
-					pass
-				a = Object()
-				a.repo_url = row[0]
-				a.impact = row[2]-row[1]
-				impactVector.append(a)
+		sql = 'SELECT repo_url, initialCount,finalCount FROM growthDelta WHERE actor='+'"'+user+'"'
+		print sql
+		cur.execute(sql)
+		impactRows = cur.fetchall()
+		impactVector = []
+		for row in impactRows:
+			class Object(object):
+				pass
+			a = Object()
+			a.repo_url = row[0]
+			a.impact = row[2]-row[1]
+			a.followers = getFollowerCount(user)
+			impactVector.append(a)
 				
-			return impactVector
+		return impactVector
 	except Exception as e:
+		print 'Error in getUserRepoImpactVector'
+		print e
+		print sys.exc_traceback.tb_lineno 
+		pass
+		
+	finally:
+
+		if con:
+			con.close()	
+
+def getFollowerCount(user):
+	try:
+		con = mdb.connect('localhost', 'root', 'root', 'github')
+		sql = 'SELECT MAX(followedUser_followers) from FollowEvents WHERE followedUser_login='+'"'+user+'"'
+		cur = con.cursor()
+		cur.execute(sql)
+		return cur.fetchone()[0]
+		
+	except Exception as e:
+		print 'Error in getFollowerCount'
 		print e
 		print sys.exc_traceback.tb_lineno 
 		pass
@@ -62,23 +82,26 @@ def getUserRepoImpactVector(user):
 			con.close()	
 #Obtain the genuineness of an impact by a user by calculating the standard deviation of his impact on all repos
 def getImpactValueOfUser(user):
-	con = mdb.connect('localhost', 'root', 'root', 'github')
 	try:
 		weightVector = getUserRepoImpactVector(user)
+		noOfFollowers = getFollowerCount(user)
 		impactVector = []
 		for weight in weightVector:
-			impactVector.append(weight.impact)
-		std = np.std(weightVector)
+			val = weight.impact
+			followerCount = weight.followers
+			#Taking weighted impact, by number of followers
+			impactVector.append(val*followerCount)
+		std = np.std(impactVector)
 		return std
 	except Exception as e:
+		print 'Error in getImpactValueOfUser'
 		print e
 		print sys.exc_traceback.tb_lineno 
 		pass
 		
 	finally:
-
-		if con:
-			con.close()	
+		pass
+		
 
 #Return the predicted values obtained by curve_fit function in scipy
 def growthCurveByRepoURL(event):
@@ -170,15 +193,24 @@ def getGrowthDelta(growthCurve,timeStamp):
 		
 	return effect
 
+#In Progress
 def getDeviationOfRepo():
 	try:
-		sql = 'SELECT INTO '
+		con = mdb.connect('localhost', 'root', 'root', 'github')
+		cur = con.cursor()	
+		sql = 'SELECT DISTINCT repo_url from AllEvents'
+		cur.execute(sql)
+		users = cur.fetchall()
+		for user in users:
+			mdb.connect('')
+			sql = 'SELECT repo_url,min(repo_watchers),max(repo_watchers) from AllEvents '
 	except Exception, e:
 		print e
 		print sys.exc_traceback.tb_lineno 
 		pass
 	finally:
-		pass
+		if con:
+			con.close()
 
 
 try:
@@ -217,15 +249,15 @@ try:
 				if abs(growthFactor) > 10:
 					#To decide if the user's influence is legit
 					#TODO Decide on the value in the if condition
-					if getImpactValueOfUser(actor) < 10:  
-						plt.plot(growthCurve.X,growthCurve.Y)
-						plt.plot(growthCurve.X,growthCurve.AdjY)
-						plt.xlabel(a.actor+' --> '+a.repo_url, fontsize=10)
-						plt.axvline(growthCurve.startTime, color='r', linestyle='dashed', linewidth=0.5)
-						plt.axvline(growthCurve.startTime+24*3600, color='r', linestyle='dashed', linewidth=0.5)
-						plt.legend(['Actual', 'Predicted','impactStart','impactEnd'], loc='upper left')
-						plb.savefig('currentGeneratedCurves/'+a.repo_url[a.repo_url.rfind('/')+1:]+'.png')
-						plt.close()
+					#if getImpactValueOfUser(actor) < 10:  
+					plt.plot(growthCurve.X,growthCurve.Y)
+					plt.plot(growthCurve.X,growthCurve.AdjY)
+					plt.xlabel(a.actor+' --> '+a.repo_url+'| impact='+str(getImpactValueOfUser(actor)), fontsize=10)
+					plt.axvline(growthCurve.startTime, color='r', linestyle='dashed', linewidth=0.5)
+					plt.axvline(growthCurve.startTime+24*3600, color='r', linestyle='dashed', linewidth=0.5)
+					plt.legend(['Actual', 'Predicted','impactStart','impactEnd'], loc='upper left')
+					plb.savefig('currentGeneratedCurves/'+a.repo_url[a.repo_url.rfind('/')+1:]+'.png')
+					plt.close()
 
 except Exception as e:
 	print e
