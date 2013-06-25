@@ -122,9 +122,8 @@ def growthCurveByRepoURL(event):
 			a.Y = row[0]
 			a.X = getFloatTime(getParsedTime(row[1]))
 			allObjsList.append(a)
-		#Sort objects bu timestamp	
-
-
+		
+		#Sort objects by timestamp	
 		allObjsList.sort(key = lambda a: a.X)	
 		i=0
 		firstCount = 0
@@ -159,9 +158,16 @@ def growthCurveByRepoURL(event):
 			a.Y = innerY
 			return a
 		except Exception, e:
+			#class Object(object):
+			#	pass
+			#a = Object()
+			#a.X = innerX
+			#a.Y = innerY
 			print e
 			print sys.exc_traceback.tb_lineno 	
-			pass
+			#return a
+			#print 'Predicted curve creation failed'
+			
 		finally:
 			pass
 	except Exception as e:
@@ -179,18 +185,24 @@ def growthCurveByRepoURL(event):
 #Calculates the delta between the predicted and actual number of watchers till 1 hour after a high profile user has started watching
 def getGrowthDelta(growthCurve,timeStamp):
 	actualY = growthCurve.Y
-	predictedY = growthCurve.AdjY
-	actualX = growthCurve.X
 	effect = 0;
+	actualX = growthCurve.X
+	#if growthCurve.AdjY is not None:
+	predictedY = growthCurve.AdjY
 	i=0
 	for x, y ,z in zip(actualY, predictedY,actualX):
 		if z > timeStamp and z < timeStamp + 3600:
 			if i == 0:
 				growthCurve.startTime = z	
 				i = i+1	
-			#print "adding "+str(x-y)
-			effect += x - y;
-		
+			effect += x - y
+	#else:
+	#	i=0
+	#	for x, z in zip(actualY, actualX):
+	#		if z > timeStamp and z < timeStamp + 3600:
+	#			if i == 0:
+	#				growthCurve.startTime = z	
+	#				i = i+1	
 	return effect
 
 #In Progress
@@ -251,6 +263,7 @@ try:
 					#TODO Decide on the value in the if condition
 					#if getImpactValueOfUser(actor) < 10:  
 					plt.plot(growthCurve.X,growthCurve.Y)
+					#if growthCurve.AdjY is not None :
 					plt.plot(growthCurve.X,growthCurve.AdjY)
 					plt.xlabel(a.actor+' --> '+a.repo_url+'| impact='+str(getImpactValueOfUser(actor)), fontsize=10)
 					plt.axvline(growthCurve.startTime, color='r', linestyle='dashed', linewidth=0.5)
