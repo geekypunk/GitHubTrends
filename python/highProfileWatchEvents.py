@@ -11,6 +11,9 @@ import scipy as sy
 import numpy as np  
 import pylab as plb  
 import shutil
+from scipy import polyval, polyfit
+from scipy.interpolate import interp1d
+from scipy.interpolate import spline
 
 #Two formats of timestamp present in the data
 def getParsedTime(rawTime):
@@ -37,7 +40,6 @@ def getUserRepoImpactVector(user):
 	con = mdb.connect('localhost', 'root', 'root', 'github')
 	try:
 		sql = 'SELECT repo_url, initialCount,finalCount FROM growthDelta WHERE actor='+'"'+user+'"'
-		print sql
 		cur.execute(sql)
 		impactRows = cur.fetchall()
 		impactVector = []
@@ -53,8 +55,8 @@ def getUserRepoImpactVector(user):
 		return impactVector
 	except Exception as e:
 		print 'Error in getUserRepoImpactVector'
+		print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
 		print e
-		print sys.exc_traceback.tb_lineno 
 		pass
 		
 	finally:
@@ -72,8 +74,8 @@ def getFollowerCount(user):
 		
 	except Exception as e:
 		print 'Error in getFollowerCount'
+		print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
 		print e
-		print sys.exc_traceback.tb_lineno 
 		pass
 		
 	finally:
@@ -95,8 +97,8 @@ def getImpactValueOfUser(user):
 		return std
 	except Exception as e:
 		print 'Error in getImpactValueOfUser'
+		print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
 		print e
-		print sys.exc_traceback.tb_lineno 
 		pass
 		
 	finally:
@@ -122,58 +124,19 @@ def growthCurveByRepoURL(event):
 			a.Y = row[0]
 			a.X = getFloatTime(getParsedTime(row[1]))
 			allObjsList.append(a)
-		
 		#Sort objects by timestamp	
 		allObjsList.sort(key = lambda a: a.X)	
-		i=0
-		firstCount = 0
-		finalCount = 0
 		for obj in allObjsList:
-			if i == 0:
-				firstWatch = obj.X
-				firstCount = obj.Y
-				i = i+1
-			if obj.X > firstWatch+24*3600:
-				finalCount = obj.Y	
 			innerX.append(obj.X)
 			innerY.append(obj.Y)
-		if finalCount is not 0:	
-			sql = 'INSERT into growthDelta VALUES('+'"'+event.repo_url+'","'+event.actor+'"'+','+str(firstCount)+','+str(finalCount)+')'
-			cur.execute(sql)
-			con.commit()
-		print "---------------------"
-		print event.repo_url
-		print innerX
-		print innerY
-	
-		try:
-			popt, pcov = curve_fit(func, innerX, innerY,maxfev=10000)
-			#popt is the coeffcient a,b,c of the function func
-			yAdjusted = func(innerX,popt[0],popt[1],popt[2])
-			class Object(object):
-				pass
-			a = Object()
-			a.X = innerX
-			a.AdjY = yAdjusted
-			a.Y = innerY
-			return a
-		except Exception, e:
-			#class Object(object):
-			#	pass
-			#a = Object()
-			#a.X = innerX
-			#a.Y = innerY
-			print e
-			print sys.exc_traceback.tb_lineno 	
-			#return a
-			#print 'Predicted curve creation failed'
-			
-		finally:
-			pass
+		a.X = np.array(innerX)
+		a.Y = np.array(innerY)
+		return a
+		
 	except Exception as e:
 		
+		print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
 		print e
-		print sys.exc_traceback.tb_lineno 
 		pass
 		
 	finally:
@@ -183,48 +146,42 @@ def growthCurveByRepoURL(event):
 
 
 #Calculates the delta between the predicted and actual number of watchers till 1 hour after a high profile user has started watching
-def getGrowthDelta(growthCurve,timeStamp):
+def getGrowthDelta(growthCurve,predictCurve):
 	actualY = growthCurve.Y
 	effect = 0;
 	actualX = growthCurve.X
-	#if growthCurve.AdjY is not None:
-	predictedY = growthCurve.AdjY
-	i=0
+	predictedY = predictCurve.predictY
+	timeStamp = growthCurve.impactStartTime
 	for x, y ,z in zip(actualY, predictedY,actualX):
-		if z > timeStamp and z < timeStamp + 3600:
-			if i == 0:
-				growthCurve.startTime = z	
-				i = i+1	
+		if z > timeStamp and z < timeStamp + (24*3600):
 			effect += x - y
-	#else:
-	#	i=0
-	#	for x, z in zip(actualY, actualX):
-	#		if z > timeStamp and z < timeStamp + 3600:
-	#			if i == 0:
-	#				growthCurve.startTime = z	
-	#				i = i+1	
+			
 	return effect
 
-#In Progress
-def getDeviationOfRepo():
+#Get a Predicted curve based on the data till a high profile user has started watching. Using least squares polynomial fit
+def getPredictCurve(growthCurve):
 	try:
-		con = mdb.connect('localhost', 'root', 'root', 'github')
-		cur = con.cursor()	
-		sql = 'SELECT DISTINCT repo_url from AllEvents'
-		cur.execute(sql)
-		users = cur.fetchall()
-		for user in users:
-			mdb.connect('')
-			sql = 'SELECT repo_url,min(repo_watchers),max(repo_watchers) from AllEvents '
+		predictX = []
+		predictY = []
+		class Object(object):
+				pass
+		predictCurve = Object()
+		startTime = growthCurve.impactStartTime
+		time = startTime
+		print 'startTime:'+str(time)
+		xnew = np.linspace(startTime,growthCurve.X.max(),600)
+		a, b, c = polyfit(growthCurve.X, growthCurve.Y, 2)
+		y_pred = polyval([a, b, c], xnew)
+		predictCurve.predictX = xnew   
+		predictCurve.predictY = y_pred
+		return predictCurve
+
 	except Exception, e:
+		print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
 		print e
-		print sys.exc_traceback.tb_lineno 
 		pass
 	finally:
-		if con:
-			con.close()
-
-
+		pass
 try:
 	
 	con = mdb.connect('localhost', 'root', 'root', 'github')
@@ -236,14 +193,9 @@ try:
 	for row in rows:
 		actor = row[0]
 		sql = 'SELECT repo_url,timeStamp,repo_watchers,actor from AllEvents WHERE actor="'+actor+'" AND eventType = "WatchEvent" GROUP BY repo_url'
-		print sql
 		cur.execute(sql)
 		innerRows = cur.fetchall()	
-		intialWatchCount=0
-		finalWatchCount=0
-		i=0
 		for iRow in innerRows:
-			
 			class Object(object):
 				pass
 			a = Object()
@@ -252,29 +204,37 @@ try:
 			a.repo_watchers = iRow[2]
 			a.actor = iRow[3]
 			objList.append(a)	
-			if i==0:
-				intialWatchCount = iRow[2]	
+			impactStartTime = getFloatTime(getParsedTime(iRow[1]))	
 			growthCurve = growthCurveByRepoURL(a)
+			
 			if growthCurve is not None:
-				growthFactor = getGrowthDelta(growthCurve,getFloatTime(a.timeStamp))
+				#Setting the timeStamp when the user started watching
+				growthCurve.impactStartTime = impactStartTime
+				predictCurve = getPredictCurve(growthCurve)
+				growthFactor = getGrowthDelta(growthCurve,predictCurve)
 				
 				if abs(growthFactor) > 10:
 					#To decide if the user's influence is legit
 					#TODO Decide on the value in the if condition
-					#if getImpactValueOfUser(actor) < 10:  
-					plt.plot(growthCurve.X,growthCurve.Y)
-					#if growthCurve.AdjY is not None :
-					plt.plot(growthCurve.X,growthCurve.AdjY)
-					plt.xlabel(a.actor+' --> '+a.repo_url+'| impact='+str(getImpactValueOfUser(actor)), fontsize=10)
-					plt.axvline(growthCurve.startTime, color='r', linestyle='dashed', linewidth=0.5)
-					plt.axvline(growthCurve.startTime+24*3600, color='r', linestyle='dashed', linewidth=0.5)
-					plt.legend(['Actual', 'Predicted','impactStart','impactEnd'], loc='upper left')
-					plb.savefig('currentGeneratedCurves/'+a.repo_url[a.repo_url.rfind('/')+1:]+'.png')
-					plt.close()
+					if getImpactValueOfUser(actor) < 10:  
+						print growthCurve.X
+						print growthCurve.Y
+						print growthCurve.impactStartTime
+						plt.plot(growthCurve.X,growthCurve.Y,marker='o')
+						#plt.plot(growthCurve.X,growthCurve.AdjY,'--')
+						
+						print predictCurve.predictY
+						plt.plot(predictCurve.predictX,predictCurve.predictY,'--')
+						plt.xlabel(a.actor+' --> '+a.repo_url+'| impact='+str(getImpactValueOfUser(actor)), fontsize=10)
+						plt.axvline(growthCurve.impactStartTime, color='r', linestyle='dashed', linewidth=0.5)
+						plt.axvline(growthCurve.impactStartTime+24*3600, color='r', linestyle='dashed', linewidth=0.5)
+						plt.legend(['Actual', 'Predicted','impactStart','impactEnd'], loc='upper left')
+						plb.savefig('currentGeneratedCurves/'+a.repo_url[a.repo_url.rfind('/')+1:]+'.png')
+						plt.close()
 
 except Exception as e:
+	print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
 	print e
-	print sys.exc_traceback.tb_lineno 
 	pass
 		
 finally:
