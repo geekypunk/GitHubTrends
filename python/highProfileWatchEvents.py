@@ -35,7 +35,8 @@ def func(x, a, b, c):
     return a*x**b + c
 
 #This function returns the consolidated impact vector of a user, representing his impact on all the repos he started watching
-#growthDelta table contains the effects after 1 day the user has started watching 
+#growthDelta table contains the effects after 1 day the user has started watching. The tables the contains initial and final watcher counts 
+# of all repos which have been touched my high profile users, final watcher count being 1 day after this user has started watching 
 def getUserRepoImpactVector(user):
 	con = mdb.connect('localhost', 'root', 'root', 'github')
 	try:
@@ -104,7 +105,28 @@ def getImpactValueOfUser(user):
 	finally:
 		pass
 		
-
+def getDatasetDeviation():
+	con = mdb.connect('localhost', 'root', 'root', 'github')
+	try:
+		cur = con.cursor()
+		sql = 'SELECT initialCount,finalCount FROM growthDelta'
+		cur.execute(sql)
+		impactRows = cur.fetchall()
+		effect = []
+		for row in impactRows:
+			effect.append(row[1]-row[0])
+		std = np.std(effect)	
+		return std
+	except Exception, e:
+		print 'Error in getImpactValueOfUser'
+		print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
+		print e
+		pass
+	finally:
+		if con:
+			con.close()
+		pass
+	
 #Return the predicted values obtained by curve_fit function in scipy
 def growthCurveByRepoURL(event):
 
@@ -159,6 +181,8 @@ def getGrowthDelta(growthCurve,predictCurve):
 	return effect
 
 #Get a Predicted curve based on the data till a high profile user has started watching. Using least squares polynomial fit
+#We use a degree 2 polynomial as we do not expect much oscillatory growth behaviour
+#When the fitting fails it gives a "RankWarning: Polyfit may be poorly conditioned" error
 def getPredictCurve(growthCurve):
 	try:
 		predictX = []
@@ -183,7 +207,7 @@ def getPredictCurve(growthCurve):
 	finally:
 		pass
 try:
-	
+	print "DataSet deviation ="+str(getDatasetDeviation())
 	con = mdb.connect('localhost', 'root', 'root', 'github')
 	cur = con.cursor()	
 	#Selecting top 100 users for data pruning	
