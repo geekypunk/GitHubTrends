@@ -206,6 +206,8 @@ def getPredictCurve(growthCurve):
 		pass
 	finally:
 		pass
+
+#Entry Point		
 try:
 	print "DataSet deviation ="+str(getDatasetDeviation())
 	con = mdb.connect('localhost', 'root', 'root', 'github')
@@ -222,39 +224,31 @@ try:
 		for iRow in innerRows:
 			class Object(object):
 				pass
-			a = Object()
-			a.repo_url = iRow[0]
-			a.timeStamp = getParsedTime(iRow[1])
-			a.repo_watchers = iRow[2]
-			a.actor = iRow[3]
-			objList.append(a)	
+			impactEvent = Object()
+			impactEvent.repo_url = iRow[0]
+			impactEvent.timeStamp = getParsedTime(iRow[1])
+			impactEvent.repo_watchers = iRow[2]
+			impactEvent.actor = iRow[3]
 			impactStartTime = getFloatTime(getParsedTime(iRow[1]))	
-			growthCurve = growthCurveByRepoURL(a)
+			growthCurve = growthCurveByRepoURL(impactEvent)
 			
-			if growthCurve is not None:
-				#Setting the timeStamp when the user started watching
-				growthCurve.impactStartTime = impactStartTime
-				predictCurve = getPredictCurve(growthCurve)
-				growthFactor = getGrowthDelta(growthCurve,predictCurve)
-				
-				if abs(growthFactor) > 10:
-					#To decide if the user's influence is legit
-					#TODO Decide on the value in the if condition
-					if getImpactValueOfUser(actor) < 10:  
-						print growthCurve.X
-						print growthCurve.Y
-						print growthCurve.impactStartTime
-						plt.plot(growthCurve.X,growthCurve.Y,marker='o')
-						#plt.plot(growthCurve.X,growthCurve.AdjY,'--')
-						
-						print predictCurve.predictY
-						plt.plot(predictCurve.predictX,predictCurve.predictY,'--')
-						plt.xlabel(a.actor+' --> '+a.repo_url+'| impact='+str(getImpactValueOfUser(actor)), fontsize=10)
-						plt.axvline(growthCurve.impactStartTime, color='r', linestyle='dashed', linewidth=0.5)
-						plt.axvline(growthCurve.impactStartTime+24*3600, color='r', linestyle='dashed', linewidth=0.5)
-						plt.legend(['Actual', 'Predicted','impactStart','impactEnd'], loc='upper left')
-						plb.savefig('currentGeneratedCurves/'+a.repo_url[a.repo_url.rfind('/')+1:]+'.png')
-						plt.close()
+			#Setting the timeStamp when the user started watching
+			growthCurve.impactStartTime = impactStartTime
+			predictCurve = getPredictCurve(growthCurve)
+			growthFactor = getGrowthDelta(growthCurve,predictCurve)
+			
+			if abs(growthFactor) > 10:
+				#To decide if the user's influence is legit
+				#TODO Decide on the value in the if condition
+				if getImpactValueOfUser(actor) < 10:  
+					plt.plot(growthCurve.X,growthCurve.Y,marker='o')
+					plt.plot(predictCurve.predictX,predictCurve.predictY,'--')
+					plt.xlabel(impactEvent.actor+' --> '+impactEvent.repo_url+'| impact='+str(getImpactValueOfUser(actor)), fontsize=10)
+					plt.axvline(growthCurve.impactStartTime, color='r', linestyle='dashed', linewidth=0.5)
+					plt.axvline(growthCurve.impactStartTime+24*3600, color='r', linestyle='dashed', linewidth=0.5)
+					plt.legend(['Actual', 'Predicted','impactStart','impactEnd'], loc='upper left')
+					plb.savefig('currentGeneratedCurves/'+impactEvent.repo_url[impactEvent.repo_url.rfind('/')+1:]+'.png')
+					plt.close()
 
 except Exception as e:
 	print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
