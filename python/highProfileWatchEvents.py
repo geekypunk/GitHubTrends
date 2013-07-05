@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+#Generates growth curves depicting GitHubs repositories popularity trends. 
+
 import os
 import MySQLdb as mdb
 import datetime
