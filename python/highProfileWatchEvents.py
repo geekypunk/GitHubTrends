@@ -127,7 +127,7 @@ def getDatasetDeviation():
 			con.close()
 		pass
 	
-#Return the predicted values obtained by curve_fit function in scipy
+#Return plot data for original observations
 def growthCurveByRepoURL(event):
 
 	con = mdb.connect('localhost', 'root', 'root', 'github')
