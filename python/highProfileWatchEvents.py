@@ -1,7 +1,5 @@
 #!/usr/bin/python
 
-#Generates growth curves depicting GitHubs repositories popularity trends. 
-
 import os
 import MySQLdb as mdb
 import datetime
@@ -17,6 +15,7 @@ from scipy import polyval, polyfit
 from scipy.interpolate import interp1d
 from scipy.interpolate import spline
 
+ 
 #Two formats of timestamp present in the data
 def getParsedTime(rawTime):
 	try:
@@ -37,9 +36,8 @@ def func(x, a, b, c):
     return a*x**b + c
 
 #This function returns the consolidated impact vector of a user, representing his impact on all the repos he started watching
-#growthDelta table contains the effects after 1 day the user has started watching. The tables the contains initial and final 
-#watcher counts of all repos which have been touched my high profile users, final watcher count being 1 day after this 
-#user has started watching 
+#growthDelta table contains the effects after 1 day the user has started watching. The tables the contains initial and final watcher counts 
+# of all repos which have been touched my high profile users, final watcher count being 1 day after this user has started watching 
 def getUserRepoImpactVector(user):
 	con = mdb.connect('localhost', 'root', 'root', 'github')
 	try:
@@ -108,29 +106,9 @@ def getImpactValueOfUser(user):
 	finally:
 		pass
 		
-def getDatasetDeviation():
-	con = mdb.connect('localhost', 'root', 'root', 'github')
-	try:
-		cur = con.cursor()
-		sql = 'SELECT initialCount,finalCount FROM growthDelta'
-		cur.execute(sql)
-		impactRows = cur.fetchall()
-		effect = []
-		for row in impactRows:
-			effect.append(row[1]-row[0])
-		std = np.std(effect)	
-		return std
-	except Exception, e:
-		print 'Error in getImpactValueOfUser'
-		print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
-		print e
-		pass
-	finally:
-		if con:
-			con.close()
-		pass
+
 	
-#Return plot data for original observations
+#Return the predicted values obtained by curve_fit function in scipy
 def growthCurveByRepoURL(event):
 
 	con = mdb.connect('localhost', 'root', 'root', 'github')
@@ -170,8 +148,7 @@ def growthCurveByRepoURL(event):
 			con.close()
 
 
-#Calculates the delta between the predicted and actual number of watchers till 1 hour after a 
-#high profile user has started watching
+#Calculates the delta between the predicted and actual number of watchers till 1 hour after a high profile user has started watching
 def getGrowthDelta(growthCurve,predictCurve):
 	actualY = growthCurve.Y
 	effect = 0;
@@ -184,8 +161,7 @@ def getGrowthDelta(growthCurve,predictCurve):
 			
 	return effect
 
-#Get a Predicted curve based on the data till a high profile user has started watching. Using least squares
-#polynomial fit
+#Get a Predicted curve based on the data till a high profile user has started watching. Using least squares polynomial fit
 #We use a degree 2 polynomial as we do not expect much oscillatory growth behaviour
 #When the fitting fails it gives a "RankWarning: Polyfit may be poorly conditioned" error
 def getPredictCurve(growthCurve):
@@ -211,27 +187,28 @@ def getPredictCurve(growthCurve):
 		pass
 	finally:
 		pass
-
 #Entry Point		
 try:
-	print "DataSet deviation ="+str(getDatasetDeviation())
+
 	con = mdb.connect('localhost', 'root', 'root', 'github')
 	cur = con.cursor()	
 	#Selecting top 100 users for data pruning	
 	cur.execute("SELECT followedUser_login from FollowEvents GROUP BY followedUser_login ORDER BY followedUser_followers DESC")
 	rows = cur.fetchall()
 	objList = []
+	commonUsersArray = []
 	for row in rows:
 		actor = row[0]
 		sql = 'SELECT repo_url,timeStamp,repo_watchers,actor from AllEvents WHERE actor="'+actor+'" AND eventType = "WatchEvent" GROUP BY repo_url'
 		cur.execute(sql)
 		innerRows = cur.fetchall()	
+
 		for iRow in innerRows:
 			class Object(object):
 				pass
 			impactEvent = Object()
 			impactEvent.repo_url = iRow[0]
-			impactEvent.timeStamp = getParsedTime(iRow[1])
+			impactEvent.timeStamp = getFloatTime(getParsedTime(iRow[1]))
 			impactEvent.repo_watchers = iRow[2]
 			impactEvent.actor = iRow[3]
 			impactStartTime = getFloatTime(getParsedTime(iRow[1]))	
@@ -252,9 +229,8 @@ try:
 					plt.axvline(growthCurve.impactStartTime, color='r', linestyle='dashed', linewidth=0.5)
 					plt.axvline(growthCurve.impactStartTime+24*3600, color='r', linestyle='dashed', linewidth=0.5)
 					plt.legend(['Actual', 'Predicted','impactStart','impactEnd'], loc='upper left')
-					plb.savefig('currentGeneratedCurves/'+impactEvent.repo_url[impactEvent.repo_url.rfind('/')+1:]+'.png')
+					plb.savefig('dump/'+impactEvent.repo_url[impactEvent.repo_url.rfind('/')+1:]+'.png')
 					plt.close()
-
 except Exception as e:
 	print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
 	print e
