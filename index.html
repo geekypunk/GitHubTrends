@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Githubtrends : Decoding the GitHub social coding phenomena" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Githubtrends</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/geekypunk/GitHubTrends">View on GitHub</a>
+
+          <h1 id="project_title">Githubtrends</h1>
+          <h2 id="project_tagline">Decoding the GitHub social coding phenomena</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/geekypunk/GitHubTrends/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/geekypunk/GitHubTrends/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="problem-overview-and-solution" class="anchor" href="#problem-overview-and-solution"><span class="octicon octicon-link"></span></a><strong>Problem Overview and solution</strong>
+</h1>
+
+<h2>
+<a name="problem-statement" class="anchor" href="#problem-statement"><span class="octicon octicon-link"></span></a><em>Problem Statement</em>
+</h2>
+
+<p>Find the relationships between the watchers/committers with the popularity of a repo. How does the push/watch event of a highly popular user affect the growth curve of a GitHub repository?</p>
+
+<h2>
+<a name="dataset" class="anchor" href="#dataset"><span class="octicon octicon-link"></span></a><em>Dataset</em>
+</h2>
+
+<p>The dataset is in the form of JSON dumps of GitHub activity of various repositories and users.  Please find the sample files <a href="https://github.com/geekypunk/GitHubTrends/tree/master/sampleJSONs">here</a></p>
+
+<h2>
+<a name="solution" class="anchor" href="#solution"><span class="octicon octicon-link"></span></a><em>Solution</em>
+</h2>
+
+<p>The solution attempts to find the correlations between user events on a repository and its effects on the growth curve. The approach is fairly straightforward.</p>
+
+<h3>
+<a name="algorithm" class="anchor" href="#algorithm"><span class="octicon octicon-link"></span></a>Algorithm</h3>
+
+<ul>
+<li>•   First select the topmost users aka high profile users (defined having highest number of followers). This is information is obtained from FollowEvents SQL dump, created using all the FollowEvents in the JSON dump </li>
+<li>•   Then get all the WatchEvents of each of these high profile users</li>
+<li>o For every WatchEvent by a user on a repository, get all the events on that repo till 24 hours after the WatchEvent. </li>
+<li>o Draw a growth curve for this repository based on the above 1 day events. The x-axis contains the timestamps represented as float values and y-axis has the number of watchers of the repo at the respective timestamps</li>
+<li>o We first determine the plot’s eligibility to be drawn. We draw a plot if the growth curve shows substantial deviation from its predicted curve. The predicted curve is drawn since the timestamp of the WatchEvent. The data prior to this event is used for prediction. Least squares polynomial fitting is used to draw the curve. </li>
+<li>o Then we determine the genuineness of a user’s impact (explained later) on that repo. If a user’s WatchEvent has actually caused the change in the growth curve, the plot of that repo is generated and stored in an image file</li>
+<li>•   Using the above generated growth curve, we also try to observe as how group dynamics work in social coding. Do some users act as flock when one of them starts watching a repo? See User dynamics section for more info</li>
+</ul><h3>
+<a name="implementation" class="anchor" href="#implementation"><span class="octicon octicon-link"></span></a>Implementation</h3>
+
+<p>The python implementation for the above algorithm can be found <a href="https://github.com/geekypunk/GitHubTrends/blob/master/python/highProfileWatchEvents.py">here</a>. </p>
+
+<h3>
+<a name="genuineness-of-a-users-impact" class="anchor" href="#genuineness-of-a-users-impact"><span class="octicon octicon-link"></span></a>Genuineness of a user’s impact</h3>
+
+<p>Since the change in the growth curve of a repository need not be influenced by a WatchEvent of a particular user, we try to estimate as how genuine his WatchEvent is. The algorithm used for this is as follows</p>
+
+<ul>
+<li>o Get all the changes in watch counts of all the repos he has started watching. The initial and final watch counts differ by a timestamp of 1 day.</li>
+<li>o Calculate the standard deviation of all these differences.</li>
+<li>o If the standard is low “enough”, we deem the impact to be genuine, i.e the growth change has happened due to the user watching the repo</li>
+</ul><h2>
+<a name="user-dynamics" class="anchor" href="#user-dynamics"><span class="octicon octicon-link"></span></a>User Dynamics</h2>
+
+<p>This section explains the methodology used to observe user behavior in the social coding context. Do user operate in flock, when one of them starts following a repo? Which users most “connected”, i.e. the users most probable to start watching a repo, when one of them does?</p>
+
+<h2>
+<a name="algorithm-1" class="anchor" href="#algorithm-1"><span class="octicon octicon-link"></span></a>Algorithm</h2>
+
+<ul>
+<li>o Using the growth curve generated from the above algorithm, we can create lists of chronological user sequences. Each sequence contains a list of usernames, which represents the all the users,in-order,who have started watching the repo after the first user in the list has.</li>
+<li>o For example for a repo, if the first WatchEvent was by a high profile user called A, and the subsequent watch events on the repo till 1 day after that were by B C D and E. The list would look like [A,B,C,D,E]<br>
+</li>
+<li>o So essentially we will have a list of such sequences.</li>
+<li>o Now, to determine the user groups which are most “close”, we simply need to determine the subsequences which are most common among all the sequences in the list. We say sub-sequence and not sequence as the users need not appear in the exact same order in every sequence encountered, but just should be chronologically same.  For example if A appears before C in a sequence, and same is in another sequence, it is safe to assume A’s influence on C. This assumption is only valid upto a certain distance between the two users. As the longer is the gap between two users in a sequence, lower is their “connectivity”, i.e lower is A’s influence on C.(Currently working on accommodating this logic)</li>
+<li>o This high co-incidence user groups is obtained by maintaining a map of all possible permutations, of all the sequences encountered so far as we iterate the list of sequences. Whenever we see an already seen permutation, we increment its occurrence count.</li>
+</ul><h3>
+<a name="sub-algorithm" class="anchor" href="#sub-algorithm"><span class="octicon octicon-link"></span></a>Sub-Algorithm</h3>
+
+<p><code>
+</code>Input :  List on chronological user sequences S
+        Output : Count map, M, representing the occurrence count of all sub-sequences</p>
+
+<pre><code>    For all sequences Q in S:
+        For every possible permutation P of sequence Q in map M:
+            Check if P already present in M:
+                If True:
+                    M[P]++   //Increase the occurrence count
+</code></pre>
+
+<h2>
+<a name="implementation-1" class="anchor" href="#implementation-1"><span class="octicon octicon-link"></span></a>Implementation</h2>
+
+<p>The python implementation for the above algorithm can be found here.  The script takes two command-line arguments, first one is the size of user sets and second is how many such top sets.
+For example,
+If we need the top 5 users sets each of size 3 who show high connectivity, issue the command
+        python getFlockUsers.py 3 5</p>
+
+<h1>
+<a name="code-setup" class="anchor" href="#code-setup"><span class="octicon octicon-link"></span></a>Code setup</h1>
+
+<ul>
+<li>•   Put appropriate database credentials in def getDBConnection() function of  highProfileWatchEvents.py</li>
+<li>•   Import the sql files from here</li>
+<li>•   Run highProfileWatchEvents.py  to generate plots
+Generated Growth Curve Plots</li>
+</ul><p>Here is a sample of generated plot images of the repo. </p>
+
+<h2>
+<a name="plot-properties" class="anchor" href="#plot-properties"><span class="octicon octicon-link"></span></a>Plot properties</h2>
+
+<ul>
+<li>•   X-axis indicates the timestamps</li>
+<li>•   Y-axis indicates watcher counts at respective timestamps</li>
+<li>•   The first red line(impactStart) indicates the timestamp of the high profile WatchEvent</li>
+<li>•   The second red line(impactEnd) is 24 hours after impactStart</li>
+<li>•   The text below the plot is of the format</li>
+<li>o USER-&gt; URL of the repo he impacted</li>
+</ul><h1>
+<a name="observations" class="anchor" href="#observations"><span class="octicon octicon-link"></span></a>Observations</h1>
+
+<p>• By looking at the plot images, most of the plots show an increased growth rate after a high profile user starts watching. The rate slowly saturates with time
+• If a user has particularly high number of followers, the growth rate increases substantially
+• If a user has lower than average number of followers(average calculated from the data), the chance of the growth rate being continually increasing is less, showing that the growth rate is mostly independent of his impact
+• The growth rates of very popular repos seem not to differ much, even when a high profile user starts watching
+• Most of the "social" effect is seen within 1 day of the event, similar behavior is also observed during news proliferation in social networking sites like Facebook. Here the workflow is usually like...User watches a repo-&gt;His followers get notified; follow the repo-&gt;Their followers. So on.
+• User do seem to behave in groups, a distinct set of users show high co-incidence, i.e if a user’s starts watching another set users are most probable to follow that repository. The below are set of two users, with their incidence count
+o   (('torifat', 'mkol5222'), 642)
+o   (('fnu', 'torifat'), 452)
+o   (('jasolko', 'fnu'), 342)
+o   (('hansstimer', 'payco'), 152)
+o   (('rgigger', 'roundhead',32)</p>
+
+<p>The below are set of three users, with their incidence count</p>
+
+<p>o   (('anggriawan', 'rgigger', 'jasolko'), 314)
+o   (('fnu', 'jasolko', 'torifat'), 134)
+o   (('payco', 'roundhead', 'rgigger'), 78)
+o   (('fnu', 'hansstimer', 'torifat'), 34)
+o   (('rgigger', 'anggriawan', 'payco'), 29)</p>
+
+<h1>
+<a name="dataset-statistics" class="anchor" href="#dataset-statistics"><span class="octicon octicon-link"></span></a>Dataset statistics</h1>
+
+<p>Total Repos: 296456</p>
+
+<p>Top 10 popular repos</p>
+
+<pre><code>       Repo_url                                             watchers      forks       stargazers
+</code></pre>
+
+<p>1     <a href="https://github.com/twitter/bootstrap">https://github.com/twitter/bootstrap</a>                   28810           0          5623
+2     <a href="https://github.com/jquery/jquery">https://github.com/jquery/jquery</a>                       16167      16167         2025
+3     <a href="https://github.com/joyent/node">https://github.com/joyent/node</a>                        14964          0            1794
+4     <a href="https://github.com/h5bp/html5-boilerplate">https://github.com/h5bp/html5-boilerplate</a>          14263      14263         2259
+5     <a href="https://github.com/rails/rails">https://github.com/rails/rails</a>                             14158          0           3164
+6     <a href="https://github.com/octocat/Spoon-Knife">https://github.com/octocat/Spoon-Knife</a>                 10590      10590         8838
+7     <a href="https://github.com/mxcl/homebrew">https://github.com/mxcl/homebrew</a>                   9602           9602            4358
+8     <a href="https://github.com/bartaz/impress.js">https://github.com/bartaz/impress.js</a>                   8594          0         1277
+9     <a href="https://github.com/documentcloud/backbone">https://github.com/documentcloud/backbone</a>      8272          0            1099
+10   <a href="https://github.com/mrdoob/three.js">https://github.com/mrdoob/three.js</a>                      7607           7607          972</p>
+
+<p>Top 10 followed Users
+1             defunkt
+2             mojombo
+3             torvalds
+4             jeresig
+5             schacon
+6             paulirish
+7             ryanb
+8             pjhyett
+9             visionmedia
+10           dhh</p>
+
+<p>Top 10 events by count</p>
+
+<pre><code>      eventType         count(eventType)
+</code></pre>
+
+<p>1          PushEvent                   140380
+2        CreateEvent                42900
+3         WatchEvent                29360
+4      IssueCommentEvent            20887
+5        IssuesEvent                13682
+6          ForkEvent                 9967
+7          GistEvent                 9082
+8       PullRequestEvent             8419
+9        FollowEvent                 7592
+10       GollumEvent                 4999</p>
+
+<p>10 fastest growing repositories by number of watchers</p>
+
+<pre><code>            repo_url                     FROM  TO
+</code></pre>
+
+<p>1          <a href="https://github.com/mbostock/d3">https://github.com/mbostock/d3</a>              5346    14027
+2          <a href="https://github.com/twitter/bootstrap">https://github.com/twitter/bootstrap</a>             27717    36352
+3          <a href="https://github.com/textmate/textmate">https://github.com/textmate/textmate</a>         1      6532
+4             <a href="https://github.com/adobe/brackets">https://github.com/adobe/brackets</a>            29      5935
+5          <a href="https://github.com/rails/rails">https://github.com/rails/rails</a>                 13986     18009
+6      <a href="https://github.com/AFNetworking/AFNetworking">https://github.com/AFNetworking/AFNetworking</a>      2557      6406
+7       <a href="https://github.com/FortAwesome/Font-Awesome">https://github.com/FortAwesome/Font-Awesome</a>      3333      6442
+8             <a href="https://github.com/xing/wysihtml5">https://github.com/xing/wysihtml5</a>               603      3652
+9          <a href="https://github.com/HPNeo/gmaps">https://github.com/HPNeo/gmaps</a>            19      2943
+10         <a href="https://github.com/ivaynberg/select2">https://github.com/ivaynberg/select2</a>            49      2665</p>
+
+<p>Top 10 Most active repos by event counts</p>
+
+<p>2      <a href="https://github.com/eclipse/eclipse.platform.common">https://github.com/eclipse/eclipse.platform.common</a>       CreateEvent           11903
+3          <a href="https://github.com/nyarlabo/websites">https://github.com/nyarlabo/websites</a>                 PushEvent            4341
+4        <a href="https://github.com/itroot/reach-github-limit">https://github.com/itroot/reach-github-limit</a>             PushEvent             854
+5          <a href="https://github.com/haskell/cabal">https://github.com/haskell/cabal</a>                IssueCommentEvent   518
+6          <a href="https://github.com/rails/rails">https://github.com/rails/rails</a>                      PullRequestEvent         515
+7          <a href="https://github.com/entoo/portage">https://github.com/entoo/portage</a>                     PushEvent             442
+8          <a href="https://github.com/pulWifi/pulWifi">https://github.com/pulWifi/pulWifi</a>                   IssuesEvent             424
+9          <a href="https://github.com/mxcl/homebrew">https://github.com/mxcl/homebrew</a>                 IssueCommentEvent   406
+10        <a href="https://github.com/twitter/bootstrap">https://github.com/twitter/bootstrap</a>                WatchEvent             373
+11          <a href="https://github.com/KernCZ/tomato-firmware">https://github.com/KernCZ/tomato-firmware</a>           CreateEvent             334</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Githubtrends maintained by <a href="https://github.com/geekypunk">geekypunk</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
