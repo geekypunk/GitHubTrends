@@ -15,7 +15,18 @@ from scipy import polyval, polyfit
 from scipy.interpolate import interp1d
 from scipy.interpolate import spline
 
- 
+def getDBConnection():
+	user = "root"
+	password = "root"
+	databaseName = "github"
+	conn = mdb.connect('localhost', user, password, databaseName)
+	return conn
+	
+def executeSQL(conn,sql):
+	cursor = con.cursor()
+	cursor.execute(sql)	
+	return cursor.fetchall()
+	
 #Two formats of timestamp present in the data
 def getParsedTime(rawTime):
 	try:
@@ -39,11 +50,10 @@ def func(x, a, b, c):
 #growthDelta table contains the effects after 1 day the user has started watching. The tables the contains initial and final watcher counts 
 # of all repos which have been touched my high profile users, final watcher count being 1 day after this user has started watching 
 def getUserRepoImpactVector(user):
-	con = mdb.connect('localhost', 'root', 'root', 'github')
+	conn = getDBConnection()
 	try:
 		sql = 'SELECT repo_url, initialCount,finalCount FROM growthDelta WHERE actor='+'"'+user+'"'
-		cur.execute(sql)
-		impactRows = cur.fetchall()
+		impactRows = executeSQL(con,sql)
 		impactVector = []
 		for row in impactRows:
 			class Object(object):
@@ -68,7 +78,7 @@ def getUserRepoImpactVector(user):
 
 def getFollowerCount(user):
 	try:
-		con = mdb.connect('localhost', 'root', 'root', 'github')
+		con = getDBConnection()
 		sql = 'SELECT MAX(followedUser_followers) from FollowEvents WHERE followedUser_login='+'"'+user+'"'
 		cur = con.cursor()
 		cur.execute(sql)
@@ -111,12 +121,10 @@ def getImpactValueOfUser(user):
 #Return the predicted values obtained by curve_fit function in scipy
 def growthCurveByRepoURL(event):
 
-	con = mdb.connect('localhost', 'root', 'root', 'github')
+	con = getDBConnection()
 	try:
-		cur = con.cursor()	
 		sql = 'SELECT repo_watchers,timeStamp from AllEvents WHERE repo_url="'+event.repo_url+'"'
-		cur.execute(sql)
-		innerRows = cur.fetchall()
+		innerRows = executeSQL(con,sql)
 		innerX = []
 		innerY = []
 		allObjsList = []
@@ -190,18 +198,16 @@ def getPredictCurve(growthCurve):
 #Entry Point		
 try:
 
-	con = mdb.connect('localhost', 'root', 'root', 'github')
-	cur = con.cursor()	
+	con = getDBConnection()
 	#Selecting top 100 users for data pruning	
-	cur.execute("SELECT followedUser_login from FollowEvents GROUP BY followedUser_login ORDER BY followedUser_followers DESC")
-	rows = cur.fetchall()
+	sql = "SELECT followedUser_login from FollowEvents GROUP BY followedUser_login ORDER BY followedUser_followers DESC"
+	rows = executeSQL(con,sql)
 	objList = []
 	commonUsersArray = []
 	for row in rows:
 		actor = row[0]
 		sql = 'SELECT repo_url,timeStamp,repo_watchers,actor from AllEvents WHERE actor="'+actor+'" AND eventType = "WatchEvent" GROUP BY repo_url'
-		cur.execute(sql)
-		innerRows = cur.fetchall()	
+		innerRows = executeSQL(con,sql)	
 
 		for iRow in innerRows:
 			class Object(object):
@@ -229,7 +235,7 @@ try:
 					plt.axvline(growthCurve.impactStartTime, color='r', linestyle='dashed', linewidth=0.5)
 					plt.axvline(growthCurve.impactStartTime+24*3600, color='r', linestyle='dashed', linewidth=0.5)
 					plt.legend(['Actual', 'Predicted','impactStart','impactEnd'], loc='upper left')
-					plb.savefig('dump/'+impactEvent.repo_url[impactEvent.repo_url.rfind('/')+1:]+'.png')
+					plb.savefig('currentGeneratedCurves/'+impactEvent.repo_url[impactEvent.repo_url.rfind('/')+1:]+'.png')
 					plt.close()
 except Exception as e:
 	print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
