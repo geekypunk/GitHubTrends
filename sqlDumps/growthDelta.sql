@@ -6,7 +6,8 @@
 -- Generation Time: Jun 25, 2013 at 04:44 PM
 -- Server version: 5.5.29
 -- PHP Version: 5.3.10-1ubuntu3.6
-
+-- Contains increased watch count info for every repo that was touched 
+-- by a high profile user 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
