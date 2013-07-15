@@ -22,7 +22,7 @@ def getDBConnection():
 	conn = mdb.connect('localhost', user, password, databaseName)
 	return conn
 	
-def executeSQL(conn,sql):
+def executeSQL(con,sql):
 	cursor = con.cursor()
 	cursor.execute(sql)	
 	return cursor.fetchall()
