@@ -50,7 +50,7 @@ def func(x, a, b, c):
 #growthDelta table contains the effects after 1 day the user has started watching. The tables the contains initial and final watcher counts 
 # of all repos which have been touched my high profile users, final watcher count being 1 day after this user has started watching 
 def getUserRepoImpactVector(user):
-	conn = getDBConnection()
+	con = getDBConnection()
 	try:
 		sql = 'SELECT repo_url, initialCount,finalCount FROM growthDelta WHERE actor='+'"'+user+'"'
 		impactRows = executeSQL(con,sql)
