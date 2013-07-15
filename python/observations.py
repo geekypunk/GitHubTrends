@@ -15,6 +15,7 @@ import math
 from scipy import polyval, polyfit
 from scipy.interpolate import interp1d
 from scipy.interpolate import spline
+import operator
 
 def getDBConnection():
 	user = "root"
@@ -27,8 +28,8 @@ def executeSQL(con,sql):
 	cursor = con.cursor()
 	cursor.execute(sql)	
 	return cursor.fetchall()
-#Gives top 10 upcoming repos, impacted my high profile watch events
 
+#Gives top 10 upcoming repos, impacted my high profile watch events
 def getTop10PercentUpcoming():
 	con = mdb.connect('localhost', 'root', 'root', 'github')
 	try:
@@ -50,6 +51,7 @@ def getTop10PercentUpcoming():
 		if con:
 			con.close()
 		pass
+#Gives standard deviation and mean of all the user impactVectors		
 def sdLowerBound():
 	con = getDBConnection()
 	try:
@@ -60,20 +62,31 @@ def sdLowerBound():
 		users = executeSQL(con,sql)
 		sdArray = []
 		for user in users:
-			sql = 'SELECT repo_url, initialCount,finalCount FROM growthDelta WHERE actor='+'"'+user[0]+'"'
+			sql = 'SELECT repo_url, initialCount,finalCount FROM growthDelta WHERE actor='+'"'+user[0]+'" GROUP BY actor,repo_url'
 			impactRows = executeSQL(con,sql)
 			impactVector = []
 			deltas = []
+
 			for row in impactRows:
-				
+				url = row[0]
 				deltas.append(row[2]-row[1])
-			std = np.std(deltas)	
-			sdArray.append(std)		
-		print sdArray
-		result.std = np.std(sdArray)
-		result.mean = np.std(sdArray) 	
-		result.min = np.amin(sdArray)			
-		return result
+			class Object(object):
+				pass
+			sd = Object()
+			sd.actor = user[0]
+			sd.url = url
+			sd.array = deltas
+			std = np.std(deltas)
+			sd.std = std
+			if std > 0.0:	
+				sdArray.append(sd)		
+		sdArray.sort(key=operator.attrgetter("std"), reverse=False)
+		for obj in sdArray:
+			print obj.actor
+			print obj.url
+			print obj.std
+			print obj.array
+			print "---------------------------------"
 	except Exception as e:
 		print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
 		print e
@@ -86,4 +99,4 @@ def sdLowerBound():
 
 #print "Top 10 impacted repos "+str(getTop10PercentUpcoming())
 result = sdLowerBound()
-print "Mean and sd of all sds"+str(result.std)+" "+str(result.mean)+" "+str(result.min)
+#print "Mean and sd of all sds"+str(result.std)+" "+str(result.mean)+" "+str(result.min)
