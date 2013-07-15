@@ -62,7 +62,7 @@ def sdLowerBound():
 		users = executeSQL(con,sql)
 		sdArray = []
 		for user in users:
-			sql = 'SELECT repo_url, initialCount,finalCount FROM growthDelta WHERE actor='+'"'+user[0]+'" GROUP BY actor,repo_url'
+			sql = 'SELECT repo_url, initialCount,finalCount FROM growthDelta WHERE actor='+'"'+user[0]+'"'
 			impactRows = executeSQL(con,sql)
 			impactVector = []
 			deltas = []
@@ -82,10 +82,10 @@ def sdLowerBound():
 				sdArray.append(sd)		
 		sdArray.sort(key=operator.attrgetter("std"), reverse=False)
 		for obj in sdArray:
-			print obj.actor
-			print obj.url
-			print obj.std
-			print obj.array
+			print "Impact user -->"+obj.actor
+			print "Repo URL --> "+obj.url
+			print 'Standard Deviation --> '+str(obj.std)
+			print 'impactVector = '+str(obj.array)
 			print "---------------------------------"
 	except Exception as e:
 		print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
