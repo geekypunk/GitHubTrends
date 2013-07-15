@@ -199,7 +199,6 @@ def getPredictCurve(growthCurve):
 try:
 
 	con = getDBConnection()
-	print con
 	#Selecting top 100 users for data pruning	
 	sql = "SELECT followedUser_login from FollowEvents GROUP BY followedUser_login ORDER BY followedUser_followers DESC"
 	rows = executeSQL(con,sql)
@@ -236,7 +235,7 @@ try:
 					plt.axvline(growthCurve.impactStartTime, color='r', linestyle='dashed', linewidth=0.5)
 					plt.axvline(growthCurve.impactStartTime+24*3600, color='r', linestyle='dashed', linewidth=0.5)
 					plt.legend(['Actual', 'Predicted','impactStart','impactEnd'], loc='upper left')
-					plb.savefig('currentGeneratedCurves/'+impactEvent.repo_url[impactEvent.repo_url.rfind('/')+1:]+'.png')
+					plb.savefig('currentGeneratedCurves/'+actor+':'+impactEvent.repo_url[impactEvent.repo_url.rfind('/')+1:]+'.png')
 					plt.close()
 except Exception as e:
 	print 'Error in line:'+str(sys.exc_traceback.tb_lineno)

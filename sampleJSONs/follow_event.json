@@ -1,0 +1,26 @@
+{
+    "actor": "krishnateja", 
+    "actor_attributes": {
+        "blog": "", 
+        "company": "", 
+        "email": "kkteja@gmail.com", 
+        "gravatar_id": "3778b178758cde9deab511a0b867f08a", 
+        "location": "India", 
+        "login": "krishnateja", 
+        "name": "KrishnaTeja", 
+        "type": "User"
+    }, 
+    "created_at": "2013-04-01T04:01:10-07:00", 
+    "payload": {
+        "target": {
+            "followers": 2, 
+            "gravatar_id": "fa915cffc1fd9d2dd1fed26225d8ecc6", 
+            "id": 826730, 
+            "login": "cseymourSF", 
+            "repos": 2
+        }
+    }, 
+    "public": true, 
+    "type": "FollowEvent", 
+    "url": "https://github.com/cseymourSF"
+}
