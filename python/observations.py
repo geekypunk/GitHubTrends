@@ -66,27 +66,35 @@ def sdLowerBound():
 			impactRows = executeSQL(con,sql)
 			impactVector = []
 			deltas = []
-
 			for row in impactRows:
 				url = row[0]
-				deltas.append(row[2]-row[1])
-			class Object(object):
-				pass
-			sd = Object()
-			sd.actor = user[0]
-			sd.url = url
-			sd.array = deltas
-			std = np.std(deltas)
-			sd.std = std
-			if std > 0.0:	
-				sdArray.append(sd)		
+				delta = row[2]-row[1]
+				if delta > 50:
+					deltas.append(delta)
+			if len(deltas) > 0:
+				class Object(object):
+					pass
+				sd = Object()
+				sd.actor = user[0]
+				sd.url = url
+				sd.array = deltas
+				std = np.std(deltas)
+				sd.std = std
+				if std > 0.0:	
+					sdArray.append(sd)		
 		sdArray.sort(key=operator.attrgetter("std"), reverse=False)
+		stdArr = []
 		for obj in sdArray:
+			stdArr.append(obj.std)
 			print "Impact user -->"+obj.actor
 			print "Repo URL --> "+obj.url
 			print 'Standard Deviation --> '+str(obj.std)
 			print 'impactVector = '+str(obj.array)
 			print "---------------------------------"
+		numpyStdArr = np.array(stdArr)	
+		print "Least SD of all SDs="+str(numpyStdArr.min())
+		print "SD of all SDs="+str(np.std(numpyStdArr))
+		print "Mean of all SDs="+str(numpyStdArr.mean())
 	except Exception as e:
 		print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
 		print e

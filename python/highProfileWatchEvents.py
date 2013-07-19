@@ -61,9 +61,9 @@ def getUserRepoImpactVector(user):
 			a = Object()
 			a.repo_url = row[0]
 			a.impact = row[2]-row[1]
-			a.followers = getFollowerCount(user)
-			impactVector.append(a)
-				
+			if a.impact > 50:
+				a.followers = getFollowerCount(user)
+				impactVector.append(a)
 		return impactVector
 	except Exception as e:
 		print 'Error in getUserRepoImpactVector'
@@ -98,15 +98,19 @@ def getFollowerCount(user):
 def getImpactValueOfUser(user):
 	try:
 		weightVector = getUserRepoImpactVector(user)
-		noOfFollowers = getFollowerCount(user)
-		impactVector = []
-		for weight in weightVector:
-			val = weight.impact
-			followerCount = weight.followers
-			#Taking weighted impact, by number of followers
-			impactVector.append(val*followerCount)
-		std = np.std(impactVector)
-		return std
+		if len(weightVector) > 1:
+			noOfFollowers = getFollowerCount(user)
+			impactVector = []
+			for weight in weightVector:
+				val = weight.impact
+				followerCount = weight.followers
+				#Taking weighted impact, by number of followers
+				impactVector.append(val*followerCount)
+			std = np.std(impactVector)
+			return std
+		else:
+			print "Junk vector"
+			return 1000
 	except Exception as e:
 		print 'Error in getImpactValueOfUser'
 		print 'Error in line:'+str(sys.exc_traceback.tb_lineno)
@@ -199,7 +203,7 @@ def getPredictCurve(growthCurve):
 try:
 
 	con = getDBConnection()
-	#Selecting top 100 users for data pruning	
+	#Selecting top users for data pruning	
 	sql = "SELECT followedUser_login from FollowEvents GROUP BY followedUser_login ORDER BY followedUser_followers DESC"
 	rows = executeSQL(con,sql)
 	objList = []
@@ -235,7 +239,7 @@ try:
 					plt.axvline(growthCurve.impactStartTime, color='r', linestyle='dashed', linewidth=0.5)
 					plt.axvline(growthCurve.impactStartTime+24*3600, color='r', linestyle='dashed', linewidth=0.5)
 					plt.legend(['Actual', 'Predicted','impactStart','impactEnd'], loc='upper left')
-					plb.savefig('currentGeneratedCurves/'+actor+':'+impactEvent.repo_url[impactEvent.repo_url.rfind('/')+1:]+'.png')
+					plb.savefig('dump/'+actor+':'+impactEvent.repo_url[impactEvent.repo_url.rfind('/')+1:]+'.png')
 					plt.close()
 except Exception as e:
 	print 'Error in line:'+str(sys.exc_traceback.tb_lineno)

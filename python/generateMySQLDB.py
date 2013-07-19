@@ -5,7 +5,8 @@ import os
 import MySQLdb as mdb
 
 os.chdir("/home/kira/GitHubTrends/githubdata")
-
+FLAGS = re.VERBOSE | re.MULTILINE | re.DOTALL
+WHITESPACE = re.compile(r'[ \t\n\r]*', FLAGS)
 def loads_invalid_obj_list(s):
     decoder = JSONDecoder()
     s_len = len(s)

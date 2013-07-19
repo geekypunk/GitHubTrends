@@ -1,177 +1,27 @@
-Impact user -->Antiarchitect
-Repo URL --> https://github.com/zipmark/rspec_api_documentation
-Standard Deviation --> 0.471404520791
-impactVector = [3L, 3L, 4L]
----------------------------------
-Impact user -->AdrianRibao
-Repo URL --> https://github.com/dstegelman/django-downtime
-Standard Deviation --> 0.5
-impactVector = [1L, 2L]
----------------------------------
-Impact user -->bkeating
-Repo URL --> https://github.com/jnordberg/sublime-colorpick
-Standard Deviation --> 0.5
-impactVector = [16L, 17L]
----------------------------------
-Impact user -->bnu
-Repo URL --> https://github.com/sirsoft/g4dtd
-Standard Deviation --> 0.5
-impactVector = [3L, 2L]
----------------------------------
-Impact user -->chybatronik
-Repo URL --> https://github.com/pauek/garzon
-Standard Deviation --> 0.5
-impactVector = [1L, 2L]
----------------------------------
-Impact user -->craigspaeth
-Repo URL --> https://github.com/lopatin/SnakeTron
-Standard Deviation --> 0.5
-impactVector = [45L, 46L]
----------------------------------
-Impact user -->iskedk
-Repo URL --> https://github.com/qualiancy/carbon
-Standard Deviation --> 0.5
-impactVector = [2L, 3L]
----------------------------------
-Impact user -->jrahe
-Repo URL --> https://github.com/andyl/BAMRU-Private
-Standard Deviation --> 0.5
-impactVector = [1L, 0L]
----------------------------------
-Impact user -->lloydchang
-Repo URL --> https://github.com/openembedded/meta-oe
-Standard Deviation --> 0.5
-impactVector = [1L, 2L]
----------------------------------
-Impact user -->chrisa23
-Repo URL --> https://github.com/JetBrains/FSharper
-Standard Deviation --> 1.0
-impactVector = [18L, 16L]
----------------------------------
-Impact user -->github101
-Repo URL --> https://github.com/hacketyhack/hacketyhack
-Standard Deviation --> 1.0
-impactVector = [2L, 4L]
----------------------------------
-Impact user -->johnjreiser
-Repo URL --> https://github.com/openstreetmap/osm2pgsql
-Standard Deviation --> 1.0
-impactVector = [1L, 3L]
----------------------------------
-Impact user -->mhaylock
-Repo URL --> https://github.com/enormego/EGOTextView
-Standard Deviation --> 1.0
-impactVector = [3L, 5L]
----------------------------------
-Impact user -->moodleman
-Repo URL --> https://github.com/moodleou/moodle-mod_ouwiki
-Standard Deviation --> 1.0
-impactVector = [1L, 3L]
----------------------------------
-Impact user -->No5251
-Repo URL --> https://github.com/mikecardwell/email-privacy-tester
-Standard Deviation --> 1.0
-impactVector = [2L, 4L]
----------------------------------
-Impact user -->onurozgurozkan
-Repo URL --> https://github.com/ryanb/nifty-generators
-Standard Deviation --> 1.0
-impactVector = [1L, 3L]
----------------------------------
-Impact user -->shiki
-Repo URL --> https://github.com/wdavidw/node-csv-parser
-Standard Deviation --> 1.0
-impactVector = [8L, 6L]
----------------------------------
-Impact user -->atiw003
-Repo URL --> https://github.com/mthornhill/django-postal
+Impact user -->fotonstep
+Repo URL --> https://github.com/steelThread/redmon
 Standard Deviation --> 1.5
-impactVector = [5L, 2L]
+impactVector = [53L, 56L]
 ---------------------------------
-Impact user -->bwesterb
-Repo URL --> https://github.com/llvm-dcpu16/llvm-dcpu16
+Impact user -->kmanley
+Repo URL --> https://github.com/xk/node-threads-a-gogo
 Standard Deviation --> 1.5
-impactVector = [3L, 6L]
+impactVector = [80L, 77L]
 ---------------------------------
-Impact user -->dkirker
-Repo URL --> https://github.com/filmor/webos-messaging
+Impact user -->yiwang
+Repo URL --> https://github.com/sockjs/sockjs-client
 Standard Deviation --> 1.5
-impactVector = [5L, 2L]
+impactVector = [204L, 201L]
 ---------------------------------
-Impact user -->heavenlyhash
-Repo URL --> https://github.com/tahoe-lafs/tahoe-lafs
-Standard Deviation --> 1.5
-impactVector = [5L, 2L]
----------------------------------
-Impact user -->hschmitt
-Repo URL --> https://github.com/commonsguy/cwac-endless
-Standard Deviation --> 1.5
-impactVector = [7L, 4L]
----------------------------------
-Impact user -->iPaulPro
-Repo URL --> https://github.com/sintaxi/node-dbox
-Standard Deviation --> 1.5
-impactVector = [9L, 6L]
----------------------------------
-Impact user -->johnroyer
-Repo URL --> https://github.com/legnaleurc/junkcodes
-Standard Deviation --> 1.5
-impactVector = [-2L, 1L]
----------------------------------
-Impact user -->matthiasg
-Repo URL --> https://github.com/jprichardson/node-nextflow
-Standard Deviation --> 1.5
-impactVector = [0L, 3L]
----------------------------------
-Impact user -->silas
-Repo URL --> https://github.com/ytoolshed/pogo
-Standard Deviation --> 1.5
-impactVector = [6L, 3L]
----------------------------------
-Impact user -->berkerpeksag
-Repo URL --> https://github.com/seomoz/shovel
-Standard Deviation --> 1.6996731712
-impactVector = [1L, 0L, 4L]
----------------------------------
-Impact user -->ambelovsky
-Repo URL --> https://github.com/VinylFox/Ext.ux.touch.Leaflet
+Impact user -->pascalmd
+Repo URL --> https://github.com/socketstream/socketstream
 Standard Deviation --> 2.0
-impactVector = [1L, 5L]
+impactVector = [245L, 241L]
 ---------------------------------
-Impact user -->csw
-Repo URL --> https://github.com/lomereiter/BAMread
+Impact user -->passy
+Repo URL --> https://github.com/play/play-android
 Standard Deviation --> 2.0
-impactVector = [0L, 4L]
----------------------------------
-Impact user -->dorimanx
-Repo URL --> https://github.com/tytung/android_kernel_htcleo-2.6.32-ics
-Standard Deviation --> 2.0
-impactVector = [1L, 5L]
----------------------------------
-Impact user -->jimmynotjim
-Repo URL --> https://github.com/galen/PHP-Instagram-API
-Standard Deviation --> 2.0
-impactVector = [17L, 13L]
----------------------------------
-Impact user -->joeyw
-Repo URL --> https://github.com/tenderlove/mechanize
-Standard Deviation --> 2.0
-impactVector = [30L, 34L]
----------------------------------
-Impact user -->masnick
-Repo URL --> https://github.com/kevinelliott/agent_orange
-Standard Deviation --> 2.0
-impactVector = [4L, 8L]
----------------------------------
-Impact user -->nilbus
-Repo URL --> https://github.com/davibe/Phonegap-SQLitePlugin
-Standard Deviation --> 2.0
-impactVector = [44L, 40L]
----------------------------------
-Impact user -->pauldokas
-Repo URL --> https://github.com/jbremer/ssexy
-Standard Deviation --> 2.0
-impactVector = [0L, 4L]
+impactVector = [107L, 111L]
 ---------------------------------
 Impact user -->S714726
 Repo URL --> https://github.com/PromyLOPh/pianobar
@@ -183,50 +33,15 @@ Repo URL --> https://github.com/kennethreitz/tablib
 Standard Deviation --> 2.0
 impactVector = [109L, 113L]
 ---------------------------------
-Impact user -->MarioVilas
-Repo URL --> https://github.com/jbremer/ssexy
-Standard Deviation --> 2.05480466766
-impactVector = [6L, 1L, 4L]
----------------------------------
-Impact user -->msabramo
-Repo URL --> https://github.com/erikrose/more-itertools
-Standard Deviation --> 2.49443825785
-impactVector = [1L, 3L, 7L]
----------------------------------
-Impact user -->ankitbansal
-Repo URL --> https://github.com/rspec/rspec-core
+Impact user -->marvin
+Repo URL --> https://github.com/thoj/Go-IRC-Client-Library
 Standard Deviation --> 2.5
-impactVector = [0L, 5L]
+impactVector = [109L, 114L]
 ---------------------------------
-Impact user -->ewebdev
-Repo URL --> https://github.com/tdreyno/iphone-style-checkboxes
+Impact user -->popov-av
+Repo URL --> https://github.com/twitter/util
 Standard Deviation --> 2.5
-impactVector = [47L, 42L]
----------------------------------
-Impact user -->guilleiguaran
-Repo URL --> https://github.com/theforeman/foreman
-Standard Deviation --> 2.5
-impactVector = [43L, 38L]
----------------------------------
-Impact user -->Tarrasch
-Repo URL --> https://github.com/zsh-users/antigen
-Standard Deviation --> 2.5
-impactVector = [0L, 5L]
----------------------------------
-Impact user -->Vrtak-CZ
-Repo URL --> https://github.com/janmarek/WebLoader
-Standard Deviation --> 2.5
-impactVector = [10L, 5L]
----------------------------------
-Impact user -->donatj
-Repo URL --> https://github.com/josephg/Chipmunk-js
-Standard Deviation --> 2.62466929134
-impactVector = [6L, 0L, 5L]
----------------------------------
-Impact user -->gokhanmoral
-Repo URL --> https://github.com/sakuramilk/sc02c_kernel_ics
-Standard Deviation --> 3.0
-impactVector = [9L, 3L]
+impactVector = [52L, 57L]
 ---------------------------------
 Impact user -->jrideout
 Repo URL --> https://github.com/samcollins/css-social-buttons
@@ -238,240 +53,55 @@ Repo URL --> https://github.com/jubos/fake-s3
 Standard Deviation --> 3.0
 impactVector = [209L, 203L]
 ---------------------------------
-Impact user -->masterzen
-Repo URL --> https://github.com/ripienaar/ruby-puppetdb
+Impact user -->ActiveObject
+Repo URL --> https://github.com/postwait/node-amqp
 Standard Deviation --> 3.5
-impactVector = [8L, 1L]
----------------------------------
-Impact user -->selwin
-Repo URL --> https://github.com/lincolnloop/python-qrcode
-Standard Deviation --> 3.5
-impactVector = [35L, 42L]
----------------------------------
-Impact user -->tonymillion
-Repo URL --> https://github.com/tomsoft1/StackBluriOS
-Standard Deviation --> 3.5
-impactVector = [4L, 11L]
----------------------------------
-Impact user -->alexy
-Repo URL --> https://github.com/softprops/less-sbt
-Standard Deviation --> 4.0
-impactVector = [9L, 1L]
----------------------------------
-Impact user -->douglasmiranda
-Repo URL --> https://github.com/koenbok/Cactus
-Standard Deviation --> 4.0
-impactVector = [18L, 10L]
----------------------------------
-Impact user -->dshaw
-Repo URL --> https://github.com/isaacs/templar
-Standard Deviation --> 4.0
-impactVector = [8L, 16L]
----------------------------------
-Impact user -->gazay
-Repo URL --> https://github.com/prepor/green
-Standard Deviation --> 4.0
-impactVector = [-1L, 7L]
----------------------------------
-Impact user -->jollychang
-Repo URL --> https://github.com/quicksilver/Quicksilver
-Standard Deviation --> 4.0
-impactVector = [38L, 30L]
----------------------------------
-Impact user -->toooooooby
-Repo URL --> https://github.com/yascentur/Ricty
-Standard Deviation --> 4.0
-impactVector = [2L, 10L]
----------------------------------
-Impact user -->linuxjuggler
-Repo URL --> https://github.com/infosia/quicktigame2dmodule
-Standard Deviation --> 4.5
-impactVector = [27L, 36L]
+impactVector = [55L, 62L]
 ---------------------------------
 Impact user -->sledorze
 Repo URL --> https://github.com/write2munish/Akka-Essentials
 Standard Deviation --> 4.5
 impactVector = [58L, 67L]
 ---------------------------------
-Impact user -->chuck911
-Repo URL --> https://github.com/skalb/docshare-tutorial
-Standard Deviation --> 4.71404520791
-impactVector = [12L, 12L, 2L]
+Impact user -->wanli2011
+Repo URL --> https://github.com/sstephenson/eco
+Standard Deviation --> 4.5
+impactVector = [124L, 133L]
 ---------------------------------
-Impact user -->ActiveObject
-Repo URL --> https://github.com/postwait/node-amqp
-Standard Deviation --> 4.92160768674
-impactVector = [55L, 62L, 50L]
----------------------------------
-Impact user -->dmoser
-Repo URL --> https://github.com/rziehl/Sinatra-Quickstart
-Standard Deviation --> 4.96655480858
-impactVector = [12L, 1L, 2L]
----------------------------------
-Impact user -->Arkan
-Repo URL --> https://github.com/evanphx/distance_between
-Standard Deviation --> 5.0
-impactVector = [26L, 16L]
----------------------------------
-Impact user -->bkmit
-Repo URL --> https://github.com/sustrik/xsnano
-Standard Deviation --> 5.0
-impactVector = [10L, 20L]
----------------------------------
-Impact user -->fabian
-Repo URL --> https://github.com/ftlabs/fastclick
-Standard Deviation --> 5.0
-impactVector = [15L, 5L]
----------------------------------
-Impact user -->jstoker
-Repo URL --> https://github.com/bloom-lang/bud
-Standard Deviation --> 5.0
-impactVector = [26L, 16L]
----------------------------------
-Impact user -->prettyv
-Repo URL --> https://github.com/BigNoid/Aeon-Nox
-Standard Deviation --> 5.0
-impactVector = [25L, 35L]
----------------------------------
-Impact user -->xen
-Repo URL --> https://github.com/superisaac/redqueue
-Standard Deviation --> 5.0
-impactVector = [12L, 2L]
----------------------------------
-Impact user -->xuxiaodong
-Repo URL --> https://github.com/rubyworks/facets
-Standard Deviation --> 5.0
-impactVector = [9L, 19L]
----------------------------------
-Impact user -->bensie
-Repo URL --> https://github.com/Veraticus/Dynamoid
+Impact user -->navaru
+Repo URL --> https://github.com/recurly/recurly-js
 Standard Deviation --> 5.5
-impactVector = [8L, 19L]
+impactVector = [190L, 201L]
 ---------------------------------
-Impact user -->kolber
-Repo URL --> https://github.com/probablycorey/mini_magick
-Standard Deviation --> 5.5
-impactVector = [50L, 61L]
----------------------------------
-Impact user -->ARoiD
-Repo URL --> https://github.com/ChainsDD/Superuser
-Standard Deviation --> 6.0
-impactVector = [13L, 25L]
----------------------------------
-Impact user -->atuttle
-Repo URL --> https://github.com/rstacruz/js2coffee
-Standard Deviation --> 6.0
-impactVector = [40L, 28L]
----------------------------------
-Impact user -->bewest
-Repo URL --> https://github.com/substack/seaport
-Standard Deviation --> 6.0
-impactVector = [44L, 56L]
----------------------------------
-Impact user -->bluetidepro
-Repo URL --> https://github.com/rviscomi/trunk8
-Standard Deviation --> 6.0
-impactVector = [29L, 41L]
----------------------------------
-Impact user -->Klaperman
-Repo URL --> https://github.com/edwinb/Idris-dev
-Standard Deviation --> 6.0
-impactVector = [15L, 3L]
----------------------------------
-Impact user -->machisuji
-Repo URL --> https://github.com/typesafehub/slick
-Standard Deviation --> 6.0
-impactVector = [1L, 13L]
----------------------------------
-Impact user -->acook
-Repo URL --> https://github.com/tye/rubyception
-Standard Deviation --> 6.12825877028
-impactVector = [2L, 9L, 17L]
----------------------------------
-Impact user -->Dagnan
-Repo URL --> https://github.com/lomba/schema_plus
+Impact user -->camdub
+Repo URL --> https://github.com/derickbailey/Albacore
 Standard Deviation --> 6.5
-impactVector = [1L, 14L]
+impactVector = [65L, 78L]
 ---------------------------------
-Impact user -->dalehenrich
-Repo URL --> https://github.com/svenvc/zinc
+Impact user -->leizongmin
+Repo URL --> https://github.com/visionmedia/commander.js
 Standard Deviation --> 6.5
-impactVector = [14L, 1L]
+impactVector = [150L, 137L]
 ---------------------------------
-Impact user -->lnsoso
-Repo URL --> https://github.com/sandstein/phonegap-transition-plugin
+Impact user -->matterker
+Repo URL --> https://github.com/railsfactory/rubymotion-cookbook
 Standard Deviation --> 6.5
-impactVector = [15L, 2L]
----------------------------------
-Impact user -->luzfcb
-Repo URL --> https://github.com/rfk/django-supervisor
-Standard Deviation --> 6.5
-impactVector = [12L, 25L]
----------------------------------
-Impact user -->rheoli
-Repo URL --> https://github.com/Jabberd2/jabberd2
-Standard Deviation --> 6.5
-impactVector = [25L, 12L]
----------------------------------
-Impact user -->jassinpain
-Repo URL --> https://github.com/indygreg/collectd-carbon
-Standard Deviation --> 6.54896090146
-impactVector = [15L, 24L, 8L]
----------------------------------
-Impact user -->bernardofire
-Repo URL --> https://github.com/nsigustavo/groselha
-Standard Deviation --> 7.0
-impactVector = [15L, 1L]
----------------------------------
-Impact user -->harmy
-Repo URL --> https://github.com/tomerfiliba/rpyc
-Standard Deviation --> 7.0
-impactVector = [28L, 14L]
----------------------------------
-Impact user -->hsbt
-Repo URL --> https://github.com/zbruhnke/bloggy
-Standard Deviation --> 7.0
-impactVector = [36L, 22L]
----------------------------------
-Impact user -->luisleao
-Repo URL --> https://github.com/pisi/Reel
-Standard Deviation --> 7.0
-impactVector = [-3L, 11L]
----------------------------------
-Impact user -->miyagawa
-Repo URL --> https://github.com/r7kamura/webtail
-Standard Deviation --> 7.0
-impactVector = [0L, 14L]
+impactVector = [127L, 114L]
 ---------------------------------
 Impact user -->niedbalski
 Repo URL --> https://github.com/zedshaw/Tir
 Standard Deviation --> 7.0
 impactVector = [71L, 57L]
 ---------------------------------
-Impact user -->guybrush
-Repo URL --> https://github.com/saambarati/mapleTree
-Standard Deviation --> 7.4087035903
-impactVector = [3L, 21L, 10L]
+Impact user -->ttakamura
+Repo URL --> https://github.com/mattheworiordan/capybara-screenshot
+Standard Deviation --> 7.0
+impactVector = [235L, 221L]
 ---------------------------------
 Impact user -->cfddream
 Repo URL --> https://github.com/postgres/postgres
 Standard Deviation --> 7.5
 impactVector = [116L, 101L]
----------------------------------
-Impact user -->ForbesLindesay
-Repo URL --> https://github.com/substance/composer
-Standard Deviation --> 7.5
-impactVector = [3L, 18L]
----------------------------------
-Impact user -->satishv
-Repo URL --> https://github.com/tcocca/acts_as_follower
-Standard Deviation --> 7.5
-impactVector = [20L, 5L]
----------------------------------
-Impact user -->shabbyrobe
-Repo URL --> https://github.com/ridiculousfish/HexFiend
-Standard Deviation --> 7.5
-impactVector = [1L, 16L]
 ---------------------------------
 Impact user -->stiucsib86
 Repo URL --> https://github.com/oyvindkinsey/easyXDM
@@ -483,60 +113,30 @@ Repo URL --> https://github.com/Mojang/Minecraft-API
 Standard Deviation --> 7.5
 impactVector = [95L, 110L]
 ---------------------------------
-Impact user -->od3n
-Repo URL --> https://github.com/telerim/Zhen-CRM
-Standard Deviation --> 7.81024967591
-impactVector = [5L, 23L, 3L, 9L]
----------------------------------
-Impact user -->bbelos
-Repo URL --> https://github.com/CyanogenMod/android_kernel_samsung_victory
+Impact user -->Gonzih
+Repo URL --> https://github.com/weavejester/hiccup
 Standard Deviation --> 8.0
-impactVector = [19L, 3L]
----------------------------------
-Impact user -->busticated
-Repo URL --> https://github.com/hautelook/vertebrae
-Standard Deviation --> 8.0
-impactVector = [54L, 38L]
----------------------------------
-Impact user -->fullofcaffeine
-Repo URL --> https://github.com/resolve/refinerycms-blog
-Standard Deviation --> 8.0
-impactVector = [14L, 30L]
+impactVector = [86L, 102L]
 ---------------------------------
 Impact user -->newsky
 Repo URL --> https://github.com/AlloyTeam/Rythem
 Standard Deviation --> 8.0
 impactVector = [59L, 75L]
 ---------------------------------
-Impact user -->OlegKrikun
-Repo URL --> https://github.com/zeubea/android_device_htc_legend
-Standard Deviation --> 8.0
-impactVector = [16L, 0L]
----------------------------------
-Impact user -->take-cheeze
-Repo URL --> https://github.com/stevedonovan/luaish
-Standard Deviation --> 8.44097150807
-impactVector = [3L, 21L, 0L, 2L]
----------------------------------
-Impact user -->Contra
-Repo URL --> https://github.com/soyjavi/QuoJS
-Standard Deviation --> 8.5
-impactVector = [6L, 23L]
----------------------------------
 Impact user -->gmorpheme
 Repo URL --> https://github.com/technomancy/swank-clojure
 Standard Deviation --> 8.5
 impactVector = [71L, 54L]
 ---------------------------------
+Impact user -->meshachjackson
+Repo URL --> https://github.com/paulmillr/chokidar
+Standard Deviation --> 8.5
+impactVector = [74L, 91L]
+---------------------------------
 Impact user -->mikedemarais
 Repo URL --> https://github.com/winston/cactus
 Standard Deviation --> 8.99382504215
 impactVector = [66L, 56L, 78L]
----------------------------------
-Impact user -->bmabey
-Repo URL --> https://github.com/franks42/clj-ns-browser
-Standard Deviation --> 9.0
-impactVector = [17L, 35L]
 ---------------------------------
 Impact user -->Paulmicha
 Repo URL --> https://github.com/jonikorpi/Golden-Grid-System
@@ -548,120 +148,35 @@ Repo URL --> https://github.com/mohayonao/timbre
 Standard Deviation --> 9.0
 impactVector = [271L, 289L]
 ---------------------------------
-Impact user -->Domon
-Repo URL --> https://github.com/watir/watir-webdriver
-Standard Deviation --> 9.28559218479
-impactVector = [52L, 46L, 30L]
----------------------------------
 Impact user -->davidcelis
 Repo URL --> https://github.com/stevenbenner/jquery-powertip
 Standard Deviation --> 9.5
 impactVector = [69L, 88L]
----------------------------------
-Impact user -->haidersabri
-Repo URL --> https://github.com/jugend/amazon-ecs
-Standard Deviation --> 9.5
-impactVector = [50L, 31L]
----------------------------------
-Impact user -->inamiy
-Repo URL --> https://github.com/Synthetic/SYCompositor
-Standard Deviation --> 9.88369870039
-impactVector = [27L, 18L, 6L, 32L]
----------------------------------
-Impact user -->henrique2010
-Repo URL --> https://github.com/turicas/sbc
-Standard Deviation --> 10.0
-impactVector = [13L, 33L]
 ---------------------------------
 Impact user -->Querela
 Repo URL --> https://github.com/jejacks0n/mercury
 Standard Deviation --> 10.0
 impactVector = [217L, 197L]
 ---------------------------------
-Impact user -->pdewouters
-Repo URL --> https://github.com/thethemefoundry/forge
-Standard Deviation --> 10.4986771653
-impactVector = [4L, 0L, 24L]
----------------------------------
-Impact user -->aidano
-Repo URL --> https://github.com/neror/CA360
-Standard Deviation --> 10.5
-impactVector = [26L, 47L]
----------------------------------
-Impact user -->everpcpc
-Repo URL --> https://github.com/rendro/easy-pie-chart
-Standard Deviation --> 10.5
-impactVector = [70L, 49L]
----------------------------------
-Impact user -->superbobry
-Repo URL --> https://github.com/ckirkendall/enfocus
-Standard Deviation --> 10.5
-impactVector = [42L, 21L]
----------------------------------
-Impact user -->addame
-Repo URL --> https://github.com/tech-angels/annotator
-Standard Deviation --> 10.677078252
-impactVector = [45L, 21L, 24L]
----------------------------------
-Impact user -->itang
-Repo URL --> https://github.com/nelsonsilva/node.vert.x
-Standard Deviation --> 10.8730042869
-impactVector = [33L, 51L, 25L]
----------------------------------
-Impact user -->tobsn
-Repo URL --> https://github.com/wavded/humane-js
+Impact user -->jeremywen
+Repo URL --> https://github.com/sickill/git-dude
 Standard Deviation --> 11.0
-impactVector = [6L, 28L]
+impactVector = [86L, 108L]
 ---------------------------------
-Impact user -->adamramadhan
-Repo URL --> https://github.com/rabbitmq/rabbitmq-tutorials
-Standard Deviation --> 11.5
-impactVector = [28L, 51L]
----------------------------------
-Impact user -->amirouche
-Repo URL --> https://github.com/maxcountryman/flask-bcrypt
-Standard Deviation --> 11.5
-impactVector = [24L, 1L]
----------------------------------
-Impact user -->carlop
-Repo URL --> https://github.com/KittyKatt/screenFetch
-Standard Deviation --> 11.5
-impactVector = [34L, 11L]
+Impact user -->29decibel
+Repo URL --> https://github.com/rstacruz/backbone-patterns
+Standard Deviation --> 11.4406682012
+impactVector = [72L, 100L, 87L]
 ---------------------------------
 Impact user -->irtiger
 Repo URL --> https://github.com/apache/hbase
 Standard Deviation --> 11.5
 impactVector = [86L, 63L]
 ---------------------------------
-Impact user -->maraujop
-Repo URL --> https://github.com/tbranyen/use.js
-Standard Deviation --> 11.5
-impactVector = [8L, 31L]
----------------------------------
-Impact user -->sumory
-Repo URL --> https://github.com/binaryjs/binaryjs
-Standard Deviation --> 11.5
-impactVector = [16L, 39L]
----------------------------------
-Impact user -->davidmoshal
-Repo URL --> https://github.com/jolira/site-manager
-Standard Deviation --> 12.0
-impactVector = [28L, 4L]
----------------------------------
-Impact user -->jalliot
-Repo URL --> https://github.com/liip/LiipImagineBundle
-Standard Deviation --> 12.0
-impactVector = [32L, 8L]
----------------------------------
-Impact user -->ruedap
-Repo URL --> https://github.com/ParsePlatform/Anypic
-Standard Deviation --> 12.0
-impactVector = [5L, 29L]
----------------------------------
-Impact user -->MicahElliott
-Repo URL --> https://github.com/jugend/amazon-ecs
+Impact user -->qingshan2346
+Repo URL --> https://github.com/ylechelle/OpenUDID
 Standard Deviation --> 12.5
-impactVector = [6L, 31L]
+impactVector = [76L, 51L]
 ---------------------------------
 Impact user -->ryancheung
 Repo URL --> https://github.com/jnicklas/carrierwave
@@ -678,105 +193,55 @@ Repo URL --> https://github.com/pmjones/fig-standards
 Standard Deviation --> 13.0
 impactVector = [126L, 100L]
 ---------------------------------
-Impact user -->hjon
-Repo URL --> https://github.com/nathan-lafreniere/node-req
-Standard Deviation --> 13.5
-impactVector = [30L, 3L]
----------------------------------
-Impact user -->louismullie
-Repo URL --> https://github.com/rack/rack-contrib
-Standard Deviation --> 13.5
-impactVector = [1L, 28L]
----------------------------------
-Impact user -->navisingh
-Repo URL --> https://github.com/mureev/CMHTMLView
-Standard Deviation --> 13.5
-impactVector = [21L, 48L]
----------------------------------
-Impact user -->pawelpacana
-Repo URL --> https://github.com/pzol/monadic
-Standard Deviation --> 13.5892114071
-impactVector = [0L, 5L, 31L]
----------------------------------
-Impact user -->fotonstep
-Repo URL --> https://github.com/steelThread/redmon
-Standard Deviation --> 13.9602610609
-impactVector = [53L, 56L, 25L]
----------------------------------
-Impact user -->jasondavis
-Repo URL --> https://github.com/weslly/ColorPicker
+Impact user -->ahmet
+Repo URL --> https://github.com/samvermette/SVPullToRefresh
 Standard Deviation --> 14.0
-impactVector = [29L, 1L]
+impactVector = [255L, 283L]
 ---------------------------------
-Impact user -->ciastek
-Repo URL --> https://github.com/michael/dance
-Standard Deviation --> 14.5
-impactVector = [45L, 16L]
----------------------------------
-Impact user -->kingfo
-Repo URL --> https://github.com/msysgit/msysgit
-Standard Deviation --> 14.5
-impactVector = [1L, 30L]
+Impact user -->paulbjensen
+Repo URL --> https://github.com/visionmedia/axon
+Standard Deviation --> 14.0
+impactVector = [69L, 97L]
 ---------------------------------
 Impact user -->Sannis
 Repo URL --> https://github.com/meskyanichi/backup
 Standard Deviation --> 14.5
 impactVector = [157L, 128L]
 ---------------------------------
-Impact user -->caike
-Repo URL --> https://github.com/IconoclastLabs/rubymotion_cookbook
+Impact user -->clvrobj
+Repo URL --> https://github.com/samuraisam/pyapns
 Standard Deviation --> 15.0
-impactVector = [1L, 31L]
+impactVector = [86L, 116L]
 ---------------------------------
-Impact user -->gregf
-Repo URL --> https://github.com/mattbradley/stubble
+Impact user -->randallagordon
+Repo URL --> https://github.com/matb33/meteor-userauth
 Standard Deviation --> 15.0
-impactVector = [46L, 16L]
----------------------------------
-Impact user -->pasberth
-Repo URL --> https://github.com/ympbyc/coffeehack
-Standard Deviation --> 15.0
-impactVector = [31L, 1L]
+impactVector = [137L, 167L]
 ---------------------------------
 Impact user -->saratovsource
 Repo URL --> https://github.com/ernie/squeel
 Standard Deviation --> 15.0
 impactVector = [200L, 230L]
 ---------------------------------
-Impact user -->stagas
-Repo URL --> https://github.com/toji/game-shim
-Standard Deviation --> 15.1217282963
-impactVector = [4L, 39L, 32L]
+Impact user -->ajimre
+Repo URL --> https://github.com/jwagenleitner/groovy-wslite
+Standard Deviation --> 15.5
+impactVector = [91L, 60L]
 ---------------------------------
 Impact user -->nebiros
 Repo URL --> https://github.com/smartinez87/exception_notification
 Standard Deviation --> 15.5
 impactVector = [100L, 69L]
 ---------------------------------
-Impact user -->springyboing
-Repo URL --> https://github.com/cloudfoundry/oss-docs
-Standard Deviation --> 15.8954920234
-impactVector = [17L, 25L, 54L]
----------------------------------
-Impact user -->rpietro
-Repo URL --> https://github.com/yrosseel/lavaan
-Standard Deviation --> 16.5
-impactVector = [34L, 1L]
----------------------------------
-Impact user -->stigkj
-Repo URL --> https://github.com/x3ro/gemignore
-Standard Deviation --> 16.5
-impactVector = [34L, 1L]
+Impact user -->6
+Repo URL --> https://github.com/twitter/twitter-text-js
+Standard Deviation --> 16.015617378
+impactVector = [86L, 70L, 53L, 95L]
 ---------------------------------
 Impact user -->airekans
 Repo URL --> https://github.com/mislav/rfc
 Standard Deviation --> 17.0
 impactVector = [123L, 157L]
----------------------------------
-Impact user -->andrewrjones
-Repo URL --> https://github.com/wvanbergen/node-vertica
-Standard Deviation --> 17.0
-impactVector = [38L, 4L]
 ---------------------------------
 Impact user -->CNBorn
 Repo URL --> https://github.com/github/github-services
@@ -788,45 +253,15 @@ Repo URL --> https://github.com/thermogl/TITokenField
 Standard Deviation --> 17.0
 impactVector = [86L, 52L]
 ---------------------------------
-Impact user -->spidie
-Repo URL --> https://github.com/nodejitsu/kyuri
+Impact user -->kaishin
+Repo URL --> https://github.com/ryrych/rcarousel
 Standard Deviation --> 17.0
-impactVector = [44L, 10L]
----------------------------------
-Impact user -->winsonwq
-Repo URL --> https://github.com/visionmedia/node-jscoverage
-Standard Deviation --> 17.0
-impactVector = [35L, 1L]
----------------------------------
-Impact user -->popov-av
-Repo URL --> https://github.com/twitter/util
-Standard Deviation --> 17.0171482139
-impactVector = [33L, 52L, 39L, 50L, 6L, 57L]
----------------------------------
-Impact user -->bom-d-van
-Repo URL --> https://github.com/skozlov/netzke-core
-Standard Deviation --> 17.5
-impactVector = [35L, 0L]
----------------------------------
-Impact user -->Eec
-Repo URL --> https://github.com/ole/OBShapedButton
-Standard Deviation --> 17.5
-impactVector = [8L, 43L]
+impactVector = [149L, 115L]
 ---------------------------------
 Impact user -->vgrichina
 Repo URL --> https://github.com/zedshaw/Tir
 Standard Deviation --> 17.5
 impactVector = [92L, 57L]
----------------------------------
-Impact user -->flyfire
-Repo URL --> https://github.com/xenith/django-base-template
-Standard Deviation --> 18.0
-impactVector = [6L, 42L]
----------------------------------
-Impact user -->ivoronin
-Repo URL --> https://github.com/tailhook/tilenol
-Standard Deviation --> 18.0
-impactVector = [37L, 1L]
 ---------------------------------
 Impact user -->LFabien
 Repo URL --> https://github.com/gotosleep/JASidePanels
@@ -848,55 +283,15 @@ Repo URL --> https://github.com/twitter/twitter-text-js
 Standard Deviation --> 18.5
 impactVector = [58L, 95L]
 ---------------------------------
-Impact user -->muka
-Repo URL --> https://github.com/jupiterjs/steal
-Standard Deviation --> 18.9267594221
-impactVector = [4L, 8L, 46L]
----------------------------------
-Impact user -->j1anb1n
-Repo URL --> https://github.com/kilianc/node-apiserver-router
-Standard Deviation --> 19.0
-impactVector = [44L, 6L]
----------------------------------
-Impact user -->Kyle2501
-Repo URL --> https://github.com/simplejson/simplejson
-Standard Deviation --> 19.0
-impactVector = [69L, 31L]
----------------------------------
-Impact user -->michaelsbradleyjr
-Repo URL --> https://github.com/xk/node-threads-a-gogo
-Standard Deviation --> 19.0
-impactVector = [51L, 13L]
+Impact user -->lexrus
+Repo URL --> https://github.com/rentzsch/jrswizzle
+Standard Deviation --> 18.8030730349
+impactVector = [107L, 76L, 62L]
 ---------------------------------
 Impact user -->jimeh
 Repo URL --> https://github.com/tarcieri/cryptosphere
 Standard Deviation --> 19.1543438647
 impactVector = [465L, 510L, 499L]
----------------------------------
-Impact user -->iflashlord
-Repo URL --> https://github.com/VeriteCo/Timeline-Wordpress-Plugin
-Standard Deviation --> 19.3826597762
-impactVector = [45L, 2L, 40L, 6L]
----------------------------------
-Impact user -->abinoda
-Repo URL --> https://github.com/eric/metriks
-Standard Deviation --> 19.5
-impactVector = [78L, 39L]
----------------------------------
-Impact user -->eric-brechemier
-Repo URL --> https://github.com/nsisodiya/Demo-Scalable-App
-Standard Deviation --> 19.5
-impactVector = [40L, 1L]
----------------------------------
-Impact user -->freewizard
-Repo URL --> https://github.com/DCPUTeam/DCPUToolchain
-Standard Deviation --> 19.5
-impactVector = [62L, 23L]
----------------------------------
-Impact user -->Jonovono
-Repo URL --> https://github.com/lopatin/SnakeTron
-Standard Deviation --> 19.5
-impactVector = [7L, 46L]
 ---------------------------------
 Impact user -->shatle
 Repo URL --> https://github.com/rspec/rspec-rails
@@ -908,125 +303,55 @@ Repo URL --> https://github.com/edgecase/ruby_koans
 Standard Deviation --> 19.5
 impactVector = [62L, 101L]
 ---------------------------------
-Impact user -->Layzie
-Repo URL --> https://github.com/tokuhirom/autolink.js
-Standard Deviation --> 19.6516538744
-impactVector = [8L, 52L, 10L, 3L]
----------------------------------
-Impact user -->bewho
-Repo URL --> https://github.com/DangerCove/html5-notifications
-Standard Deviation --> 20.5
-impactVector = [12L, 53L]
----------------------------------
-Impact user -->lifedim
-Repo URL --> https://github.com/ylechelle/OpenUDID
-Standard Deviation --> 20.5
-impactVector = [10L, 51L]
----------------------------------
-Impact user -->auser
-Repo URL --> https://github.com/colinsurprenant/redstorm
-Standard Deviation --> 20.7417989148
-impactVector = [71L, 71L, 27L]
+Impact user -->TizianoPerrucci
+Repo URL --> https://github.com/unfiltered/unfiltered
+Standard Deviation --> 20.0
+impactVector = [110L, 150L]
 ---------------------------------
 Impact user -->gfranko
 Repo URL --> https://github.com/timrwood/moment
 Standard Deviation --> 21.0
 impactVector = [997L, 955L]
 ---------------------------------
-Impact user -->hammer
-Repo URL --> https://github.com/cython/cython
-Standard Deviation --> 21.0
-impactVector = [5L, 47L]
----------------------------------
-Impact user -->nicmarti
-Repo URL --> https://github.com/mongodb/mongo-java-driver
-Standard Deviation --> 21.0
-impactVector = [15L, 57L]
----------------------------------
 Impact user -->rob-brown
 Repo URL --> https://github.com/waterlou/UIGlossyButton
 Standard Deviation --> 21.0
 impactVector = [137L, 179L]
----------------------------------
-Impact user -->cnxsoft
-Repo URL --> https://github.com/amery/sunxi-tools
-Standard Deviation --> 21.5
-impactVector = [66L, 23L]
----------------------------------
-Impact user -->june29
-Repo URL --> https://github.com/tokuhirom/autolink.js
-Standard Deviation --> 21.5
-impactVector = [46L, 3L]
----------------------------------
-Impact user -->notmatt
-Repo URL --> https://github.com/stackd/gauss
-Standard Deviation --> 21.5
-impactVector = [70L, 27L]
----------------------------------
-Impact user -->rabbidrabbit
-Repo URL --> https://github.com/lopatin/SnakeTron
-Standard Deviation --> 21.5
-impactVector = [3L, 46L]
----------------------------------
-Impact user -->fsouza
-Repo URL --> https://github.com/travis-ci/travis-ci.github.com
-Standard Deviation --> 21.5116247643
-impactVector = [1L, 5L, 55L, 13L]
 ---------------------------------
 Impact user -->fasoulas
 Repo URL --> https://github.com/Togo/eve
 Standard Deviation --> 22.0
 impactVector = [104L, 148L]
 ---------------------------------
-Impact user -->mattonrails
-Repo URL --> https://github.com/myronmarston/vcr
-Standard Deviation --> 22.0
-impactVector = [7L, 51L]
----------------------------------
-Impact user -->mikegao
-Repo URL --> https://github.com/JimLiu/WeiboSDK
-Standard Deviation --> 22.0
-impactVector = [55L, 11L]
----------------------------------
 Impact user -->rpetrich
 Repo URL --> https://github.com/twitter/ambrose
 Standard Deviation --> 22.0
 impactVector = [237L, 281L]
 ---------------------------------
-Impact user -->ednapiranha
-Repo URL --> https://github.com/scrooloose/nerdtree
-Standard Deviation --> 22.1560124772
-impactVector = [1L, 1L, 48L]
+Impact user -->rogeriopradoj
+Repo URL --> https://github.com/phpedia/phpedia.github.com
+Standard Deviation --> 22.5
+impactVector = [59L, 104L]
 ---------------------------------
-Impact user -->ansyeow
-Repo URL --> https://github.com/typesafehub/play2-mini
-Standard Deviation --> 22.395436043
-impactVector = [8L, 55L, 7L]
+Impact user -->StuPig
+Repo URL --> https://github.com/tokokoo/pondasee
+Standard Deviation --> 22.5
+impactVector = [114L, 69L]
 ---------------------------------
 Impact user -->WanHalo
 Repo URL --> https://github.com/jquery/qunit
 Standard Deviation --> 22.5
 impactVector = [269L, 224L]
 ---------------------------------
+Impact user -->cagatayyuksel
+Repo URL --> https://github.com/stefanfoulis/django-filer
+Standard Deviation --> 23.0
+impactVector = [128L, 82L]
+---------------------------------
 Impact user -->tacho
 Repo URL --> https://github.com/douglascrockford/JSCheck
 Standard Deviation --> 23.0
 impactVector = [63L, 109L]
----------------------------------
-Impact user -->lanqy
-Repo URL --> https://github.com/marcoraddatz/candyCMS
-Standard Deviation --> 23.2741809738
-impactVector = [58L, 58L, 38L, 1L]
----------------------------------
-Impact user -->laiso
-Repo URL --> https://github.com/devindoty/DDMenuController
-Standard Deviation --> 23.3380947523
-impactVector = [32L, 33L, 82L]
----------------------------------
-Impact user -->ygbr
-Repo URL --> https://github.com/negativecode/vines
-Standard Deviation --> 23.5
-impactVector = [13L, 60L]
 ---------------------------------
 Impact user -->alanbem
 Repo URL --> https://github.com/tinymce/tinymce
@@ -1038,205 +363,65 @@ Repo URL --> https://github.com/fabpot/Pimple
 Standard Deviation --> 24.0
 impactVector = [122L, 74L]
 ---------------------------------
-Impact user -->japj
-Repo URL --> https://github.com/wbond/sublime_package_control
-Standard Deviation --> 24.0
-impactVector = [20L, 68L]
----------------------------------
-Impact user -->pasku
-Repo URL --> https://github.com/polarmobile/coffeescript-style-guide
-Standard Deviation --> 24.5
-impactVector = [12L, 61L]
----------------------------------
-Impact user -->viking2009
-Repo URL --> https://github.com/VandyMobile/vandymobile-ios
-Standard Deviation --> 24.7206265091
-impactVector = [5L, 3L, 10L, 77L, 1L, 0L, 1L, 0L]
----------------------------------
 Impact user -->joernroeder
 Repo URL --> https://github.com/thedersen/backbone.validation
 Standard Deviation --> 24.7969532179
 impactVector = [203L, 161L, 144L]
 ---------------------------------
-Impact user -->BjoernSchotte
-Repo URL --> https://github.com/newLoki/Pollex
+Impact user -->Loocor
+Repo URL --> https://github.com/mattt/TTTQuadrantControl
 Standard Deviation --> 25.0
-impactVector = [50L, 0L]
----------------------------------
-Impact user -->lite
-Repo URL --> https://github.com/icyleaf/ShareKit
-Standard Deviation --> 25.0
-impactVector = [62L, 12L]
----------------------------------
-Impact user -->rochacbruno
-Repo URL --> https://github.com/victorj44/blogexamples
-Standard Deviation --> 25.0
-impactVector = [52L, 2L]
+impactVector = [314L, 264L]
 ---------------------------------
 Impact user -->sethwoodworth
 Repo URL --> https://github.com/zolrath/wemux
 Standard Deviation --> 25.0
 impactVector = [157L, 107L]
 ---------------------------------
-Impact user -->suissa
-Repo URL --> https://github.com/paularmstrong/swig
-Standard Deviation --> 25.0
-impactVector = [8L, 58L]
----------------------------------
 Impact user -->summerwind
 Repo URL --> https://github.com/visionmedia/express-resource
 Standard Deviation --> 25.0
 impactVector = [119L, 69L]
----------------------------------
-Impact user -->wcrane
-Repo URL --> https://github.com/rsebbe/CeedGL
-Standard Deviation --> 25.0
-impactVector = [88L, 38L]
 ---------------------------------
 Impact user -->sam-splat
 Repo URL --> https://github.com/twitter/twui
 Standard Deviation --> 25.4863798048
 impactVector = [628L, 677L, 619L]
 ---------------------------------
-Impact user -->fogus
-Repo URL --> https://github.com/straszheimjeffrey/The-Kiln
-Standard Deviation --> 25.5
-impactVector = [64L, 13L]
+Impact user -->pedromtavares
+Repo URL --> https://github.com/nu7hatch/gmail
+Standard Deviation --> 25.7034368649
+impactVector = [83L, 66L, 127L]
 ---------------------------------
-Impact user -->joshleaves
-Repo URL --> https://github.com/d5/node.native
-Standard Deviation --> 25.5
-impactVector = [84L, 33L]
----------------------------------
-Impact user -->lidaobing
-Repo URL --> https://github.com/svenfuchs/globalize3
-Standard Deviation --> 25.5
-impactVector = [10L, 61L]
----------------------------------
-Impact user -->liouys
-Repo URL --> https://github.com/kindsoft/kindeditor
-Standard Deviation --> 25.5
-impactVector = [14L, 65L]
----------------------------------
-Impact user -->shawnbot
-Repo URL --> https://github.com/overtone/overtone
-Standard Deviation --> 25.5
-impactVector = [31L, 82L]
----------------------------------
-Impact user -->czy88840616
-Repo URL --> https://github.com/xueduany/KitJs
+Impact user -->wuyuntao
+Repo URL --> https://github.com/tautologistics/node-htmlparser
 Standard Deviation --> 26.0
-impactVector = [6L, 58L]
----------------------------------
-Impact user -->mikegowen
-Repo URL --> https://github.com/protonet/jquery.inview
-Standard Deviation --> 26.0
-impactVector = [-3L, 49L]
----------------------------------
-Impact user -->yaoxuanw
-Repo URL --> https://github.com/nowa/carrierwave-upyun
-Standard Deviation --> 26.0
-impactVector = [53L, 1L]
----------------------------------
-Impact user -->funkyboy
-Repo URL --> https://github.com/mpospese/MPFlipViewController
-Standard Deviation --> 26.13214283
-impactVector = [30L, 38L, 89L]
----------------------------------
-Impact user -->aleafs
-Repo URL --> https://github.com/dmajda/pegjs
-Standard Deviation --> 26.5
-impactVector = [1L, 54L]
----------------------------------
-Impact user -->zbowling
-Repo URL --> https://github.com/PrimaryFeather/Sparrow-Framework
-Standard Deviation --> 26.5
-impactVector = [9L, 62L]
----------------------------------
-Impact user -->fairchild
-Repo URL --> https://github.com/square/cane
-Standard Deviation --> 27.0
-impactVector = [0L, 54L]
----------------------------------
-Impact user -->gotomypc
-Repo URL --> https://github.com/WhisperSystems/TextSecure
-Standard Deviation --> 27.0
-impactVector = [17L, 71L]
----------------------------------
-Impact user -->raphaelcosta
-Repo URL --> https://github.com/macournoyer/thin
-Standard Deviation --> 27.0
-impactVector = [22L, 76L]
----------------------------------
-Impact user -->camdub
-Repo URL --> https://github.com/derickbailey/Albacore
-Standard Deviation --> 27.1579740694
-impactVector = [65L, 78L, 15L]
----------------------------------
-Impact user -->29decibel
-Repo URL --> https://github.com/rstacruz/backbone-patterns
-Standard Deviation --> 27.4266699076
-impactVector = [25L, 72L, 37L, 43L, 100L, 87L]
----------------------------------
-Impact user -->lporras
-Repo URL --> https://github.com/rauhryan/huboard
-Standard Deviation --> 27.5
-impactVector = [0L, 55L]
+impactVector = [271L, 323L]
 ---------------------------------
 Impact user -->nick-desteffen
 Repo URL --> https://github.com/mjsarfatti/nestedSortable
 Standard Deviation --> 27.5
 impactVector = [73L, 128L]
 ---------------------------------
-Impact user -->paulbjensen
-Repo URL --> https://github.com/visionmedia/axon
-Standard Deviation --> 27.9045993819
-impactVector = [69L, 29L, 97L]
----------------------------------
 Impact user -->Mokradin
 Repo URL --> https://github.com/mcedit/mcedit
 Standard Deviation --> 28.0
 impactVector = [52L, 108L]
 ---------------------------------
-Impact user -->nashibao
-Repo URL --> https://github.com/stephenmcd/django-socketio
+Impact user -->rmoriz
+Repo URL --> https://github.com/technoweenie/faraday
 Standard Deviation --> 28.5
-impactVector = [10L, 67L]
----------------------------------
-Impact user -->siuying
-Repo URL --> https://github.com/seanho/SimpleView
-Standard Deviation --> 28.5
-impactVector = [4L, 61L]
----------------------------------
-Impact user -->fe9lix
-Repo URL --> https://github.com/ThoughtLeadr/Sasquatch
-Standard Deviation --> 28.6627904356
-impactVector = [69L, 12L, 5L]
+impactVector = [180L, 123L]
 ---------------------------------
 Impact user -->alisteroz
 Repo URL --> https://github.com/Indamix/real-shadow
 Standard Deviation --> 29.0
 impactVector = [538L, 480L]
 ---------------------------------
-Impact user -->hendriono
-Repo URL --> https://github.com/tuupola/jquery_jeditable
-Standard Deviation --> 29.0287214094
-impactVector = [23L, 7L, 75L]
----------------------------------
 Impact user -->dengzhp
 Repo URL --> https://github.com/kennethreitz/envoy
 Standard Deviation --> 29.4882274061
 impactVector = [138L, 107L, 66L]
----------------------------------
-Impact user -->skwash
-Repo URL --> https://github.com/strk/postgis
-Standard Deviation --> 29.5
-impactVector = [43L, -16L]
----------------------------------
-Impact user -->MichaelEvans
-Repo URL --> https://github.com/lmatteis/hckr.it
-Standard Deviation --> 30.0
-impactVector = [7L, 67L]
 ---------------------------------
 Impact user -->todoubled
 Repo URL --> https://github.com/isaacs/npm-www
@@ -1248,70 +433,40 @@ Repo URL --> https://github.com/michaeldv/awesome_print
 Standard Deviation --> 30.5
 impactVector = [118L, 57L]
 ---------------------------------
-Impact user -->h4ck3rm1k3
-Repo URL --> https://github.com/Unvanquished/Unvanquished
+Impact user -->mvreg
+Repo URL --> https://github.com/tobie/ua-parser
 Standard Deviation --> 30.5
-impactVector = [81L, 20L]
----------------------------------
-Impact user -->qingshan2346
-Repo URL --> https://github.com/ylechelle/OpenUDID
-Standard Deviation --> 30.7354301526
-impactVector = [76L, 2L, 51L]
----------------------------------
-Impact user -->michaelwills
-Repo URL --> https://github.com/lencioni/SLIR
-Standard Deviation --> 30.7390450224
-impactVector = [90L, 22L, 28L]
----------------------------------
-Impact user -->kmanley
-Repo URL --> https://github.com/xk/node-threads-a-gogo
-Standard Deviation --> 30.9012764929
-impactVector = [80L, 77L, 13L]
+impactVector = [57L, 118L]
 ---------------------------------
 Impact user -->c3mdigital
 Repo URL --> https://github.com/markjaquith/WordPress-Skeleton
 Standard Deviation --> 31.0
 impactVector = [363L, 301L]
 ---------------------------------
+Impact user -->balloonsys
+Repo URL --> https://github.com/samvermette/SVProgressHUD
+Standard Deviation --> 31.3723161756
+impactVector = [382L, 330L, 307L]
+---------------------------------
 Impact user -->anbotero
 Repo URL --> https://github.com/specialunderwear/Hosts.prefpane
 Standard Deviation --> 31.5
 impactVector = [84L, 147L]
 ---------------------------------
-Impact user -->bclozel
-Repo URL --> https://github.com/cortesi/pathod
-Standard Deviation --> 32.0
-impactVector = [45L, 109L]
+Impact user -->Baachi
+Repo URL --> https://github.com/schmittjoh/JMSSerializerBundle
+Standard Deviation --> 31.5
+impactVector = [725L, 662L]
 ---------------------------------
-Impact user -->DTrejo
-Repo URL --> https://github.com/substack/picture-tube
-Standard Deviation --> 32.0
-impactVector = [38L, 102L]
+Impact user -->n1rvana
+Repo URL --> https://github.com/extend/goldrush
+Standard Deviation --> 31.9617827343
+impactVector = [157L, 96L, 169L]
 ---------------------------------
 Impact user -->plusjade
 Repo URL --> https://github.com/ruhoh/ruhoh.rb
 Standard Deviation --> 32.3144274624
 impactVector = [193L, 130L, 120L]
----------------------------------
-Impact user -->devilankur18
-Repo URL --> https://github.com/lusis/logstash-shipper
-Standard Deviation --> 32.5
-impactVector = [68L, 3L]
----------------------------------
-Impact user -->jannon
-Repo URL --> https://github.com/jezdez/django_compressor
-Standard Deviation --> 32.5
-impactVector = [22L, 87L]
----------------------------------
-Impact user -->petergoldstein
-Repo URL --> https://github.com/thoughtbot/jack_up
-Standard Deviation --> 32.9983164554
-impactVector = [9L, 9L, 79L]
----------------------------------
-Impact user -->lxcid
-Repo URL --> https://github.com/fpillet/NSLogger
-Standard Deviation --> 33.0
-impactVector = [1L, 67L]
 ---------------------------------
 Impact user -->yassersouri
 Repo URL --> https://github.com/react-php/react
@@ -1323,320 +478,120 @@ Repo URL --> https://github.com/vakata/jstree
 Standard Deviation --> 33.5
 impactVector = [65L, 132L]
 ---------------------------------
-Impact user -->liwh
-Repo URL --> https://github.com/wvanbergen/request-log-analyzer
+Impact user -->brunow
+Repo URL --> https://github.com/spastorino/rails-api
 Standard Deviation --> 33.5
-impactVector = [7L, 74L]
+impactVector = [137L, 204L]
 ---------------------------------
-Impact user -->kenguish
-Repo URL --> https://github.com/SynoCommunity/spksrc
-Standard Deviation --> 33.8856901951
-impactVector = [11L, 12L, 98L, 13L, 49L]
+Impact user -->ianmurrays
+Repo URL --> https://github.com/zwaldowski/BlocksKit
+Standard Deviation --> 33.5
+impactVector = [92L, 159L]
 ---------------------------------
-Impact user -->Gonzih
-Repo URL --> https://github.com/weavejester/hiccup
-Standard Deviation --> 34.101156709
-impactVector = [86L, 102L, 23L]
+Impact user -->L42y
+Repo URL --> https://github.com/tweepy/tweepy
+Standard Deviation --> 34.0
+impactVector = [132L, 64L]
 ---------------------------------
 Impact user -->jeremyckahn
 Repo URL --> https://github.com/madrobby/zepto
 Standard Deviation --> 34.5
 impactVector = [336L, 405L]
 ---------------------------------
-Impact user -->clvrobj
-Repo URL --> https://github.com/samuraisam/pyapns
-Standard Deviation --> 34.6329323044
-impactVector = [86L, 116L, 33L, 23L, 50L]
----------------------------------
-Impact user -->userabuser
-Repo URL --> https://github.com/themattharris/tmhOAuth
-Standard Deviation --> 34.8425027804
-impactVector = [1L, 10L, 79L]
+Impact user -->dsmy
+Repo URL --> https://github.com/sstephenson/rbenv
+Standard Deviation --> 35.0
+impactVector = [148L, 78L]
 ---------------------------------
 Impact user -->julienbechade
 Repo URL --> https://github.com/peteboere/css-crush
 Standard Deviation --> 35.0
 impactVector = [121L, 51L]
 ---------------------------------
-Impact user -->nicoulaj
-Repo URL --> https://github.com/maoo/maven-tiles
-Standard Deviation --> 35.0
-impactVector = [78L, 8L]
----------------------------------
-Impact user -->wonderzombie
-Repo URL --> https://github.com/skelterjohn/go.wde
-Standard Deviation --> 35.0
-impactVector = [89L, 19L]
----------------------------------
-Impact user -->ajimre
-Repo URL --> https://github.com/jwagenleitner/groovy-wslite
-Standard Deviation --> 35.0927342907
-impactVector = [91L, 0L, 60L, 21L]
----------------------------------
-Impact user -->lexrus
-Repo URL --> https://github.com/rentzsch/jrswizzle
-Standard Deviation --> 35.2193128837
-impactVector = [107L, 3L, 76L, 62L, 37L]
----------------------------------
-Impact user -->jiji262
-Repo URL --> https://github.com/vesparny/codeigniter-html5boilerplate-twitter-bootstrap
-Standard Deviation --> 35.2562051276
-impactVector = [10L, 6L, 90L, 10L]
----------------------------------
-Impact user -->maail
-Repo URL --> https://github.com/stowball/jQuery-rwdImageMaps
-Standard Deviation --> 35.5
-impactVector = [117L, 46L]
----------------------------------
-Impact user -->MengWei
-Repo URL --> https://github.com/tonytomov/jqGrid
+Impact user -->mailtruck
+Repo URL --> https://github.com/welaika/wordless
 Standard Deviation --> 36.0
-impactVector = [37L, 109L]
----------------------------------
-Impact user -->mvreg
-Repo URL --> https://github.com/tobie/ua-parser
-Standard Deviation --> 36.4630711207
-impactVector = [31L, 57L, 118L]
----------------------------------
-Impact user -->6
-Repo URL --> https://github.com/twitter/twitter-text-js
-Standard Deviation --> 37.166476007
-impactVector = [8L, 86L, -2L, 70L, 53L, 10L, 95L]
----------------------------------
-Impact user -->zenweasel
-Repo URL --> https://github.com/mochi/mochiweb
-Standard Deviation --> 37.5085175512
-impactVector = [0L, 15L, 86L]
+impactVector = [147L, 75L]
 ---------------------------------
 Impact user -->chachra
 Repo URL --> https://github.com/stephenmcd/django-socketio
 Standard Deviation --> 38.0
 impactVector = [143L, 67L]
 ---------------------------------
-Impact user -->blithexu
-Repo URL --> https://github.com/jaydee3/JDFlipNumberView
+Impact user -->granular
+Repo URL --> https://github.com/Wolfy87/EventEmitter
 Standard Deviation --> 38.5
-impactVector = [0L, 77L]
+impactVector = [128L, 51L]
 ---------------------------------
 Impact user -->phpfour
 Repo URL --> https://github.com/tbranyen/backbone.layoutmanager
 Standard Deviation --> 38.5
 impactVector = [296L, 219L]
 ---------------------------------
-Impact user -->jvirtanen
-Repo URL --> https://github.com/jonifreeman/sqltyped
+Impact user -->thinkphper
+Repo URL --> https://github.com/wolfie/php-markdown
+Standard Deviation --> 38.5
+impactVector = [160L, 83L]
+---------------------------------
+Impact user -->studiomohawk
+Repo URL --> https://github.com/tmpvar/jsdom
+Standard Deviation --> 38.7240952839
+impactVector = [92L, 56L, 150L]
+---------------------------------
+Impact user -->bryansum
+Repo URL --> https://github.com/maccman/stylo
 Standard Deviation --> 39.0
-impactVector = [81L, 3L]
----------------------------------
-Impact user -->arbfranklin
-Repo URL --> https://github.com/twitter/scalding
-Standard Deviation --> 39.5
-impactVector = [20L, 99L]
----------------------------------
-Impact user -->bpartridge
-Repo URL --> https://github.com/OpenRTMFP/ArcusNode
-Standard Deviation --> 39.5
-impactVector = [94L, 15L]
----------------------------------
-Impact user -->qikon
-Repo URL --> https://github.com/mikeplus64/fun.sh
-Standard Deviation --> 39.5
-impactVector = [1L, 80L]
----------------------------------
-Impact user -->t2y
-Repo URL --> https://github.com/sensu/sensu
-Standard Deviation --> 40.0
-impactVector = [5L, 85L]
----------------------------------
-Impact user -->JaviSoto
-Repo URL --> https://github.com/mbrandonw/OPEventTracker
-Standard Deviation --> 40.0083324655
-impactVector = [9L, 32L, 103L]
----------------------------------
-Impact user -->meshachjackson
-Repo URL --> https://github.com/paulmillr/chokidar
-Standard Deviation --> 40.1267990251
-impactVector = [1L, 74L, 91L, 1L, 2L]
+impactVector = [191L, 269L]
 ---------------------------------
 Impact user -->chibicode
 Repo URL --> https://github.com/samsoffes/sspulltorefresh
 Standard Deviation --> 40.6721307805
 impactVector = [346L, 256L, 338L]
 ---------------------------------
-Impact user -->rogeriopradoj
-Repo URL --> https://github.com/phpedia/phpedia.github.com
-Standard Deviation --> 40.8928138213
-impactVector = [59L, 104L, 4L]
----------------------------------
 Impact user -->flypigz
 Repo URL --> https://github.com/vicpenap/PrettyKit
 Standard Deviation --> 41.0
 impactVector = [346L, 264L]
----------------------------------
-Impact user -->bobthecow
-Repo URL --> https://github.com/sstephenson/sprockets
-Standard Deviation --> 41.3467720089
-impactVector = [43L, 12L, 111L]
----------------------------------
-Impact user -->cbess
-Repo URL --> https://github.com/mrjoes/flask-admin
-Standard Deviation --> 41.5
-impactVector = [3L, 86L]
----------------------------------
-Impact user -->cagatayyuksel
-Repo URL --> https://github.com/stefanfoulis/django-filer
-Standard Deviation --> 41.6413256273
-impactVector = [128L, 35L, 82L, 31L, 14L]
 ---------------------------------
 Impact user -->leedo
 Repo URL --> https://github.com/gkz/prelude-ls
 Standard Deviation --> 42.0
 impactVector = [158L, 74L]
 ---------------------------------
-Impact user -->shiflett
-Repo URL --> https://github.com/unconed/TermKit
-Standard Deviation --> 42.5
-impactVector = [107L, 22L]
----------------------------------
-Impact user -->adaburrows
-Repo URL --> https://github.com/ender-js/Ender
+Impact user -->libin
+Repo URL --> https://github.com/rogeriopvl/nodo
 Standard Deviation --> 43.0
-impactVector = [5L, 91L]
+impactVector = [336L, 422L]
 ---------------------------------
-Impact user -->murger
-Repo URL --> https://github.com/amdjs/underscore
-Standard Deviation --> 43.0
-impactVector = [31L, 117L]
----------------------------------
-Impact user -->qingfeng
-Repo URL --> https://github.com/progrium/requestbin
-Standard Deviation --> 43.0
-impactVector = [120L, 34L]
----------------------------------
-Impact user -->jeremywen
-Repo URL --> https://github.com/sickill/git-dude
-Standard Deviation --> 43.1124981879
-impactVector = [86L, 24L, 108L, 3L]
----------------------------------
-Impact user -->chentepixtol
-Repo URL --> https://github.com/Respect/Validation
-Standard Deviation --> 43.8406204336
-impactVector = [15L, 108L, 15L]
----------------------------------
-Impact user -->StuPig
-Repo URL --> https://github.com/tokokoo/pondasee
-Standard Deviation --> 43.9936359034
-impactVector = [5L, 114L, 11L, 69L, 4L]
----------------------------------
-Impact user -->crohr
-Repo URL --> https://github.com/substack/picture-tube
-Standard Deviation --> 44.5
-impactVector = [13L, 102L]
----------------------------------
-Impact user -->myst729
-Repo URL --> https://github.com/slevithan/XRegExp
-Standard Deviation --> 44.5
-impactVector = [-1L, 88L]
----------------------------------
-Impact user -->samoay
-Repo URL --> https://github.com/ocrickard/OCCalendar
-Standard Deviation --> 44.5
-impactVector = [17L, 106L]
+Impact user -->vincentmilliken
+Repo URL --> https://github.com/tdreyno/iphone-style-checkboxes
+Standard Deviation --> 43.6068292307
+impactVector = [190L, 87L, 114L]
 ---------------------------------
 Impact user -->sroussey
 Repo URL --> https://github.com/PaulUithol/Backbone-relational
 Standard Deviation --> 44.6989932773
 impactVector = [287L, 197L, 296L]
 ---------------------------------
-Impact user -->ruzz311
-Repo URL --> https://github.com/jeromeetienne/webaudio.js
+Impact user -->brodock
+Repo URL --> https://github.com/schneems/wicked
 Standard Deviation --> 45.0
-impactVector = [104L, 14L]
----------------------------------
-Impact user -->pedromtavares
-Repo URL --> https://github.com/nu7hatch/gmail
-Standard Deviation --> 45.064398365
-impactVector = [83L, 11L, 66L, 127L, 8L]
----------------------------------
-Impact user -->bradjonesca
-Repo URL --> https://github.com/toburger/RulesEngine
-Standard Deviation --> 45.2541434567
-impactVector = [142L, 9L, 2L, 46L, 9L, 4L, 9L, 1L]
----------------------------------
-Impact user -->kyleroche
-Repo URL --> https://github.com/ptshih/PSCollectionView
-Standard Deviation --> 45.5
-impactVector = [43L, 134L]
----------------------------------
-Impact user -->magdev
-Repo URL --> https://github.com/Strategery-Inc/Magento-InfiniteScroll
-Standard Deviation --> 45.7335276964
-impactVector = [0L, 98L, 2L]
+impactVector = [61L, 151L]
 ---------------------------------
 Impact user -->DamonOehlman
 Repo URL --> https://github.com/trentm/node-bunyan
 Standard Deviation --> 46.0
 impactVector = [144L, 52L]
 ---------------------------------
-Impact user -->kenn
-Repo URL --> https://github.com/treasure-data/je
-Standard Deviation --> 46.2673390921
-impactVector = [8L, 112L, 21L]
----------------------------------
-Impact user -->wanli2011
-Repo URL --> https://github.com/sstephenson/eco
-Standard Deviation --> 46.3647225809
-impactVector = [37L, 124L, 35L, 133L]
----------------------------------
-Impact user -->dndn
-Repo URL --> https://github.com/yuguo/33pu
-Standard Deviation --> 46.3776766224
-impactVector = [26L, 119L, 16L]
----------------------------------
-Impact user -->sdeleuze
-Repo URL --> https://github.com/spray/spray
-Standard Deviation --> 46.4494946749
-impactVector = [25L, 2L, 110L]
+Impact user -->FabianM
+Repo URL --> https://github.com/wbhart/Cesium3
+Standard Deviation --> 46.3033476112
+impactVector = [168L, 192L, 84L]
 ---------------------------------
 Impact user -->thadclay
 Repo URL --> https://github.com/visionmedia/page.js
 Standard Deviation --> 46.5999523128
 impactVector = [271L, 219L, 333L]
----------------------------------
-Impact user -->TizianoPerrucci
-Repo URL --> https://github.com/unfiltered/unfiltered
-Standard Deviation --> 46.7831878634
-impactVector = [110L, 150L, 37L]
----------------------------------
-Impact user -->passy
-Repo URL --> https://github.com/play/play-android
-Standard Deviation --> 47.1687278702
-impactVector = [107L, 111L, 9L]
----------------------------------
-Impact user -->mailtruck
-Repo URL --> https://github.com/welaika/wordless
-Standard Deviation --> 47.4470465068
-impactVector = [47L, 2L, 147L, 30L, 75L, 21L]
----------------------------------
-Impact user -->adrienne
-Repo URL --> https://github.com/michaelvanderheeren/Absolution
-Standard Deviation --> 47.5
-impactVector = [103L, 8L]
----------------------------------
-Impact user -->reedlaw
-Repo URL --> https://github.com/OpenKinect/libfreenect
-Standard Deviation --> 47.5
-impactVector = [3L, 98L]
----------------------------------
-Impact user -->matterker
-Repo URL --> https://github.com/railsfactory/rubymotion-cookbook
-Standard Deviation --> 47.6727123206
-impactVector = [13L, 43L, 127L, 114L]
----------------------------------
-Impact user -->kaishin
-Repo URL --> https://github.com/ryrych/rcarousel
-Standard Deviation --> 47.7865624999
-impactVector = [149L, 115L, 35L]
 ---------------------------------
 Impact user -->elf-pavlik
 Repo URL --> https://github.com/flatiron/winston
@@ -1648,125 +603,35 @@ Repo URL --> https://github.com/pivotal/jasmine
 Standard Deviation --> 48.5
 impactVector = [407L, 504L]
 ---------------------------------
-Impact user -->itrelease
-Repo URL --> https://github.com/mikeash/MAObjCRuntime
+Impact user -->ktmud
+Repo URL --> https://github.com/visionmedia/uikit
 Standard Deviation --> 48.5
-impactVector = [138L, 41L]
----------------------------------
-Impact user -->jvhaarst
-Repo URL --> https://github.com/taitems/jQuery.Gantt
-Standard Deviation --> 48.5
-impactVector = [3L, 100L]
----------------------------------
-Impact user -->emrekutlu
-Repo URL --> https://github.com/ppcano/ember-mk
-Standard Deviation --> 49.0
-impactVector = [99L, 1L]
+impactVector = [189L, 92L]
 ---------------------------------
 Impact user -->ming13
 Repo URL --> https://github.com/cyrilmottier/GreenDroid
 Standard Deviation --> 49.0
 impactVector = [135L, 233L]
 ---------------------------------
-Impact user -->leizongmin
-Repo URL --> https://github.com/visionmedia/commander.js
-Standard Deviation --> 49.5468353065
-impactVector = [39L, 150L, 137L]
+Impact user -->orefalo
+Repo URL --> https://github.com/powmedia/backbone-forms
+Standard Deviation --> 49.5
+impactVector = [104L, 203L]
 ---------------------------------
 Impact user -->w162
 Repo URL --> https://github.com/MugunthKumar/MKStoreKit
 Standard Deviation --> 50.0
 impactVector = [280L, 180L]
 ---------------------------------
-Impact user -->rdegges
-Repo URL --> https://github.com/whit537/www.gittip.com
-Standard Deviation --> 50.4997249717
-impactVector = [111L, 1L, 7L]
----------------------------------
 Impact user -->tksohishi
 Repo URL --> https://github.com/scrooloose/syntastic
 Standard Deviation --> 50.9662197495
 impactVector = [78L, 158L, 201L]
 ---------------------------------
-Impact user -->Quasimo
-Repo URL --> https://github.com/dengzhp/lusernews
-Standard Deviation --> 51.0
-impactVector = [111L, 9L]
----------------------------------
-Impact user -->ianmurrays
-Repo URL --> https://github.com/zwaldowski/BlocksKit
-Standard Deviation --> 51.0751080926
-impactVector = [34L, 92L, 159L]
----------------------------------
-Impact user -->aisk
-Repo URL --> https://github.com/liruqi/west-chamber-season-3
-Standard Deviation --> 52.0
-impactVector = [28L, 132L]
----------------------------------
-Impact user -->marvin
-Repo URL --> https://github.com/thoj/Go-IRC-Client-Library
-Standard Deviation --> 52.1301789327
-impactVector = [109L, 114L, 1L]
----------------------------------
-Impact user -->turicas
-Repo URL --> https://github.com/prototypemagic/django-projectbuilder
-Standard Deviation --> 52.3372477305
-impactVector = [1L, 11L, 34L, 133L]
----------------------------------
-Impact user -->xiao99xiao
-Repo URL --> https://github.com/ohdarling/GoAgentX
-Standard Deviation --> 52.5
-impactVector = [1L, 106L]
----------------------------------
-Impact user -->granular
-Repo URL --> https://github.com/Wolfy87/EventEmitter
-Standard Deviation --> 52.9926619658
-impactVector = [128L, -1L, 51L]
----------------------------------
-Impact user -->eristoddle
-Repo URL --> https://github.com/ruhoh/ruhoh.rb
-Standard Deviation --> 53.0
-impactVector = [14L, 120L]
----------------------------------
-Impact user -->lanvige
-Repo URL --> https://github.com/github/hubot-scripts
-Standard Deviation --> 53.0
-impactVector = [13L, 119L]
----------------------------------
-Impact user -->L42y
-Repo URL --> https://github.com/tweepy/tweepy
-Standard Deviation --> 53.4935094713
-impactVector = [1L, 132L, 64L]
----------------------------------
-Impact user -->vincentmilliken
-Repo URL --> https://github.com/tdreyno/iphone-style-checkboxes
-Standard Deviation --> 53.7511627781
-impactVector = [190L, 87L, 114L, 42L]
----------------------------------
-Impact user -->GamesDev
-Repo URL --> https://github.com/walmartlabs/thorax
-Standard Deviation --> 54.5
-impactVector = [28L, 137L]
----------------------------------
-Impact user -->studiomohawk
-Repo URL --> https://github.com/tmpvar/jsdom
-Standard Deviation --> 54.5412687788
-impactVector = [92L, 56L, 0L, 150L]
----------------------------------
-Impact user -->filtercake
-Repo URL --> https://github.com/ruhoh/ruhoh.rb
-Standard Deviation --> 54.7377586518
-impactVector = [1L, 7L, 120L]
----------------------------------
-Impact user -->bminer
-Repo URL --> https://github.com/LearnBoost/kue
-Standard Deviation --> 55.0
-impactVector = [9L, 119L]
----------------------------------
-Impact user -->Ocramius
-Repo URL --> https://github.com/karmajunkie/imperator
-Standard Deviation --> 55.0
-impactVector = [10L, 120L]
+Impact user -->mattquinn4
+Repo URL --> https://github.com/HansPinckaers/GrowingTextView
+Standard Deviation --> 54.0
+impactVector = [264L, 156L]
 ---------------------------------
 Impact user -->defries
 Repo URL --> https://github.com/markjaquith/WordPress-Skeleton
@@ -1783,110 +648,50 @@ Repo URL --> https://github.com/pkluz/ZUUIRevealController
 Standard Deviation --> 56.0
 impactVector = [120L, 232L]
 ---------------------------------
-Impact user -->bamurphymac
-Repo URL --> https://github.com/ToddThomson/jQuery-Mobile-Subpage-Widget
-Standard Deviation --> 56.5
-impactVector = [115L, 2L]
----------------------------------
-Impact user -->sprhawk
-Repo URL --> https://github.com/thermogl/TISwipeableTableView
-Standard Deviation --> 56.5
-impactVector = [114L, 1L]
----------------------------------
-Impact user -->perone
-Repo URL --> https://github.com/niwibe/django-greenqueue
-Standard Deviation --> 56.8760836283
-impactVector = [125L, 8L, 1L]
----------------------------------
 Impact user -->anga
 Repo URL --> https://github.com/mozilla/pdf.js
 Standard Deviation --> 57.0
 impactVector = [519L, 633L]
----------------------------------
-Impact user -->simplesessions
-Repo URL --> https://github.com/noahd1/oink
-Standard Deviation --> 57.5
-impactVector = [131L, 16L]
----------------------------------
-Impact user -->rastersize
-Repo URL --> https://github.com/nparry/gdata-objectivec-client
-Standard Deviation --> 58.0
-impactVector = [120L, 4L]
 ---------------------------------
 Impact user -->mpuzic
 Repo URL --> https://github.com/simplebits/Pears
 Standard Deviation --> 58.5
 impactVector = [64L, 181L]
 ---------------------------------
-Impact user -->olistik
-Repo URL --> https://github.com/benprew/pony
-Standard Deviation --> 58.5
-impactVector = [125L, 8L]
----------------------------------
 Impact user -->arnoesterhuizen
 Repo URL --> https://github.com/sgrebnov/jqmobile-metro-theme
 Standard Deviation --> 59.0
 impactVector = [201L, 83L]
----------------------------------
-Impact user -->sheebz
-Repo URL --> https://github.com/marcuswestin/store.js
-Standard Deviation --> 60.0
-impactVector = [122L, 2L]
----------------------------------
-Impact user -->dsmy
-Repo URL --> https://github.com/sstephenson/rbenv
-Standard Deviation --> 60.0351748746
-impactVector = [148L, 1L, 78L]
----------------------------------
-Impact user -->delonnewman
-Repo URL --> https://github.com/mattn/go-mruby
-Standard Deviation --> 60.5
-impactVector = [140L, 19L]
----------------------------------
-Impact user -->brodock
-Repo URL --> https://github.com/schneems/wicked
-Standard Deviation --> 60.5144610816
-impactVector = [61L, 4L, 151L]
 ---------------------------------
 Impact user -->sbusso
 Repo URL --> https://github.com/sferik/t
 Standard Deviation --> 60.8604962188
 impactVector = [91L, 217L, 223L]
 ---------------------------------
-Impact user -->chunzi
-Repo URL --> https://github.com/rg3/youtube-dl
+Impact user -->ldmiao
+Repo URL --> https://github.com/stevedonovan/luaish
 Standard Deviation --> 61.0
-impactVector = [37L, 159L]
----------------------------------
-Impact user -->ikaplunvmc
-Repo URL --> https://github.com/opscode/knife-ec2
-Standard Deviation --> 61.0
-impactVector = [139L, 17L]
+impactVector = [198L, 76L]
 ---------------------------------
 Impact user -->tapsandswipes
 Repo URL --> https://github.com/MugunthKumar/MKStoreKit
 Standard Deviation --> 61.0
 impactVector = [58L, 180L]
 ---------------------------------
-Impact user -->ktmud
-Repo URL --> https://github.com/visionmedia/uikit
-Standard Deviation --> 61.385847084
-impactVector = [41L, 189L, 92L]
----------------------------------
-Impact user -->cleercode
-Repo URL --> https://github.com/mozilla/addon-sdk
+Impact user -->anthonysutardja
+Repo URL --> https://github.com/rwldrn/idiomatic.js
 Standard Deviation --> 62.0
-impactVector = [147L, 23L]
+impactVector = [200L, 324L]
+---------------------------------
+Impact user -->chiurox
+Repo URL --> https://github.com/ryanb/railscasts-episodes
+Standard Deviation --> 62.0
+impactVector = [163L, 287L]
 ---------------------------------
 Impact user -->xudeheng
 Repo URL --> https://github.com/robbiehanson/CocoaAsyncSocket
 Standard Deviation --> 62.5
 impactVector = [117L, 242L]
----------------------------------
-Impact user -->zolzaya
-Repo URL --> https://github.com/stympy/faker
-Standard Deviation --> 62.5
-impactVector = [127L, 2L]
 ---------------------------------
 Impact user -->guileen
 Repo URL --> https://github.com/zencoder/video-js
@@ -1903,40 +708,15 @@ Repo URL --> https://github.com/scala/scala
 Standard Deviation --> 63.5
 impactVector = [329L, 202L]
 ---------------------------------
-Impact user -->menkel
-Repo URL --> https://github.com/jcasimir/draper
-Standard Deviation --> 63.5
-impactVector = [0L, 127L]
----------------------------------
-Impact user -->nash716
-Repo URL --> https://github.com/nash716/NicoNicoPP
-Standard Deviation --> 63.5
-impactVector = [127L, 0L]
----------------------------------
-Impact user -->peterbouwmeester
-Repo URL --> https://github.com/lloc/Multisite-Language-Switcher
-Standard Deviation --> 64.0
-impactVector = [129L, 1L]
----------------------------------
 Impact user -->vigosan
 Repo URL --> https://github.com/paulasmuth/fnordmetric
 Standard Deviation --> 64.0
 impactVector = [89L, 217L]
 ---------------------------------
-Impact user -->thinkphper
-Repo URL --> https://github.com/wolfie/php-markdown
-Standard Deviation --> 64.0988819455
-impactVector = [160L, 83L, 3L]
----------------------------------
-Impact user -->rmoriz
-Repo URL --> https://github.com/technoweenie/faraday
-Standard Deviation --> 64.4515321773
-impactVector = [180L, 24L, 123L]
----------------------------------
-Impact user -->chernjie
-Repo URL --> https://github.com/tinymce/tinymce
-Standard Deviation --> 64.5
-impactVector = [19L, 148L]
+Impact user -->doppioslash
+Repo URL --> https://github.com/wdas/brdf
+Standard Deviation --> 64.3875764414
+impactVector = [114L, 228L, 57L, 68L, 62L]
 ---------------------------------
 Impact user -->GncArt
 Repo URL --> https://github.com/wandoledzep/bxslider
@@ -1948,110 +728,55 @@ Repo URL --> https://github.com/rmurphey/js-assessment
 Standard Deviation --> 65.0
 impactVector = [370L, 240L]
 ---------------------------------
-Impact user -->ldmiao
-Repo URL --> https://github.com/stevedonovan/luaish
-Standard Deviation --> 65.0826397744
-impactVector = [198L, 3L, 3L, 2L, 76L, 9L, 7L, 2L]
+Impact user -->cheeaun
+Repo URL --> https://github.com/wso2/viskit
+Standard Deviation --> 65.1474289592
+impactVector = [121L, 61L, 216L, 53L]
 ---------------------------------
 Impact user -->okonet
 Repo URL --> https://github.com/square/cubism
 Standard Deviation --> 65.5
 impactVector = [428L, 559L]
 ---------------------------------
-Impact user -->cheeaun
-Repo URL --> https://github.com/wso2/viskit
-Standard Deviation --> 65.5019083691
-impactVector = [121L, 61L, 29L, 216L, 23L, 8L, 53L, 21L]
----------------------------------
 Impact user -->flynnwang
 Repo URL --> https://github.com/majutsushi/tagbar
 Standard Deviation --> 66.5
 impactVector = [234L, 101L]
----------------------------------
-Impact user -->n1rvana
-Repo URL --> https://github.com/extend/goldrush
-Standard Deviation --> 66.5108073925
-impactVector = [157L, 96L, 169L, 1L]
----------------------------------
-Impact user -->bcswlmpke
-Repo URL --> https://github.com/schacon/showoff
-Standard Deviation --> 67.5
-impactVector = [9L, 144L]
 ---------------------------------
 Impact user -->Nrrrdcore
 Repo URL --> https://github.com/kneath/kss
 Standard Deviation --> 67.5
 impactVector = [66L, 201L]
 ---------------------------------
-Impact user -->Metric7
-Repo URL --> https://github.com/william-os4y/fapws3
-Standard Deviation --> 67.5633036492
-impactVector = [184L, 47L, 28L, 4L, 2L]
----------------------------------
-Impact user -->doppioslash
-Repo URL --> https://github.com/wdas/brdf
-Standard Deviation --> 67.6807764435
-impactVector = [14L, 114L, 228L, 57L, 68L, 14L, 62L, 13L]
----------------------------------
 Impact user -->jtheoof
 Repo URL --> https://github.com/RuudBurger/CouchPotatoServer
 Standard Deviation --> 68.5
 impactVector = [129L, 266L]
----------------------------------
-Impact user -->randallagordon
-Repo URL --> https://github.com/matb33/meteor-userauth
-Standard Deviation --> 68.5143942703
-impactVector = [137L, 167L, 9L]
 ---------------------------------
 Impact user -->Kevnz
 Repo URL --> https://github.com/twitter/ambrose
 Standard Deviation --> 69.0
 impactVector = [143L, 281L]
 ---------------------------------
-Impact user -->seanpaultaylor
-Repo URL --> https://github.com/blackberry/GamePlay
-Standard Deviation --> 69.0
-impactVector = [2L, 140L]
----------------------------------
 Impact user -->serepo
 Repo URL --> https://github.com/spastorino/rails-api
 Standard Deviation --> 69.0
 impactVector = [66L, 204L]
 ---------------------------------
-Impact user -->JMSBot
-Repo URL --> https://github.com/michaelesmith/msDateTime
-Standard Deviation --> 69.0716214439
-impactVector = [150L, 5L, 2L]
----------------------------------
-Impact user -->moul
-Repo URL --> https://github.com/molokoloco/jQuery.boxFx
+Impact user -->cavi21
+Repo URL --> https://github.com/tapmodo/Jcrop
 Standard Deviation --> 69.5
-impactVector = [139L, 0L]
----------------------------------
-Impact user -->pyzen
-Repo URL --> https://github.com/Studio-42/elRTE
-Standard Deviation --> 69.5
-impactVector = [174L, 35L]
+impactVector = [322L, 183L]
 ---------------------------------
 Impact user -->bgrins
 Repo URL --> https://github.com/maccman/stylo
 Standard Deviation --> 70.0
 impactVector = [129L, 269L]
 ---------------------------------
-Impact user -->cmeiklejohn
-Repo URL --> https://github.com/emberjs/ember-rails
-Standard Deviation --> 70.0
-impactVector = [19L, 159L]
----------------------------------
 Impact user -->jan0sch
 Repo URL --> https://github.com/schneems/sextant
 Standard Deviation --> 70.0
 impactVector = [149L, 289L]
----------------------------------
-Impact user -->prudhviy
-Repo URL --> https://github.com/ha/doozerd
-Standard Deviation --> 70.0
-impactVector = [1L, 141L]
 ---------------------------------
 Impact user -->milosdakic
 Repo URL --> https://github.com/powmedia/backbone-forms
@@ -2063,230 +788,160 @@ Repo URL --> https://github.com/wczekalski/CDPieMenu
 Standard Deviation --> 70.5589115562
 impactVector = [198L, 162L, 134L, 330L, 152L]
 ---------------------------------
-Impact user -->mrluanma
-Repo URL --> https://github.com/robbiehanson/XMPPFramework
-Standard Deviation --> 71.2850303749
-impactVector = [2L, 19L, 161L]
----------------------------------
-Impact user -->orefalo
-Repo URL --> https://github.com/powmedia/backbone-forms
-Standard Deviation --> 71.3574725512
-impactVector = [104L, 27L, 2L, 21L, 13L, 203L]
----------------------------------
-Impact user -->jaredwilli
-Repo URL --> https://github.com/isaacs/npm
+Impact user -->goshakkk
+Repo URL --> https://github.com/ozten/TLD.js
 Standard Deviation --> 71.5
-impactVector = [3L, 146L]
+impactVector = [69L, 212L]
+---------------------------------
+Impact user -->sequoiar
+Repo URL --> https://github.com/visionmedia/page.js
+Standard Deviation --> 71.5
+impactVector = [190L, 333L]
+---------------------------------
+Impact user -->aljosa
+Repo URL --> https://github.com/tombell/learnhubotthehardway
+Standard Deviation --> 72.0
+impactVector = [214L, 70L]
+---------------------------------
+Impact user -->bhammond
+Repo URL --> https://github.com/subtleGradient/StandaloneWebInspector.app
+Standard Deviation --> 72.0
+impactVector = [217L, 73L]
 ---------------------------------
 Impact user -->SiebenSieben
 Repo URL --> https://github.com/necolas/normalize.css
 Standard Deviation --> 72.5
 impactVector = [790L, 935L]
 ---------------------------------
-Impact user -->linjunpop
-Repo URL --> https://github.com/TShadwell/Horrible.js
-Standard Deviation --> 72.585581672
-impactVector = [48L, 1L, 173L]
----------------------------------
-Impact user -->hcilab
-Repo URL --> https://github.com/visionmedia/rediskit
-Standard Deviation --> 72.9091900929
-impactVector = [15L, 27L, 17L, 21L, 58L, 0L, 1L, 0L, 306L, 2L, 0L, 16L, 5L, 1L, 2L, 1L]
----------------------------------
 Impact user -->nhoss2
 Repo URL --> https://github.com/twitter/hogan.js
 Standard Deviation --> 73.0
 impactVector = [117L, 263L]
 ---------------------------------
-Impact user -->SAPikachu
-Repo URL --> https://github.com/sehmaschine/django-grappelli
-Standard Deviation --> 73.0859463615
-impactVector = [2L, 45L, 174L]
+Impact user -->stonegao
+Repo URL --> https://github.com/yogthos/instant-pdf
+Standard Deviation --> 73.2956342493
+impactVector = [91L, 112L, 280L, 155L]
 ---------------------------------
-Impact user -->FabianM
-Repo URL --> https://github.com/wbhart/Cesium3
-Standard Deviation --> 73.7711833984
-impactVector = [168L, 192L, 5L, 84L]
----------------------------------
-Impact user -->aljosa
-Repo URL --> https://github.com/tombell/learnhubotthehardway
-Standard Deviation --> 74.3892465347
-impactVector = [214L, 14L, 29L, 24L, 70L]
----------------------------------
-Impact user -->caseyg
-Repo URL --> https://github.com/CodeCatalyst/mou-theme-solarized
-Standard Deviation --> 74.5
-impactVector = [168L, 19L]
+Impact user -->maheshcr
+Repo URL --> https://github.com/TooTallNate/NodObjC
+Standard Deviation --> 74.0
+impactVector = [263L, 115L]
 ---------------------------------
 Impact user -->ericelias
 Repo URL --> https://github.com/HipByte/RubyMotionSamples
 Standard Deviation --> 74.5
 impactVector = [369L, 518L]
 ---------------------------------
-Impact user -->andrew
-Repo URL --> https://github.com/zmoazeni/gitspective
-Standard Deviation --> 74.7335402668
-impactVector = [15L, 38L, -2L, 6L, 26L, 9L, 226L]
----------------------------------
 Impact user -->andypiper
 Repo URL --> https://github.com/zmoazeni/gitspective
 Standard Deviation --> 75.0
 impactVector = [76L, 226L]
----------------------------------
-Impact user -->goshakkk
-Repo URL --> https://github.com/ozten/TLD.js
-Standard Deviation --> 75.4821538879
-impactVector = [69L, 39L, 212L]
 ---------------------------------
 Impact user -->ziflex
 Repo URL --> https://github.com/meteor/meteor
 Standard Deviation --> 75.5
 impactVector = [2065L, 2216L]
 ---------------------------------
-Impact user -->gorekee
-Repo URL --> https://github.com/senchalabs/jQTouch
-Standard Deviation --> 77.0
-impactVector = [15L, 169L]
----------------------------------
-Impact user -->heycarsten
-Repo URL --> https://github.com/imakewebthings/jquery-waypoints
-Standard Deviation --> 77.5
-impactVector = [43L, 198L]
----------------------------------
-Impact user -->bevenky
-Repo URL --> https://github.com/kiip/statsite
-Standard Deviation --> 79.0585226272
-impactVector = [18L, 193L, 14L, 1L]
+Impact user -->wdmchaft
+Repo URL --> https://github.com/whatsthebeef/the-ginger-gambler
+Standard Deviation --> 78.5
+impactVector = [230L, 73L]
 ---------------------------------
 Impact user -->beiyuu
 Repo URL --> https://github.com/johnpolacek/superscrollorama
 Standard Deviation --> 79.1299915048
 impactVector = [614L, 495L, 422L]
 ---------------------------------
-Impact user -->tokkonopapa
-Repo URL --> https://github.com/tuupola/jquery_lazyload
-Standard Deviation --> 79.4411032708
-impactVector = [11L, 8L, 178L]
----------------------------------
-Impact user -->andrusha
-Repo URL --> https://github.com/giving/giving.github.com
+Impact user -->mereformalities
+Repo URL --> https://github.com/svenfuchs/rails-i18n
 Standard Deviation --> 79.5
-impactVector = [42L, 201L]
+impactVector = [322L, 163L]
 ---------------------------------
 Impact user -->hdachev
 Repo URL --> https://github.com/Instagram/redis-faina
 Standard Deviation --> 80.0
 impactVector = [96L, 256L]
 ---------------------------------
-Impact user -->brunow
-Repo URL --> https://github.com/spastorino/rails-api
-Standard Deviation --> 80.4528847629
-impactVector = [10L, 137L, 204L]
+Impact user -->donfrancisco
+Repo URL --> https://github.com/vicpenap/PrettyKit
+Standard Deviation --> 80.5
+impactVector = [103L, 264L]
 ---------------------------------
-Impact user -->bhammond
-Repo URL --> https://github.com/subtleGradient/StandaloneWebInspector.app
-Standard Deviation --> 80.586909607
-impactVector = [2L, 217L, 73L, 46L]
+Impact user -->sdiehl
+Repo URL --> https://github.com/youngsterxyf/gevent-tutorial
+Standard Deviation --> 81.2773031049
+impactVector = [250L, 52L, 169L]
 ---------------------------------
-Impact user -->ntoad
-Repo URL --> https://github.com/robbiehanson/CocoaHTTPServer
-Standard Deviation --> 81.0
-impactVector = [22L, 184L]
----------------------------------
-Impact user -->beefon
-Repo URL --> https://github.com/MugunthKumar/MKStoreKit
-Standard Deviation --> 82.3421047959
-impactVector = [10L, 1L, 180L]
----------------------------------
-Impact user -->amal
-Repo URL --> https://github.com/ircmaxell/PHP-PasswordLib
-Standard Deviation --> 82.5
-impactVector = [193L, 28L]
----------------------------------
-Impact user -->joaodubas
-Repo URL --> https://github.com/Nikesh/Pie-Menu
-Standard Deviation --> 82.5
-impactVector = [14L, 179L]
+Impact user -->jugyo
+Repo URL --> https://github.com/twitter/twitter-text-rb
+Standard Deviation --> 81.9832299925
+impactVector = [158L, 289L, 120L, 67L]
 ---------------------------------
 Impact user -->cmuench
 Repo URL --> https://github.com/mageplus/mageplus
 Standard Deviation --> 83.0
 impactVector = [472L, 306L]
 ---------------------------------
-Impact user -->daniellawrence
-Repo URL --> https://github.com/graphite-project/whisper
-Standard Deviation --> 83.4545784644
-impactVector = [18L, 193L, 14L]
----------------------------------
-Impact user -->BonsaiDen
-Repo URL --> https://github.com/luvit/luvit
-Standard Deviation --> 84.0
-impactVector = [1L, 169L]
----------------------------------
-Impact user -->edtsech
-Repo URL --> https://github.com/rubyworks/facets
-Standard Deviation --> 84.0
-impactVector = [187L, 19L]
----------------------------------
-Impact user -->midas
-Repo URL --> https://github.com/tonisalae/TSMiniWebBrowser
-Standard Deviation --> 84.2414519238
-impactVector = [197L, 18L, 26L, 73L, 1L, 120L, 1L, 4L, 49L, 7L, 51L, 320L, 102L, 62L, 39L]
+Impact user -->janx
+Repo URL --> https://github.com/staugaard/ember-resource
+Standard Deviation --> 84.1202842495
+impactVector = [52L, 258L, 159L]
 ---------------------------------
 Impact user -->tylerhall
 Repo URL --> https://github.com/xdissent/ievms
 Standard Deviation --> 84.5
 impactVector = [338L, 507L]
 ---------------------------------
-Impact user -->paulyoung
-Repo URL --> https://github.com/rviscomi/trunk8
-Standard Deviation --> 85.5
-impactVector = [212L, 41L]
+Impact user -->fconcklin
+Repo URL --> https://github.com/ubuwaits/css3-buttons
+Standard Deviation --> 86.6769224701
+impactVector = [270L, 174L, 58L]
 ---------------------------------
-Impact user -->bbrietzke
-Repo URL --> https://github.com/chjj/marked
+Impact user -->yoyeung
+Repo URL --> https://github.com/remy/jsbin
 Standard Deviation --> 87.0
-impactVector = [0L, 174L]
+impactVector = [70L, 244L]
 ---------------------------------
 Impact user -->kaichen
 Repo URL --> https://github.com/gimenete/iOS-boilerplate
 Standard Deviation --> 87.1894489029
 impactVector = [72L, 264L, 249L]
 ---------------------------------
-Impact user -->makasim
-Repo URL --> https://github.com/sensio/SensioDistributionBundle
-Standard Deviation --> 87.5
-impactVector = [186L, 11L]
----------------------------------
-Impact user -->dublinan
-Repo URL --> https://github.com/puma/puma
-Standard Deviation --> 88.5
-impactVector = [36L, 213L]
----------------------------------
-Impact user -->wdmchaft
-Repo URL --> https://github.com/whatsthebeef/the-ginger-gambler
-Standard Deviation --> 88.887344431
-impactVector = [1L, 1L, 230L, 73L, 1L]
+Impact user -->dominicglenn
+Repo URL --> https://github.com/visionmedia/axon
+Standard Deviation --> 88.8081577834
+impactVector = [111L, 292L, 97L]
 ---------------------------------
 Impact user -->rodrigoalvesvieira
 Repo URL --> https://github.com/shichuan/javascript-patterns
 Standard Deviation --> 89.0
 impactVector = [79L, 257L]
 ---------------------------------
-Impact user -->revolunet
-Repo URL --> https://github.com/substack/bouncy
-Standard Deviation --> 89.5
-impactVector = [223L, 44L]
+Impact user -->midas
+Repo URL --> https://github.com/tonisalae/TSMiniWebBrowser
+Standard Deviation --> 89.0865206598
+impactVector = [197L, 73L, 120L, 51L, 320L, 102L, 62L]
 ---------------------------------
-Impact user -->stonegao
-Repo URL --> https://github.com/yogthos/instant-pdf
-Standard Deviation --> 89.7438531804
-impactVector = [91L, 112L, 10L, 280L, 155L, 22L, 19L]
+Impact user -->SergeStinckwich
+Repo URL --> https://github.com/wesm/pandas
+Standard Deviation --> 89.5
+impactVector = [289L, 110L]
+---------------------------------
+Impact user -->cdunn
+Repo URL --> https://github.com/presidentbeef/brakeman
+Standard Deviation --> 90.0
+impactVector = [78L, 258L]
 ---------------------------------
 Impact user -->juno
 Repo URL --> https://github.com/defunkt/jquery-pjax
 Standard Deviation --> 90.0
 impactVector = [414L, 594L]
+---------------------------------
+Impact user -->infojunkie
+Repo URL --> https://github.com/Pita/etherpad-lite
+Standard Deviation --> 90.5
+impactVector = [465L, 284L]
 ---------------------------------
 Impact user -->augustohp
 Repo URL --> https://github.com/klaussilveira/gitlist
@@ -2298,285 +953,125 @@ Repo URL --> https://github.com/nesquena/rabl
 Standard Deviation --> 92.0
 impactVector = [90L, 274L]
 ---------------------------------
-Impact user -->navaru
-Repo URL --> https://github.com/recurly/recurly-js
-Standard Deviation --> 92.3996076831
-impactVector = [190L, 201L, 6L, 16L]
----------------------------------
-Impact user -->ywjno
-Repo URL --> https://github.com/hhuai/vrails
-Standard Deviation --> 92.5
-impactVector = [190L, 5L]
----------------------------------
-Impact user -->phillpafford
-Repo URL --> https://github.com/jquery/qunit
-Standard Deviation --> 92.631887958
-impactVector = [43L, 15L, 224L]
----------------------------------
-Impact user -->donfrancisco
-Repo URL --> https://github.com/vicpenap/PrettyKit
-Standard Deviation --> 92.643882091
-impactVector = [103L, 45L, 264L]
----------------------------------
-Impact user -->seniyye
-Repo URL --> https://github.com/toddreed/Touchpose
-Standard Deviation --> 92.9296328771
-impactVector = [76L, 198L, 28L, 73L, 11L, 1L, 45L, 330L, 47L, 134L, 32L, 3L]
----------------------------------
-Impact user -->thorwing
-Repo URL --> https://github.com/amatsuda/kaminari_themes
+Impact user -->ckuwanoe
+Repo URL --> https://github.com/samcollins/css-social-buttons
 Standard Deviation --> 93.0
-impactVector = [193L, 7L]
----------------------------------
-Impact user -->sdiehl
-Repo URL --> https://github.com/youngsterxyf/gevent-tutorial
-Standard Deviation --> 93.1105973202
-impactVector = [33L, 250L, 2L, 52L, 169L, 1L]
----------------------------------
-Impact user -->janx
-Repo URL --> https://github.com/staugaard/ember-resource
-Standard Deviation --> 93.2238569251
-impactVector = [52L, 258L, 159L, 22L]
----------------------------------
-Impact user -->damassi
-Repo URL --> https://github.com/rubymotion/teacup
-Standard Deviation --> 93.5
-impactVector = [24L, 211L]
+impactVector = [419L, 233L]
 ---------------------------------
 Impact user -->exherb
 Repo URL --> https://github.com/prezjordan/dynamo.js
 Standard Deviation --> 93.5
 impactVector = [87L, 274L]
 ---------------------------------
-Impact user -->maheshcr
-Repo URL --> https://github.com/TooTallNate/NodObjC
-Standard Deviation --> 93.9076141748
-impactVector = [26L, 27L, 16L, 263L, 115L]
----------------------------------
-Impact user -->apneadiving
-Repo URL --> https://github.com/logandk/mongoid_denormalize
-Standard Deviation --> 94.0
-impactVector = [193L, 5L]
----------------------------------
 Impact user -->pala
 Repo URL --> https://github.com/dmose/html5-game-template
 Standard Deviation --> 94.0
 impactVector = [305L, 117L]
 ---------------------------------
-Impact user -->jugyo
-Repo URL --> https://github.com/twitter/twitter-text-rb
-Standard Deviation --> 94.1169485268
-impactVector = [158L, 11L, 289L, 120L, 67L]
+Impact user -->seniyye
+Repo URL --> https://github.com/toddreed/Touchpose
+Standard Deviation --> 95.5204690106
+impactVector = [76L, 198L, 73L, 330L, 134L]
 ---------------------------------
-Impact user -->yoyeung
-Repo URL --> https://github.com/remy/jsbin
-Standard Deviation --> 94.1252121143
-impactVector = [70L, 26L, 244L]
+Impact user -->Jnom
+Repo URL --> https://github.com/zendesk/ember-i18n
+Standard Deviation --> 95.684667296
+impactVector = [72L, 112L, 292L]
 ---------------------------------
-Impact user -->yiwang
-Repo URL --> https://github.com/sockjs/sockjs-client
-Standard Deviation --> 94.524541199
-impactVector = [2L, 204L, 201L]
----------------------------------
-Impact user -->yatsu
-Repo URL --> https://github.com/nxtbgthng/OAuth2Client
-Standard Deviation --> 95.0
-impactVector = [197L, 7L]
+Impact user -->travisjeffery
+Repo URL --> https://github.com/zmoazeni/gitspective
+Standard Deviation --> 95.932059292
+impactVector = [184L, 61L, 330L, 95L, 226L]
 ---------------------------------
 Impact user -->g2musicgroup
 Repo URL --> https://github.com/ccoenraets/backbone-directory
 Standard Deviation --> 96.0
 impactVector = [90L, 282L]
 ---------------------------------
-Impact user -->Xeoncross
-Repo URL --> https://github.com/replit/repl.it
-Standard Deviation --> 96.0
-impactVector = [212L, 20L]
----------------------------------
-Impact user -->fconcklin
-Repo URL --> https://github.com/ubuwaits/css3-buttons
-Standard Deviation --> 97.1245978113
-impactVector = [25L, 270L, 174L, 58L]
----------------------------------
-Impact user -->Jnom
-Repo URL --> https://github.com/zendesk/ember-i18n
-Standard Deviation --> 97.8234561413
-impactVector = [4L, 72L, 5L, 15L, 112L, 292L, 4L]
----------------------------------
-Impact user -->cdunn
-Repo URL --> https://github.com/presidentbeef/brakeman
-Standard Deviation --> 97.8309199021
-impactVector = [78L, 31L, 258L]
----------------------------------
-Impact user -->erezmazor
-Repo URL --> https://github.com/paperlesspost/graphiti
-Standard Deviation --> 98.0
-impactVector = [226L, 30L]
----------------------------------
-Impact user -->chiurox
-Repo URL --> https://github.com/ryanb/railscasts-episodes
-Standard Deviation --> 98.8062076322
-impactVector = [163L, 287L, 45L]
----------------------------------
-Impact user -->willi
-Repo URL --> https://github.com/tastyone/MotionOrientation
-Standard Deviation --> 99.0539625659
-impactVector = [43L, 38L, 253L, 1L]
----------------------------------
 Impact user -->coupgar
 Repo URL --> https://github.com/robbiehanson/KissXML
-Standard Deviation --> 99.9344229427
-impactVector = [57L, 253L, 28L]
+Standard Deviation --> 98.0
+impactVector = [57L, 253L]
 ---------------------------------
-Impact user -->icebreaker
-Repo URL --> https://github.com/macton/DDLParser
-Standard Deviation --> 100.0
-impactVector = [201L, 1L]
+Impact user -->gustavohenke
+Repo URL --> https://github.com/sstephenson/prototype
+Standard Deviation --> 98.0
+impactVector = [125L, 321L]
 ---------------------------------
-Impact user -->jhjguxin
-Repo URL --> https://github.com/visionmedia/git-extras
-Standard Deviation --> 100.0
-impactVector = [4L, 204L]
+Impact user -->jkimbo
+Repo URL --> https://github.com/tommoor/HackerNew
+Standard Deviation --> 98.5
+impactVector = [267L, 70L]
+---------------------------------
+Impact user -->akisute
+Repo URL --> https://github.com/levey/AwesomeMenu
+Standard Deviation --> 98.9579035078
+impactVector = [221L, 88L, 330L]
 ---------------------------------
 Impact user -->Xiaoli
 Repo URL --> https://github.com/tbranyen/backbone-boilerplate
 Standard Deviation --> 100.0
 impactVector = [619L, 419L]
 ---------------------------------
-Impact user -->dominicglenn
-Repo URL --> https://github.com/visionmedia/axon
-Standard Deviation --> 100.295812475
-impactVector = [111L, 18L, 292L, 97L]
----------------------------------
 Impact user -->CodeGnome
 Repo URL --> https://github.com/necolas/normalize.css
 Standard Deviation --> 100.5
 impactVector = [1136L, 935L]
----------------------------------
-Impact user -->serradura
-Repo URL --> https://github.com/remybach/jQuery.superLabels
-Standard Deviation --> 100.5
-impactVector = [9L, 210L]
----------------------------------
-Impact user -->umaar
-Repo URL --> https://github.com/redroot/holmes
-Standard Deviation --> 100.740590958
-impactVector = [47L, 27L, 250L]
 ---------------------------------
 Impact user -->daisaru11
 Repo URL --> https://github.com/simon-weber/Unofficial-Google-Music-API
 Standard Deviation --> 100.778084037
 impactVector = [90L, 289L, 63L]
 ---------------------------------
-Impact user -->mattquinn4
-Repo URL --> https://github.com/HansPinckaers/GrowingTextView
-Standard Deviation --> 101.168176815
-impactVector = [8L, 40L, 264L, 156L]
+Impact user -->faceleg
+Repo URL --> https://github.com/Studio-42/elFinder
+Standard Deviation --> 101.5
+impactVector = [378L, 175L]
 ---------------------------------
-Impact user -->bananayong
-Repo URL --> https://github.com/pvillega/Play-Modules
-Standard Deviation --> 103.0
-impactVector = [208L, 2L]
+Impact user -->anoiaque
+Repo URL --> https://github.com/prezjordan/dynamo.js
+Standard Deviation --> 104.5
+impactVector = [65L, 274L]
 ---------------------------------
-Impact user -->bootstraponline
-Repo URL --> https://github.com/webmetrics/browsermob-proxy
-Standard Deviation --> 103.0
-impactVector = [227L, 21L]
----------------------------------
-Impact user -->ddellacosta
-Repo URL --> https://github.com/smore-inc/clippy.js
-Standard Deviation --> 103.0
-impactVector = [25L, 231L]
----------------------------------
-Impact user -->cboden
-Repo URL --> https://github.com/superjimpupcake/Pupcake
-Standard Deviation --> 104.0
-impactVector = [226L, 18L]
----------------------------------
-Impact user -->grimen
-Repo URL --> https://github.com/soveran/micromachine
-Standard Deviation --> 104.0
-impactVector = [220L, 12L]
----------------------------------
-Impact user -->jkimbo
-Repo URL --> https://github.com/tommoor/HackerNew
-Standard Deviation --> 104.048966838
-impactVector = [267L, 2L, 70L, 28L]
+Impact user -->mattt
+Repo URL --> https://github.com/schneems/sextant
+Standard Deviation --> 105.5
+impactVector = [78L, 289L]
 ---------------------------------
 Impact user -->splattael
 Repo URL --> https://github.com/schneems/sextant
 Standard Deviation --> 105.5
 impactVector = [78L, 289L]
 ---------------------------------
+Impact user -->wong2
+Repo URL --> https://github.com/pfraze/linkjs
+Standard Deviation --> 106.0
+impactVector = [407L, 195L]
+---------------------------------
 Impact user -->jamesonjlee
 Repo URL --> https://github.com/twitter/ambrose
 Standard Deviation --> 106.5
 impactVector = [68L, 281L]
----------------------------------
-Impact user -->anoiaque
-Repo URL --> https://github.com/prezjordan/dynamo.js
-Standard Deviation --> 106.584343232
-impactVector = [65L, 34L, 274L]
 ---------------------------------
 Impact user -->haziqmir
 Repo URL --> https://github.com/sstephenson/prototype
 Standard Deviation --> 107.0
 impactVector = [107L, 321L]
 ---------------------------------
-Impact user -->ttakamura
-Repo URL --> https://github.com/mattheworiordan/capybara-screenshot
-Standard Deviation --> 107.135428314
-impactVector = [11L, 235L, 221L, 17L]
----------------------------------
-Impact user -->achied
-Repo URL --> https://github.com/noahhl/batsd
-Standard Deviation --> 107.5
-impactVector = [5L, 220L]
----------------------------------
 Impact user -->dmakarenko
 Repo URL --> https://github.com/TheRealKerni/QuincyKit
 Standard Deviation --> 107.5
 impactVector = [303L, 88L]
 ---------------------------------
-Impact user -->ashenden
-Repo URL --> https://github.com/tbranyen/boilerplate-handlebars-layoutmanager
-Standard Deviation --> 108.5
-impactVector = [219L, 2L]
----------------------------------
-Impact user -->liruqi
-Repo URL --> https://github.com/webpy/webpy
-Standard Deviation --> 109.0
-impactVector = [37L, 255L]
----------------------------------
-Impact user -->romansklenar
-Repo URL --> https://github.com/josevalim/inherited_resources
-Standard Deviation --> 109.0
-impactVector = [234L, 16L]
----------------------------------
-Impact user -->defagos
-Repo URL --> https://github.com/linkedin/LIExposeController
-Standard Deviation --> 109.5
-impactVector = [9L, 228L]
----------------------------------
-Impact user -->hdogan
-Repo URL --> https://github.com/samsoffes/sstoolkit
-Standard Deviation --> 110.0
-impactVector = [6L, 226L]
----------------------------------
-Impact user -->joelmoss
-Repo URL --> https://github.com/mattetti/BubbleWrap
-Standard Deviation --> 110.5
-impactVector = [42L, 263L]
----------------------------------
-Impact user -->pascalmd
-Repo URL --> https://github.com/socketstream/socketstream
-Standard Deviation --> 110.792097592
-impactVector = [245L, 8L, 241L]
----------------------------------
-Impact user -->zyegfryed
+Impact user -->donpark
 Repo URL --> https://github.com/zmoazeni/gitspective
-Standard Deviation --> 111.0
-impactVector = [4L, 226L]
+Standard Deviation --> 108.359612197
+impactVector = [273L, 67L, 160L, 419L, 188L, 226L]
+---------------------------------
+Impact user -->mnishihan
+Repo URL --> https://github.com/weierophinney/phly
+Standard Deviation --> 110.200826776
+impactVector = [435L, 422L, 662L]
 ---------------------------------
 Impact user -->saiten
 Repo URL --> https://github.com/sindresorhus/screenfull.js
@@ -2588,70 +1083,25 @@ Repo URL --> https://github.com/SignalR/SignalR
 Standard Deviation --> 111.5
 impactVector = [1012L, 789L]
 ---------------------------------
-Impact user -->xixilive
-Repo URL --> https://github.com/jquery/qunit
-Standard Deviation --> 111.5
-impactVector = [1L, 224L]
----------------------------------
-Impact user -->bryansum
-Repo URL --> https://github.com/maccman/stylo
-Standard Deviation --> 111.646266793
-impactVector = [3L, 191L, 269L]
----------------------------------
 Impact user -->marcoslhc
 Repo URL --> https://github.com/malsup/form
 Standard Deviation --> 112.5
 impactVector = [389L, 164L]
 ---------------------------------
-Impact user -->tianyicui
-Repo URL --> https://github.com/yinwang0/ydiff
-Standard Deviation --> 112.5
-impactVector = [250L, 25L]
+Impact user -->bigdude
+Repo URL --> https://github.com/triceam/app-UI
+Standard Deviation --> 112.538388512
+impactVector = [280L, 306L, 416L, 105L, 103L, 192L]
 ---------------------------------
-Impact user -->xinming
-Repo URL --> https://github.com/lukeredpath/libPusher
-Standard Deviation --> 112.5
-impactVector = [264L, 39L]
+Impact user -->davsket
+Repo URL --> https://github.com/SlexAxton/yepnope.js
+Standard Deviation --> 115.946916733
+impactVector = [184L, 119L, 411L, 143L]
 ---------------------------------
-Impact user -->travisjeffery
-Repo URL --> https://github.com/zmoazeni/gitspective
-Standard Deviation --> 113.469945675
-impactVector = [6L, 1L, 184L, 61L, 330L, 95L, 226L]
----------------------------------
-Impact user -->anthonysutardja
-Repo URL --> https://github.com/rwldrn/idiomatic.js
-Standard Deviation --> 113.71308925
-impactVector = [200L, 46L, 324L]
----------------------------------
-Impact user -->mitukiii
-Repo URL --> https://github.com/sferik/multi_xml
-Standard Deviation --> 114.0
-impactVector = [231L, 3L]
----------------------------------
-Impact user -->gustavohenke
-Repo URL --> https://github.com/sstephenson/prototype
-Standard Deviation --> 114.252157772
-impactVector = [50L, 125L, 321L]
----------------------------------
-Impact user -->neojp
-Repo URL --> https://github.com/visionmedia/page.js
-Standard Deviation --> 114.342200822
-impactVector = [131L, 39L, 52L, 3L, 11L, 333L]
----------------------------------
-Impact user -->mitsuse
-Repo URL --> https://github.com/tpope/vim-fugitive
-Standard Deviation --> 114.5
-impactVector = [5L, 234L]
----------------------------------
-Impact user -->zbrox
-Repo URL --> https://github.com/OiNutter/guggenheim.js
-Standard Deviation --> 114.5
-impactVector = [255L, 26L]
----------------------------------
-Impact user -->lutoma
-Repo URL --> https://github.com/roundcube/roundcubemail
+Impact user -->compressed
+Repo URL --> https://github.com/Inferis/ViewDeck
 Standard Deviation --> 116.5
-impactVector = [1L, 234L]
+impactVector = [148L, 381L]
 ---------------------------------
 Impact user -->foonnnnn
 Repo URL --> https://github.com/impressivewebs/HTML9-Responsive-Boilerstrap-js
@@ -2663,30 +1113,15 @@ Repo URL --> https://github.com/VeriteCo/Timeline
 Standard Deviation --> 117.0
 impactVector = [131L, 365L]
 ---------------------------------
-Impact user -->SergeStinckwich
-Repo URL --> https://github.com/wesm/pandas
-Standard Deviation --> 117.083303677
-impactVector = [289L, 4L, 110L, 1L]
----------------------------------
-Impact user -->cognitom
-Repo URL --> https://github.com/igrigorik/githubarchive.org
-Standard Deviation --> 117.397444606
-impactVector = [335L, 52L, 15L, 59L, 50L]
----------------------------------
-Impact user -->joneslee85
-Repo URL --> https://github.com/presidentbeef/brakeman
-Standard Deviation --> 118.0
-impactVector = [22L, 258L]
+Impact user -->neojp
+Repo URL --> https://github.com/visionmedia/page.js
+Standard Deviation --> 118.324412809
+impactVector = [131L, 52L, 333L]
 ---------------------------------
 Impact user -->TechnologySolutionsGroup
 Repo URL --> https://github.com/kentnguyen/KNSemiModalViewController
 Standard Deviation --> 118.5
 impactVector = [120L, 357L]
----------------------------------
-Impact user -->mattt
-Repo URL --> https://github.com/schneems/sextant
-Standard Deviation --> 119.434779971
-impactVector = [78L, 8L, 289L]
 ---------------------------------
 Impact user -->bpedro
 Repo URL --> https://github.com/lmatteis/hckr.it
@@ -2698,60 +1133,25 @@ Repo URL --> https://github.com/thoughtbot/jack_up
 Standard Deviation --> 120.5
 impactVector = [320L, 79L]
 ---------------------------------
-Impact user -->juanriaza
-Repo URL --> https://github.com/santiagobasulto/debug-inspector-panel
-Standard Deviation --> 121.5
-impactVector = [267L, 24L]
----------------------------------
 Impact user -->hfcorriez
 Repo URL --> https://github.com/mrclay/minify
 Standard Deviation --> 121.731261392
 impactVector = [407L, 155L, 80L, 186L]
 ---------------------------------
-Impact user -->donpark
-Repo URL --> https://github.com/zmoazeni/gitspective
-Standard Deviation --> 122.756104632
-impactVector = [273L, 67L, 160L, 419L, 188L, 20L, 226L]
----------------------------------
-Impact user -->mindctrl
-Repo URL --> https://github.com/gothfox/Tiny-Tiny-RSS
-Standard Deviation --> 123.307204439
-impactVector = [-1L, 270L, 19L]
----------------------------------
-Impact user -->pixelmeister
-Repo URL --> https://github.com/tciuro/NoticeView
-Standard Deviation --> 123.705470688
-impactVector = [76L, 7L, 47L, 58L, 5L, 13L, 68L, 6L, 18L, 1L, 11L, 1L, 568L, 106L, 50L, 39L, 34L, 4L, 4L, 32L, 2L, 5L, 294L]
----------------------------------
-Impact user -->ralreegorganon
-Repo URL --> https://github.com/mattetti/BubbleWrap
+Impact user -->hcilab
+Repo URL --> https://github.com/visionmedia/rediskit
 Standard Deviation --> 124.0
-impactVector = [15L, 263L]
+impactVector = [58L, 306L]
 ---------------------------------
-Impact user -->asaaki
-Repo URL --> https://github.com/socky/socky-server-ruby
-Standard Deviation --> 124.087066208
-impactVector = [1L, 43L, 22L, 17L, 33L, 1L, 100L, -2L, 7L, 445L, 69L, 301L, 1L, 144L, 216L, 223L, 54L, 387L, 5L, 69L, 44L, 201L, 60L, 9L, 15L]
----------------------------------
-Impact user -->sequoiar
-Repo URL --> https://github.com/visionmedia/page.js
-Standard Deviation --> 124.291994915
-impactVector = [30L, 190L, 39L, 333L]
+Impact user -->ajerez
+Repo URL --> https://github.com/tapharmonic/Core-Animation-Demos
+Standard Deviation --> 124.074533229
+impactVector = [86L, 314L, 61L, 88L, 357L, 330L, 106L]
 ---------------------------------
 Impact user -->codykrieger
 Repo URL --> https://github.com/HumbleSoftware/envisionjs
 Standard Deviation --> 124.364383969
 impactVector = [322L, 193L, 412L, 85L]
----------------------------------
-Impact user -->kennethreitz
-Repo URL --> https://github.com/eldarion/gondor-client
-Standard Deviation --> 124.5
-impactVector = [250L, 1L]
----------------------------------
-Impact user -->akisute
-Repo URL --> https://github.com/levey/AwesomeMenu
-Standard Deviation --> 125.268461713
-impactVector = [221L, 2L, 88L, 330L]
 ---------------------------------
 Impact user -->royalwang
 Repo URL --> https://github.com/samsoffes/sspulltorefresh
@@ -2763,10 +1163,10 @@ Repo URL --> https://github.com/samsoffes/sspulltorefresh
 Standard Deviation --> 126.5
 impactVector = [85L, 338L]
 ---------------------------------
-Impact user -->ahmet
-Repo URL --> https://github.com/samvermette/SVPullToRefresh
-Standard Deviation --> 126.852495267
-impactVector = [1L, 255L, 283L]
+Impact user -->asaaki
+Repo URL --> https://github.com/socky/socky-server-ruby
+Standard Deviation --> 126.795411545
+impactVector = [100L, 445L, 69L, 301L, 144L, 216L, 223L, 54L, 387L, 69L, 201L, 60L]
 ---------------------------------
 Impact user -->stevewood
 Repo URL --> https://github.com/sobri909/MGBox
@@ -2788,35 +1188,25 @@ Repo URL --> https://github.com/kripken/emscripten
 Standard Deviation --> 128.5
 impactVector = [159L, 416L]
 ---------------------------------
-Impact user -->we4tech
-Repo URL --> https://github.com/LearnBoost/websocket.io
-Standard Deviation --> 128.790096238
-impactVector = [43L, 294L, 3L]
+Impact user -->armw4
+Repo URL --> https://github.com/jruby/jruby
+Standard Deviation --> 129.1346584
+impactVector = [92L, 265L, 184L, 449L, 114L]
 ---------------------------------
-Impact user -->ajerez
-Repo URL --> https://github.com/tapharmonic/Core-Animation-Demos
-Standard Deviation --> 129.270452927
-impactVector = [86L, 8L, 40L, 314L, 61L, 88L, 357L, 330L, 106L, 25L]
+Impact user -->w0ng
+Repo URL --> https://github.com/Shougo/neocomplcache
+Standard Deviation --> 129.5
+impactVector = [371L, 112L]
 ---------------------------------
-Impact user -->cavi21
-Repo URL --> https://github.com/tapmodo/Jcrop
-Standard Deviation --> 130.16485274
-impactVector = [4L, 322L, 183L]
+Impact user -->vially
+Repo URL --> https://github.com/tpope/vim-pathogen
+Standard Deviation --> 129.941012258
+impactVector = [304L, 60L, 359L]
 ---------------------------------
-Impact user -->mereformalities
-Repo URL --> https://github.com/svenfuchs/rails-i18n
-Standard Deviation --> 131.049608927
-impactVector = [322L, 1L, 163L]
----------------------------------
-Impact user -->tinio
-Repo URL --> https://github.com/dannycoates/node-inspector
-Standard Deviation --> 131.5
-impactVector = [8L, 271L]
----------------------------------
-Impact user -->hiway
-Repo URL --> https://github.com/skarra/PRS
-Standard Deviation --> 132.5
-impactVector = [267L, 2L]
+Impact user -->cognitom
+Repo URL --> https://github.com/igrigorik/githubarchive.org
+Standard Deviation --> 131.78855118
+impactVector = [335L, 52L, 59L]
 ---------------------------------
 Impact user -->gbraad
 Repo URL --> https://github.com/douglascrockford/JSLint
@@ -2828,70 +1218,40 @@ Repo URL --> https://github.com/todc/css3-google-buttons
 Standard Deviation --> 133.5
 impactVector = [323L, 590L]
 ---------------------------------
-Impact user -->bigdude
-Repo URL --> https://github.com/triceam/app-UI
-Standard Deviation --> 134.02601323
-impactVector = [4L, 280L, 29L, 306L, 416L, 13L, 105L, 10L, 40L, 103L, 16L, 192L]
----------------------------------
-Impact user -->davsket
-Repo URL --> https://github.com/SlexAxton/yepnope.js
-Standard Deviation --> 134.279708072
-impactVector = [184L, 1L, 119L, 411L, 143L]
----------------------------------
-Impact user -->goatslacker
-Repo URL --> https://github.com/substack/node-browserify
-Standard Deviation --> 134.5
-impactVector = [5L, 274L]
----------------------------------
-Impact user -->lotsofcode
-Repo URL --> https://github.com/substack/bouncy
-Standard Deviation --> 134.544370005
-impactVector = [117L, 60L, 378L, 44L]
----------------------------------
 Impact user -->dgj2ba
 Repo URL --> https://github.com/PixarAnimationStudios/OpenSubdiv
 Standard Deviation --> 134.799439498
 impactVector = [306L, 93L, 418L]
 ---------------------------------
-Impact user -->darragh
-Repo URL --> https://github.com/schneems/sextant
+Impact user -->filod
+Repo URL --> https://github.com/tbranyen/backbone-boilerplate
 Standard Deviation --> 136.0
-impactVector = [17L, 289L]
+impactVector = [147L, 419L]
 ---------------------------------
-Impact user -->christianbryant
-Repo URL --> https://github.com/diveintomark/diveintopython3
-Standard Deviation --> 136.030225399
-impactVector = [295L, 10L, 3L]
----------------------------------
-Impact user -->armw4
-Repo URL --> https://github.com/jruby/jruby
-Standard Deviation --> 137.285185735
-impactVector = [92L, 265L, 184L, 32L, 449L, 114L]
----------------------------------
-Impact user -->kkung
+Impact user -->jasongregori
 Repo URL --> https://github.com/twitter/twitter-text-objc
-Standard Deviation --> 137.5
-impactVector = [21L, 296L]
+Standard Deviation --> 136.0
+impactVector = [568L, 296L]
 ---------------------------------
-Impact user -->Loocor
-Repo URL --> https://github.com/mattt/TTTQuadrantControl
-Standard Deviation --> 137.932447234
-impactVector = [314L, 264L, 8L, 13L, 7L]
+Impact user -->yaderbh
+Repo URL --> https://github.com/SpringSource/spring-framework
+Standard Deviation --> 136.275048666
+impactVector = [93L, 101L, 386L]
+---------------------------------
+Impact user -->lotsofcode
+Repo URL --> https://github.com/substack/bouncy
+Standard Deviation --> 138.441323311
+impactVector = [117L, 60L, 378L]
 ---------------------------------
 Impact user -->afriggeri
 Repo URL --> https://github.com/Simperium/simperium
 Standard Deviation --> 139.0
 impactVector = [338L, 60L]
 ---------------------------------
-Impact user -->muccy
-Repo URL --> https://github.com/samvermette/SVPullToRefresh
-Standard Deviation --> 139.0
-impactVector = [5L, 283L]
----------------------------------
-Impact user -->w0ng
-Repo URL --> https://github.com/Shougo/neocomplcache
-Standard Deviation --> 139.337320517
-impactVector = [49L, 371L, 112L]
+Impact user -->yuki24
+Repo URL --> https://github.com/twitter/ambrose
+Standard Deviation --> 139.752851044
+impactVector = [487L, 193L, 87L, 195L, 73L, 387L, 106L, 281L]
 ---------------------------------
 Impact user -->constantology
 Repo URL --> https://github.com/visionmedia/page.js
@@ -2903,65 +1263,15 @@ Repo URL --> https://github.com/misoproject/dataset
 Standard Deviation --> 141.7446844
 impactVector = [55L, 401L, 203L]
 ---------------------------------
-Impact user -->yaderbh
-Repo URL --> https://github.com/SpringSource/spring-framework
-Standard Deviation --> 141.751543201
-impactVector = [93L, 12L, 101L, 386L]
----------------------------------
-Impact user -->bfirsh
-Repo URL --> https://github.com/josephg/ShareJS
-Standard Deviation --> 142.0
-impactVector = [4L, 288L]
----------------------------------
-Impact user -->georgkreimer
-Repo URL --> https://github.com/schneems/sextant
-Standard Deviation --> 142.0
-impactVector = [5L, 289L]
----------------------------------
-Impact user -->andreaforni
-Repo URL --> https://github.com/wooga/euruko-golf
-Standard Deviation --> 142.5
-impactVector = [322L, 37L]
----------------------------------
 Impact user -->fjsj
 Repo URL --> https://github.com/jzaefferer/jquery-validation
 Standard Deviation --> 143.0
 impactVector = [103L, 389L]
 ---------------------------------
-Impact user -->mkremer
-Repo URL --> https://github.com/intridea/grape
-Standard Deviation --> 144.0
-impactVector = [34L, 322L]
----------------------------------
-Impact user -->rmdort
-Repo URL --> https://github.com/paulirish/infinite-scroll
-Standard Deviation --> 144.490676362
-impactVector = [8L, 5L, 313L]
----------------------------------
-Impact user -->compressed
-Repo URL --> https://github.com/Inferis/ViewDeck
-Standard Deviation --> 144.767246142
-impactVector = [148L, 33L, 381L]
----------------------------------
-Impact user -->wuyuntao
-Repo URL --> https://github.com/tautologistics/node-htmlparser
-Standard Deviation --> 145.726627629
-impactVector = [271L, 14L, 323L, 2L]
----------------------------------
-Impact user -->tollmanz
-Repo URL --> https://github.com/tollmanz/debug-bar-cron
-Standard Deviation --> 147.0
-impactVector = [294L, 0L]
----------------------------------
-Impact user -->gabrielnau
-Repo URL --> https://github.com/verekia/initializr-template
-Standard Deviation --> 147.5
-impactVector = [298L, 3L]
----------------------------------
-Impact user -->yuki24
-Repo URL --> https://github.com/twitter/ambrose
-Standard Deviation --> 147.71767801
-impactVector = [487L, 193L, 87L, 17L, 29L, 195L, 73L, 387L, 106L, 46L, 281L]
+Impact user -->zhshinco
+Repo URL --> https://github.com/webbit/webbit
+Standard Deviation --> 146.0
+impactVector = [171L, 463L]
 ---------------------------------
 Impact user -->larscwallin
 Repo URL --> https://github.com/pfefferle/openwebicons
@@ -2983,25 +1293,10 @@ Repo URL --> https://github.com/zolrath/wemux
 Standard Deviation --> 148.861689058
 impactVector = [104L, 487L, 510L, 263L, 258L, 261L, 330L, 78L, 107L]
 ---------------------------------
-Impact user -->vially
-Repo URL --> https://github.com/tpope/vim-pathogen
-Standard Deviation --> 148.889757875
-impactVector = [304L, 34L, 2L, 60L, 359L]
----------------------------------
 Impact user -->fayimora
 Repo URL --> https://github.com/milani/appjs
 Standard Deviation --> 149.674647152
 impactVector = [414L, 93L, 480L, 401L]
----------------------------------
-Impact user -->wong2
-Repo URL --> https://github.com/pfraze/linkjs
-Standard Deviation --> 150.81408717
-impactVector = [407L, 195L, 39L]
----------------------------------
-Impact user -->ckuwanoe
-Repo URL --> https://github.com/samcollins/css-social-buttons
-Standard Deviation --> 151.052603052
-impactVector = [419L, 49L, 233L]
 ---------------------------------
 Impact user -->Leeiio
 Repo URL --> https://github.com/livereload/LiveReload2
@@ -3013,40 +1308,35 @@ Repo URL --> https://github.com/sebastien/cuisine
 Standard Deviation --> 151.563701313
 impactVector = [407L, 69L, 105L]
 ---------------------------------
-Impact user -->tsujigiri
-Repo URL --> https://github.com/talentdeficit/jsx
-Standard Deviation --> 153.5
-impactVector = [330L, 23L]
+Impact user -->PatrickRoumanoff
+Repo URL --> https://github.com/NV/chrome-devtools-autosave-server
+Standard Deviation --> 153.0
+impactVector = [416L, 110L]
 ---------------------------------
 Impact user -->semerda
 Repo URL --> https://github.com/twitter/activerecord-reputation-system
 Standard Deviation --> 154.0
 impactVector = [369L, 677L]
 ---------------------------------
-Impact user -->faceleg
-Repo URL --> https://github.com/Studio-42/elFinder
-Standard Deviation --> 154.061315355
-impactVector = [1L, 378L, 175L]
----------------------------------
 Impact user -->jianxioy
 Repo URL --> https://github.com/venomous0x/WhatsAPI
 Standard Deviation --> 154.068365424
 impactVector = [78L, 158L, 518L, 145L, 71L, 378L, 253L]
----------------------------------
-Impact user -->equus12
-Repo URL --> https://github.com/zynga/viewporter
-Standard Deviation --> 155.039783282
-impactVector = [15L, 4L, 7L, 3L, 6L, 5L, 3L, 100L, 46L, 10L, 13L, 91L, 31L, 83L, 2L, 69L, 3L, 3L, 8L, 3L, 41L, 5L, 24L, 113L, 1L, 21L, 14L, 104L, 189L, 133L, 11L, 0L, 4L, 16L, 16L, 50L, 13L, 289L, 201L, 119L, 330L, 8L, 7L, 118L, 35L, 99L, 6L, 1031L, 21L, 18L]
 ---------------------------------
 Impact user -->replore
 Repo URL --> https://github.com/swannodette/mori
 Standard Deviation --> 156.0
 impactVector = [382L, 70L]
 ---------------------------------
-Impact user -->KartikTalwar
-Repo URL --> https://github.com/tomerfiliba/plumbum
-Standard Deviation --> 158.0
-impactVector = [21L, 337L]
+Impact user -->nfedyashev
+Repo URL --> https://github.com/twitter/activerecord-reputation-system
+Standard Deviation --> 156.5
+impactVector = [990L, 677L]
+---------------------------------
+Impact user -->boostbob
+Repo URL --> https://github.com/yui/yui3
+Standard Deviation --> 156.986198969
+impactVector = [584L, 445L, 204L]
 ---------------------------------
 Impact user -->kevwil
 Repo URL --> https://github.com/substack/seaport
@@ -3058,205 +1348,130 @@ Repo URL --> https://github.com/zendframework/zf2
 Standard Deviation --> 158.0
 impactVector = [139L, 455L]
 ---------------------------------
-Impact user -->monolar
-Repo URL --> https://github.com/satyr/coco
-Standard Deviation --> 158.155777637
-impactVector = [40L, 415L, 78L, 37L]
+Impact user -->liangzan
+Repo URL --> https://github.com/purplefox/vert.x
+Standard Deviation --> 159.5
+impactVector = [373L, 692L]
 ---------------------------------
-Impact user -->hunab
-Repo URL --> https://github.com/rwldrn/idiomatic.js
+Impact user -->Tomohiro
+Repo URL --> https://github.com/mattt/PostgresApp
 Standard Deviation --> 161.0
-impactVector = [2L, 324L]
+impactVector = [120L, 442L]
 ---------------------------------
 Impact user -->gregorterrill
 Repo URL --> https://github.com/visionmedia/jade
 Standard Deviation --> 161.56113394
 impactVector = [207L, 504L, 582L]
 ---------------------------------
-Impact user -->balloonsys
-Repo URL --> https://github.com/samvermette/SVProgressHUD
-Standard Deviation --> 161.640836424
-impactVector = [10L, 382L, 17L, 330L, 307L]
+Impact user -->fa-damiao
+Repo URL --> https://github.com/thomaspark/bootswatch
+Standard Deviation --> 164.5
+impactVector = [169L, 498L]
 ---------------------------------
-Impact user -->lonre
-Repo URL --> https://github.com/jugyo/earthquake
-Standard Deviation --> 162.0
-impactVector = [346L, 22L]
----------------------------------
-Impact user -->anthonywu
-Repo URL --> https://github.com/Yelp/Testify
-Standard Deviation --> 165.5
-impactVector = [337L, 6L]
----------------------------------
-Impact user -->emcmanus
-Repo URL --> https://github.com/samsoffes/sspulltorefresh
-Standard Deviation --> 165.5
-impactVector = [7L, 338L]
----------------------------------
-Impact user -->igrigorik
-Repo URL --> https://github.com/todb/packetfu
-Standard Deviation --> 165.776958592
-impactVector = [465L, 56L, 11L, 9L, 20L, 15L]
----------------------------------
-Impact user -->ain
-Repo URL --> https://github.com/sindresorhus/screenfull.js
-Standard Deviation --> 167.0
-impactVector = [44L, 378L]
+Impact user -->dustinwhittle
+Repo URL --> https://github.com/twitter/twui
+Standard Deviation --> 165.834924615
+impactVector = [270L, 96L, 184L, 306L, 201L, 619L]
 ---------------------------------
 Impact user -->srigsby
 Repo URL --> https://github.com/playframework/Play20
 Standard Deviation --> 168.0
 impactVector = [119L, 455L]
 ---------------------------------
-Impact user -->burcu
-Repo URL --> https://github.com/mikeal/request
+Impact user -->monolar
+Repo URL --> https://github.com/satyr/coco
 Standard Deviation --> 168.5
-impactVector = [9L, 346L]
+impactVector = [415L, 78L]
 ---------------------------------
 Impact user -->j-hernandez
 Repo URL --> https://github.com/Reflejo/jquery-countdown
 Standard Deviation --> 169.5
 impactVector = [480L, 141L]
 ---------------------------------
-Impact user -->HiroProt
-Repo URL --> https://github.com/gotosleep/JASidePanels
-Standard Deviation --> 170.0
-impactVector = [6L, 346L]
----------------------------------
 Impact user -->ssoper
 Repo URL --> https://github.com/kriskowal/q
 Standard Deviation --> 170.0
 impactVector = [512L, 172L]
+---------------------------------
+Impact user -->CaptSolo
+Repo URL --> https://github.com/kennethreitz/inbox.py
+Standard Deviation --> 171.5
+impactVector = [322L, 665L]
 ---------------------------------
 Impact user -->destroytoday
 Repo URL --> https://github.com/sinatra/sinatra
 Standard Deviation --> 171.5
 impactVector = [110L, 453L]
 ---------------------------------
-Impact user -->poornigga
-Repo URL --> https://github.com/tpope/vim-rails
-Standard Deviation --> 171.885620884
-impactVector = [393L, 23L, 34L]
----------------------------------
 Impact user -->MasterLambaster
 Repo URL --> https://github.com/johnpolacek/superscrollorama
 Standard Deviation --> 172.0
 impactVector = [78L, 422L]
----------------------------------
-Impact user -->filod
-Repo URL --> https://github.com/tbranyen/backbone-boilerplate
-Standard Deviation --> 172.490257374
-impactVector = [147L, 3L, 419L]
 ---------------------------------
 Impact user -->vincentmac
 Repo URL --> https://github.com/twitter/twui
 Standard Deviation --> 172.5
 impactVector = [274L, 619L]
 ---------------------------------
-Impact user -->kenshin54
-Repo URL --> https://github.com/svenfuchs/globalize3
-Standard Deviation --> 173.345031657
-impactVector = [42L, 56L, 453L, 61L]
----------------------------------
 Impact user -->OliverLetterer
 Repo URL --> https://github.com/thomas-mcdonald/bootstrap-sass
 Standard Deviation --> 173.5
 impactVector = [103L, 450L]
----------------------------------
-Impact user -->PatrickRoumanoff
-Repo URL --> https://github.com/NV/chrome-devtools-autosave-server
-Standard Deviation --> 173.693855837
-impactVector = [416L, 110L, 7L]
----------------------------------
-Impact user -->libin
-Repo URL --> https://github.com/rogeriopvl/nodo
-Standard Deviation --> 173.829801818
-impactVector = [336L, 45L, 422L, 22L, 20L]
 ---------------------------------
 Impact user -->dvydra
 Repo URL --> https://github.com/twitter/twui
 Standard Deviation --> 174.5
 impactVector = [270L, 619L]
 ---------------------------------
-Impact user -->brandonb927
-Repo URL --> https://github.com/mrclay/minify
-Standard Deviation --> 176.433415202
-impactVector = [42L, 480L, 54L, 186L]
----------------------------------
 Impact user -->lgrammel
 Repo URL --> https://github.com/pivotal/jasmine
 Standard Deviation --> 176.863412459
 impactVector = [151L, 110L, 504L]
 ---------------------------------
-Impact user -->mystcolor
-Repo URL --> https://github.com/tpope/vim-pathogen
-Standard Deviation --> 179.0
-impactVector = [1L, 359L]
----------------------------------
-Impact user -->simonbetton
-Repo URL --> https://github.com/visionmedia/move.js
-Standard Deviation --> 179.0
-impactVector = [406L, 48L]
----------------------------------
-Impact user -->zhshinco
-Repo URL --> https://github.com/webbit/webbit
-Standard Deviation --> 179.015530053
-impactVector = [9L, 171L, 463L, 1L, 2L]
+Impact user -->brandonb927
+Repo URL --> https://github.com/mrclay/minify
+Standard Deviation --> 178.056170912
+impactVector = [480L, 54L, 186L]
 ---------------------------------
 Impact user -->dtran320
 Repo URL --> https://github.com/maccman/juggernaut
 Standard Deviation --> 180.0
 impactVector = [518L, 158L]
 ---------------------------------
-Impact user -->brianbouril
-Repo URL --> https://github.com/sindresorhus/screenfull.js
-Standard Deviation --> 180.5
-impactVector = [17L, 378L]
----------------------------------
-Impact user -->douglas
-Repo URL --> https://github.com/Netflix/asgard
-Standard Deviation --> 181.0
-impactVector = [368L, 6L]
----------------------------------
 Impact user -->ynishi
 Repo URL --> https://github.com/mongodb/mongo-java-driver
 Standard Deviation --> 182.5
 impactVector = [422L, 57L]
 ---------------------------------
-Impact user -->shanesveller
-Repo URL --> https://github.com/tvandervossen/motion-webview
-Standard Deviation --> 182.672445164
-impactVector = [55L, 66L, 518L, 9L, 4L, 24L]
+Impact user -->notomato
+Repo URL --> https://github.com/uzyn/opauth
+Standard Deviation --> 184.59465729
+impactVector = [127L, 637L, 428L, 317L]
 ---------------------------------
-Impact user -->kesava
-Repo URL --> https://github.com/sprsquish/blather
-Standard Deviation --> 183.5
-impactVector = [27L, -340L]
+Impact user -->pixelmeister
+Repo URL --> https://github.com/tciuro/NoticeView
+Standard Deviation --> 185.25208051
+impactVector = [76L, 58L, 68L, 568L, 106L, 294L]
 ---------------------------------
-Impact user -->caarlos0
-Repo URL --> https://github.com/shimmerproject/Bluebird
-Standard Deviation --> 185.5
-impactVector = [372L, 1L]
+Impact user -->kenshin54
+Repo URL --> https://github.com/svenfuchs/globalize3
+Standard Deviation --> 185.980285694
+impactVector = [56L, 453L, 61L]
 ---------------------------------
-Impact user -->Tomohiro
-Repo URL --> https://github.com/mattt/PostgresApp
-Standard Deviation --> 186.287114125
-impactVector = [1L, 120L, 442L]
----------------------------------
-Impact user -->dustinwhittle
-Repo URL --> https://github.com/twitter/twui
-Standard Deviation --> 186.848126087
-impactVector = [270L, 96L, 184L, 3L, 306L, 16L, 0L, 201L, 619L]
----------------------------------
-Impact user -->infojunkie
-Repo URL --> https://github.com/Pita/etherpad-lite
-Standard Deviation --> 187.041884792
-impactVector = [465L, 10L, 284L]
+Impact user -->taniki
+Repo URL --> https://github.com/noahhl/batsd
+Standard Deviation --> 188.0
+impactVector = [596L, 220L]
 ---------------------------------
 Impact user -->Geekdad
 Repo URL --> https://github.com/TooTallNate/NodObjC
 Standard Deviation --> 190.0
 impactVector = [495L, 115L]
+---------------------------------
+Impact user -->HowardMei
+Repo URL --> https://github.com/zeromq/zeromq2-x
+Standard Deviation --> 190.029310605
+impactVector = [619L, 63L, 370L, 405L, 304L, 92L]
 ---------------------------------
 Impact user -->dmyers
 Repo URL --> https://github.com/klaussilveira/gitlist
@@ -3268,30 +1483,25 @@ Repo URL --> https://github.com/mileszs/wicked_pdf
 Standard Deviation --> 191.0
 impactVector = [465L, 83L]
 ---------------------------------
-Impact user -->jarz
-Repo URL --> https://github.com/peterkeen/dokuen
-Standard Deviation --> 193.0
-impactVector = [1L, 387L]
----------------------------------
 Impact user -->egorkhmelev
 Repo URL --> https://github.com/spastorino/rails-api
 Standard Deviation --> 195.0
 impactVector = [594L, 204L]
----------------------------------
-Impact user -->Gurpartap
-Repo URL --> https://github.com/zeromq/libzmq
-Standard Deviation --> 196.3185666
-impactVector = [185L, 601L, 11L, 151L, 12L, 2L, 80L]
 ---------------------------------
 Impact user -->flipflop
 Repo URL --> https://github.com/rthprog/fixie
 Standard Deviation --> 196.5
 impactVector = [270L, 663L]
 ---------------------------------
+Impact user -->railsfactory
+Repo URL --> https://github.com/timidri/RandomCatz
+Standard Deviation --> 196.5
+impactVector = [125L, 518L]
+---------------------------------
 Impact user -->forresty
 Repo URL --> https://github.com/twitter/cassandra
-Standard Deviation --> 197.489645298
-impactVector = [123L, 8L, 3L, 518L, 14L]
+Standard Deviation --> 197.5
+impactVector = [123L, 518L]
 ---------------------------------
 Impact user -->infra
 Repo URL --> https://github.com/square/cubism
@@ -3300,13 +1510,13 @@ impactVector = [633L, 161L, 255L, 559L]
 ---------------------------------
 Impact user -->jacksonfdam
 Repo URL --> https://github.com/RestKit/RestKit
-Standard Deviation --> 198.634361013
-impactVector = [251L, 14L, 155L, 17L, 3L, 78L, 181L, 644L]
+Standard Deviation --> 198.952657685
+impactVector = [251L, 155L, 78L, 181L, 644L]
 ---------------------------------
-Impact user -->lgs
-Repo URL --> https://github.com/socialcast/devise_oauth2_providable
-Standard Deviation --> 202.265535717
-impactVector = [106L, 197L, 11L, 628L, 22L, 109L, 21L]
+Impact user -->okuryu
+Repo URL --> https://github.com/kemayo/sublime-text-2-git
+Standard Deviation --> 201.5
+impactVector = [549L, 146L]
 ---------------------------------
 Impact user -->ncb000gt
 Repo URL --> https://github.com/mozilla/pdf.js
@@ -3318,145 +1528,70 @@ Repo URL --> https://github.com/lucian1900/Backbone.dualStorage
 Standard Deviation --> 203.0
 impactVector = [465L, 59L]
 ---------------------------------
-Impact user -->dotnil
-Repo URL --> https://github.com/dotnil/dotnil.github.com
-Standard Deviation --> 203.5
-impactVector = [407L, 0L]
+Impact user -->Gurpartap
+Repo URL --> https://github.com/zeromq/libzmq
+Standard Deviation --> 203.749079753
+impactVector = [185L, 601L, 151L, 80L]
 ---------------------------------
-Impact user -->elia
-Repo URL --> https://github.com/daniele-m/commit-msg-url-shortener
-Standard Deviation --> 205.0
-impactVector = [414L, 4L]
+Impact user -->igrigorik
+Repo URL --> https://github.com/todb/packetfu
+Standard Deviation --> 204.5
+impactVector = [465L, 56L]
 ---------------------------------
-Impact user -->fa-damiao
-Repo URL --> https://github.com/thomaspark/bootswatch
-Standard Deviation --> 205.345778844
-impactVector = [4L, 169L, 498L]
+Impact user -->simonoff
+Repo URL --> https://github.com/twitter/activerecord-reputation-system
+Standard Deviation --> 206.884629685
+impactVector = [366L, 203L, 144L, 677L]
 ---------------------------------
-Impact user -->alsemyonov
-Repo URL --> https://github.com/evernote/evernote-sdk-ruby
-Standard Deviation --> 206.0
-impactVector = [414L, 2L]
+Impact user -->jamesbjackson
+Repo URL --> https://github.com/zachleat/Humane-Dates
+Standard Deviation --> 208.090258195
+impactVector = [562L, 161L, 89L]
 ---------------------------------
-Impact user -->HowardMei
-Repo URL --> https://github.com/zeromq/zeromq2-x
-Standard Deviation --> 210.344221119
-impactVector = [619L, 63L, 370L, 405L, 304L, 17L, 2L, 4L, 92L]
----------------------------------
-Impact user -->railsfactory
-Repo URL --> https://github.com/timidri/RandomCatz
-Standard Deviation --> 211.164035764
-impactVector = [125L, 518L, 6L, 1L]
----------------------------------
-Impact user -->notomato
-Repo URL --> https://github.com/uzyn/opauth
-Standard Deviation --> 212.451971043
-impactVector = [127L, 637L, 428L, 43L, 317L]
+Impact user -->aziz
+Repo URL --> https://github.com/tobie/ua-parser
+Standard Deviation --> 210.0
+impactVector = [538L, 118L]
 ---------------------------------
 Impact user -->twobit
 Repo URL --> https://github.com/LearnBoost/socket.io
 Standard Deviation --> 213.0
 impactVector = [677L, 1103L]
 ---------------------------------
-Impact user -->jamesbjackson
-Repo URL --> https://github.com/zachleat/Humane-Dates
-Standard Deviation --> 213.33351237
-impactVector = [562L, 161L, 89L, 7L]
+Impact user -->lgs
+Repo URL --> https://github.com/socialcast/devise_oauth2_providable
+Standard Deviation --> 215.58640959
+impactVector = [106L, 197L, 628L, 109L]
 ---------------------------------
-Impact user -->boostbob
-Repo URL --> https://github.com/yui/yui3
-Standard Deviation --> 216.207269381
-impactVector = [38L, 584L, 35L, 445L, 47L, 204L]
+Impact user -->shanesveller
+Repo URL --> https://github.com/tvandervossen/motion-webview
+Standard Deviation --> 215.71431725
+impactVector = [55L, 66L, 518L]
 ---------------------------------
 Impact user -->druzn3k
 Repo URL --> https://github.com/xdissent/ievms
-Standard Deviation --> 218.077967709
-impactVector = [21L, 72L, 507L]
----------------------------------
-Impact user -->jbilcke
-Repo URL --> https://github.com/michaelsbradleyjr/node-clojurescript
-Standard Deviation --> 218.582221372
-impactVector = [519L, 12L, 3L, 29L]
----------------------------------
-Impact user -->aziz
-Repo URL --> https://github.com/tobie/ua-parser
-Standard Deviation --> 218.705281143
-impactVector = [538L, 40L, 118L]
----------------------------------
-Impact user -->atran
-Repo URL --> https://github.com/rmagick/rmagick
-Standard Deviation --> 220.5
-impactVector = [480L, 39L]
----------------------------------
-Impact user -->kron4eg
-Repo URL --> https://github.com/tsechingho/chosen-rails
-Standard Deviation --> 220.5
-impactVector = [450L, 9L]
+Standard Deviation --> 217.5
+impactVector = [72L, 507L]
 ---------------------------------
 Impact user -->acurley
 Repo URL --> https://github.com/schneems/wicked
 Standard Deviation --> 221.5
 impactVector = [594L, 151L]
 ---------------------------------
-Impact user -->bashmish
-Repo URL --> https://github.com/ruby/ruby
-Standard Deviation --> 222.0
-impactVector = [1L, 445L]
----------------------------------
-Impact user -->supermasita
-Repo URL --> https://github.com/vmware/rvc
-Standard Deviation --> 223.022840759
-impactVector = [8L, 63L, 538L, 6L]
----------------------------------
 Impact user -->earaya
 Repo URL --> https://github.com/walmartlabs/thorax
 Standard Deviation --> 223.5
 impactVector = [584L, 137L]
 ---------------------------------
-Impact user -->ericperez
-Repo URL --> https://github.com/quick2wire/quick2wire-python-api
-Standard Deviation --> 223.5
-impactVector = [483L, 36L]
+Impact user -->touhonoob
+Repo URL --> https://github.com/yahoo/mojito
+Standard Deviation --> 226.5
+impactVector = [662L, 209L]
 ---------------------------------
-Impact user -->willCode2Surf
-Repo URL --> https://github.com/github/markup
-Standard Deviation --> 224.0
-impactVector = [1L, 449L]
----------------------------------
-Impact user -->kamitter
-Repo URL --> https://github.com/sinatra/sinatra
-Standard Deviation --> 224.5
-impactVector = [4L, 453L]
----------------------------------
-Impact user -->blaines
-Repo URL --> https://github.com/sinatra/sinatra
-Standard Deviation --> 225.5
-impactVector = [2L, 453L]
----------------------------------
-Impact user -->simonoff
-Repo URL --> https://github.com/twitter/activerecord-reputation-system
-Standard Deviation --> 227.817237885
-impactVector = [1L, 366L, 13L, 25L, 203L, 144L, 677L]
----------------------------------
-Impact user -->okuryu
-Repo URL --> https://github.com/kemayo/sublime-text-2-git
-Standard Deviation --> 227.887399096
-impactVector = [13L, 549L, 146L]
----------------------------------
-Impact user -->jasongregori
-Repo URL --> https://github.com/twitter/twitter-text-objc
-Standard Deviation --> 229.474762592
-impactVector = [6L, 568L, 296L]
----------------------------------
-Impact user -->maxkorp
-Repo URL --> https://github.com/visionmedia/mocha
-Standard Deviation --> 229.5
-impactVector = [48L, 507L]
----------------------------------
-Impact user -->sychedelix
-Repo URL --> https://github.com/velesin/jasmine-jquery
-Standard Deviation --> 231.920331148
-impactVector = [4L, 48L, 150L, 642L, 99L]
+Impact user -->equus12
+Repo URL --> https://github.com/zynga/viewporter
+Standard Deviation --> 232.762769073
+impactVector = [100L, 91L, 83L, 69L, 113L, 104L, 189L, 133L, 289L, 201L, 119L, 330L, 118L, 99L, 1031L]
 ---------------------------------
 Impact user -->araratispiroglu
 Repo URL --> https://github.com/facebook/three20
@@ -3468,15 +1603,15 @@ Repo URL --> https://github.com/thomasdavis/backboneboilerplate
 Standard Deviation --> 233.959160729
 impactVector = [156L, 642L, 136L]
 ---------------------------------
-Impact user -->Pym
-Repo URL --> https://github.com/buymeasoda/soda-theme
+Impact user -->moskied
+Repo URL --> https://github.com/jrburke/requirejs
 Standard Deviation --> 234.0
-impactVector = [27L, 495L]
+impactVector = [174L, 642L]
 ---------------------------------
-Impact user -->dineshkummarc
-Repo URL --> https://github.com/paulirish/html5readiness.com
-Standard Deviation --> 234.347263692
-impactVector = [594L, 6L, 7L, 17L, 3L]
+Impact user -->pylebecq
+Repo URL --> https://github.com/samvermette/SVProgressHUD
+Standard Deviation --> 234.752351781
+impactVector = [72L, 644L, 307L]
 ---------------------------------
 Impact user -->FiNGAHOLiC
 Repo URL --> https://github.com/kjbekkelund/writings
@@ -3488,75 +1623,45 @@ Repo URL --> https://github.com/kmalakoff/knockback
 Standard Deviation --> 237.0
 impactVector = [584L, 110L]
 ---------------------------------
-Impact user -->gabrielfalcao
-Repo URL --> https://github.com/Indamix/real-shadow
+Impact user -->supermasita
+Repo URL --> https://github.com/vmware/rvc
+Standard Deviation --> 237.5
+impactVector = [63L, 538L]
+---------------------------------
+Impact user -->jwalsh
+Repo URL --> https://github.com/nvie/gitflow
 Standard Deviation --> 238.0
-impactVector = [4L, 480L]
+impactVector = [161L, 637L]
 ---------------------------------
-Impact user -->chetan
-Repo URL --> https://github.com/tchandy/octopus
-Standard Deviation --> 238.397427279
-impactVector = [14L, 21L, 0L, 100L, 663L, 12L]
+Impact user -->alup
+Repo URL --> https://github.com/todc/css3-google-buttons
+Standard Deviation --> 243.5
+impactVector = [103L, 590L]
 ---------------------------------
-Impact user -->pylebecq
-Repo URL --> https://github.com/samvermette/SVProgressHUD
-Standard Deviation --> 241.962161298
-impactVector = [38L, 72L, 644L, 307L]
+Impact user -->sychedelix
+Repo URL --> https://github.com/velesin/jasmine-jquery
+Standard Deviation --> 244.838722428
+impactVector = [150L, 642L, 99L]
 ---------------------------------
-Impact user -->Sb15
-Repo URL --> https://github.com/rgrove/jsmin-php
-Standard Deviation --> 242.5
-impactVector = [489L, 4L]
----------------------------------
-Impact user -->taniki
-Repo URL --> https://github.com/noahhl/batsd
-Standard Deviation --> 244.607622303
-impactVector = [4L, 596L, 220L]
----------------------------------
-Impact user -->dordotky
-Repo URL --> https://github.com/reddit/reddit
-Standard Deviation --> 245.0
-impactVector = [2L, 492L]
----------------------------------
-Impact user -->ekryski
-Repo URL --> https://github.com/jrburke/requirejs
-Standard Deviation --> 246.831926622
-impactVector = [150L, 76L, 20L, 642L]
+Impact user -->makotan
+Repo URL --> https://github.com/Motorola-Mobility/montage
+Standard Deviation --> 245.474144373
+impactVector = [184L, 742L, 269L]
 ---------------------------------
 Impact user -->prasad83
 Repo URL --> https://github.com/tarcieri/cryptosphere
 Standard Deviation --> 246.84993192
 impactVector = [742L, 141L, 499L]
 ---------------------------------
-Impact user -->alup
-Repo URL --> https://github.com/todc/css3-google-buttons
-Standard Deviation --> 248.573262172
-impactVector = [103L, 30L, 590L]
----------------------------------
-Impact user -->mikejacobs
-Repo URL --> https://github.com/jeremyckahn/rekapi
-Standard Deviation --> 250.0
-impactVector = [512L, 12L]
+Impact user -->ekryski
+Repo URL --> https://github.com/jrburke/requirejs
+Standard Deviation --> 251.196249087
+impactVector = [150L, 76L, 642L]
 ---------------------------------
 Impact user -->wrongwaycn
 Repo URL --> https://github.com/pinax/pinax
-Standard Deviation --> 252.17156858
-impactVector = [39L, 203L, 684L, 110L]
----------------------------------
-Impact user -->antage
-Repo URL --> https://github.com/xdissent/ievms
-Standard Deviation --> 253.0
-impactVector = [1L, 507L]
----------------------------------
-Impact user -->CaptSolo
-Repo URL --> https://github.com/kennethreitz/inbox.py
-Standard Deviation --> 253.198648408
-impactVector = [46L, 322L, 665L]
----------------------------------
-Impact user -->onlyyoujack
-Repo URL --> https://github.com/mureev/CMHTMLView
-Standard Deviation --> 254.0
-impactVector = [556L, 48L]
+Standard Deviation --> 251.547653979
+impactVector = [203L, 684L, 110L]
 ---------------------------------
 Impact user -->hyjin
 Repo URL --> https://github.com/twitter/activerecord-reputation-system
@@ -3568,170 +1673,65 @@ Repo URL --> https://github.com/devinross/tapkulibrary
 Standard Deviation --> 254.5
 impactVector = [739L, 230L]
 ---------------------------------
-Impact user -->SpotHot
-Repo URL --> https://github.com/codeparty/derby-examples
-Standard Deviation --> 254.5
-impactVector = [519L, 10L]
----------------------------------
-Impact user -->axgle
-Repo URL --> https://github.com/yiisoft/yii
-Standard Deviation --> 258.396981407
-impactVector = [406L, 70L, 1L, 21L, 75L, 705L]
----------------------------------
-Impact user -->alobato
-Repo URL --> https://github.com/HipByte/RubyMotionSamples
-Standard Deviation --> 258.5
-impactVector = [1L, 518L]
----------------------------------
-Impact user -->stefaneyr
-Repo URL --> https://github.com/zootreeves/Objective-C-HMTL-Parser
-Standard Deviation --> 258.557325093
-impactVector = [91L, 203L, 78L, 55L, 1084L, 158L, 39L, 556L, 530L, 285L, 119L, 6L, 520L, 367L, 0L, 62L, 504L, 250L, 36L, 88L, 21L, 19L, 67L]
----------------------------------
-Impact user -->moskied
-Repo URL --> https://github.com/jrburke/requirejs
-Standard Deviation --> 259.019089816
-impactVector = [37L, 174L, 642L]
----------------------------------
 Impact user -->ali
 Repo URL --> https://github.com/twitter/twui
 Standard Deviation --> 260.0
 impactVector = [99L, 619L]
----------------------------------
-Impact user -->mnishihan
-Repo URL --> https://github.com/weierophinney/phly
-Standard Deviation --> 261.1753434
-impactVector = [435L, 422L, 662L, 5L, 0L]
 ---------------------------------
 Impact user -->al3x-edge
 Repo URL --> https://github.com/chriso/node-validator
 Standard Deviation --> 262.5
 impactVector = [642L, 117L]
 ---------------------------------
-Impact user -->corpix
-Repo URL --> https://github.com/zaach/jison
-Standard Deviation --> 265.173318584
-impactVector = [745L, 8L, 8L, 118L, 3L, 76L]
+Impact user -->axgle
+Repo URL --> https://github.com/yiisoft/yii
+Standard Deviation --> 263.629474832
+impactVector = [406L, 70L, 75L, 705L]
 ---------------------------------
-Impact user -->jwalsh
-Repo URL --> https://github.com/nvie/gitflow
-Standard Deviation --> 268.485877965
-impactVector = [6L, 161L, 637L]
----------------------------------
-Impact user -->kattrali
-Repo URL --> https://github.com/mroth/lolcommits
-Standard Deviation --> 268.631511348
-impactVector = [45L, 9L, 596L]
----------------------------------
-Impact user -->markemer
-Repo URL --> https://github.com/github/ReactiveCocoa
-Standard Deviation --> 269.0
-impactVector = [10L, 548L]
----------------------------------
-Impact user -->joselitosn
-Repo URL --> https://github.com/subtlepatterns/SubtlePatterns
-Standard Deviation --> 270.292434226
-impactVector = [594L, 9L, 33L]
----------------------------------
-Impact user -->armornick
-Repo URL --> https://github.com/rthprog/fixie
-Standard Deviation --> 272.616030343
-impactVector = [98L, 13L, 6L, 663L]
----------------------------------
-Impact user -->makotan
-Repo URL --> https://github.com/Motorola-Mobility/montage
-Standard Deviation --> 272.670474199
-impactVector = [184L, 742L, 269L, 4L]
+Impact user -->stefaneyr
+Repo URL --> https://github.com/zootreeves/Objective-C-HMTL-Parser
+Standard Deviation --> 265.808175493
+impactVector = [91L, 203L, 78L, 55L, 1084L, 158L, 556L, 530L, 285L, 119L, 520L, 367L, 62L, 504L, 250L, 88L, 67L]
 ---------------------------------
 Impact user -->johnliu
 Repo URL --> https://github.com/pragmaticly/smart-time-ago
 Standard Deviation --> 273.5
 impactVector = [618L, 71L]
 ---------------------------------
-Impact user -->touhonoob
-Repo URL --> https://github.com/yahoo/mojito
-Standard Deviation --> 275.612046181
-impactVector = [2L, 662L, 209L]
----------------------------------
-Impact user -->danzajdband
-Repo URL --> https://github.com/gomfunkel/node-mailchimp
-Standard Deviation --> 278.601268243
-impactVector = [594L, 2L, 4L]
----------------------------------
 Impact user -->jravetch
 Repo URL --> https://github.com/twitter/twui
 Standard Deviation --> 279.5
 impactVector = [60L, 619L]
----------------------------------
-Impact user -->mgom
-Repo URL --> https://github.com/twilson63/express-coffee
-Standard Deviation --> 279.833807822
-impactVector = [93L, 749L, 8L, 42L, 69L]
 ---------------------------------
 Impact user -->epc
 Repo URL --> https://github.com/twitter/twui
 Standard Deviation --> 280.0
 impactVector = [59L, 619L]
 ---------------------------------
-Impact user -->liangzan
-Repo URL --> https://github.com/purplefox/vert.x
-Standard Deviation --> 281.572703755
-impactVector = [1L, 373L, 33L, 692L]
+Impact user -->chetan
+Repo URL --> https://github.com/tchandy/octopus
+Standard Deviation --> 281.5
+impactVector = [100L, 663L]
 ---------------------------------
-Impact user -->iPrayag
-Repo URL --> https://github.com/visionmedia/jade
-Standard Deviation --> 284.5
-impactVector = [13L, 582L]
----------------------------------
-Impact user -->dthtvwls
-Repo URL --> https://github.com/varnish/Varnish-Cache
-Standard Deviation --> 284.526709374
-impactVector = [677L, 15L, 16L, 82L, 3L, 16L, 416L, 7L, 68L, 306L, 990L, -1L, 10L, 48L, -2L, 30L, 27L, 818L, 37L, 84L, 7L, 37L]
+Impact user -->armornick
+Repo URL --> https://github.com/rthprog/fixie
+Standard Deviation --> 282.5
+impactVector = [98L, 663L]
 ---------------------------------
 Impact user -->imikay
 Repo URL --> https://github.com/tommoor/tinycon
 Standard Deviation --> 286.5
 impactVector = [144L, 717L]
 ---------------------------------
-Impact user -->jack-pappas
-Repo URL --> https://github.com/twitter/twui
-Standard Deviation --> 286.730225512
-impactVector = [1L, 21L, 619L]
----------------------------------
-Impact user -->brynbellomy
-Repo URL --> https://github.com/kmiyashiro/node-bandcamp
-Standard Deviation --> 287.069133659
-impactVector = [32L, 1L, 674L, 2L]
----------------------------------
-Impact user -->ingorenner
-Repo URL --> https://github.com/etsy/statsd
-Standard Deviation --> 287.312837629
-impactVector = [33L, 5L, 628L]
----------------------------------
-Impact user -->dhilipsiva
-Repo URL --> https://github.com/visionmedia/jade
-Standard Deviation --> 287.5
-impactVector = [7L, 582L]
----------------------------------
-Impact user -->kasperisager
-Repo URL --> https://github.com/vanillaforums/Garden
-Standard Deviation --> 289.427404062
-impactVector = [682L, 94L, 45L]
----------------------------------
-Impact user -->ericdagenais
-Repo URL --> https://github.com/plataformatec/devise
-Standard Deviation --> 289.5
-impactVector = [5L, 584L]
----------------------------------
 Impact user -->kek
 Repo URL --> https://github.com/mozilla/shumway
 Standard Deviation --> 292.0
 impactVector = [972L, 388L]
 ---------------------------------
-Impact user -->danfairs
-Repo URL --> https://github.com/tjfontaine/linode-python
-Standard Deviation --> 295.100359577
-impactVector = [628L, 3L, 1L]
+Impact user -->kasperisager
+Repo URL --> https://github.com/vanillaforums/Garden
+Standard Deviation --> 294.0
+impactVector = [682L, 94L]
 ---------------------------------
 Impact user -->corey
 Repo URL --> https://github.com/lynaghk/c2
@@ -3743,70 +1743,50 @@ Repo URL --> https://github.com/uzyn/opauth
 Standard Deviation --> 296.53142985
 impactVector = [594L, 1037L, 317L]
 ---------------------------------
-Impact user -->Ph3nol
-Repo URL --> https://github.com/revolunet/sublimetext-markdown-preview
-Standard Deviation --> 297.685516387
-impactVector = [1L, 656L, 51L]
----------------------------------
-Impact user -->stutiguias
-Repo URL --> https://github.com/sk89q/worldguard
-Standard Deviation --> 299.0
-impactVector = [642L, 44L]
----------------------------------
-Impact user -->hifi7
-Repo URL --> https://github.com/gaubert/gmvault
-Standard Deviation --> 300.5
-impactVector = [1L, 602L]
----------------------------------
 Impact user -->tsubame959
 Repo URL --> https://github.com/mbebenita/Mvm
-Standard Deviation --> 303.644894939
-impactVector = [682L, 87L, -2L]
+Standard Deviation --> 297.5
+impactVector = [682L, 87L]
+---------------------------------
+Impact user -->Ph3nol
+Repo URL --> https://github.com/revolunet/sublimetext-markdown-preview
+Standard Deviation --> 302.5
+impactVector = [656L, 51L]
 ---------------------------------
 Impact user -->klaut
 Repo URL --> https://github.com/twitter/activerecord-reputation-system
 Standard Deviation --> 304.037643868
 impactVector = [1352L, 742L, 677L]
 ---------------------------------
-Impact user -->Baachi
-Repo URL --> https://github.com/schmittjoh/JMSSerializerBundle
-Standard Deviation --> 307.725346517
-impactVector = [725L, 662L, 43L]
+Impact user -->doubleotoo
+Repo URL --> https://github.com/repoforge/rpms
+Standard Deviation --> 304.239523238
+impactVector = [322L, 160L, 519L, 972L]
 ---------------------------------
-Impact user -->maccman
-Repo URL --> https://github.com/bcg/em-mongo
-Standard Deviation --> 308.5
-impactVector = [619L, 2L]
+Impact user -->corpix
+Repo URL --> https://github.com/zaach/jison
+Standard Deviation --> 305.950976465
+impactVector = [745L, 118L, 76L]
+---------------------------------
+Impact user -->zhangcheng
+Repo URL --> https://github.com/pydanny/django-mongonaut
+Standard Deviation --> 312.5
+impactVector = [418L, 1043L]
 ---------------------------------
 Impact user -->nolearning
 Repo URL --> https://github.com/xamarin/XobotOS
 Standard Deviation --> 312.88371997
 impactVector = [416L, 147L, 903L]
 ---------------------------------
-Impact user -->rebill
-Repo URL --> https://github.com/kennethreitz/inbox.py
-Standard Deviation --> 315.5
-impactVector = [34L, 665L]
----------------------------------
-Impact user -->xulin97
-Repo URL --> https://github.com/python-excel/xlwt
-Standard Deviation --> 315.605590712
-impactVector = [677L, 8L, 7L]
----------------------------------
-Impact user -->doubleotoo
-Repo URL --> https://github.com/repoforge/rpms
-Standard Deviation --> 316.249901186
-impactVector = [1L, 9L, 322L, 160L, 1L, 1L, 519L, 972L, 13L]
+Impact user -->mgom
+Repo URL --> https://github.com/twilson63/express-coffee
+Standard Deviation --> 315.050613218
+impactVector = [93L, 749L, 69L]
 ---------------------------------
 Impact user -->fingolfin
 Repo URL --> https://github.com/mojombo/jekyll
 Standard Deviation --> 317.0
 impactVector = [321L, 955L]
----------------------------------
-Impact user -->ikbear
-Repo URL --> https://github.com/Srirangan/googleplaces.js
-Standard Deviation --> 324.097036224
-impactVector = [7L, 692L, 2L]
 ---------------------------------
 Impact user -->yakjuly
 Repo URL --> https://github.com/ryanb/cancan
@@ -3818,15 +1798,10 @@ Repo URL --> https://github.com/thoughtbot/jack_up
 Standard Deviation --> 331.5
 impactVector = [742L, 79L]
 ---------------------------------
-Impact user -->pyrotechnick
-Repo URL --> https://github.com/zaach/jison
-Standard Deviation --> 332.103397554
-impactVector = [3L, 1084L, 1L, 292L, 25L, 4L, 144L, 0L, 76L]
----------------------------------
-Impact user -->tyohan
-Repo URL --> https://github.com/yiisoft/yii
-Standard Deviation --> 335.5
-impactVector = [34L, 705L]
+Impact user -->dthtvwls
+Repo URL --> https://github.com/varnish/Varnish-Cache
+Standard Deviation --> 337.747848809
+impactVector = [677L, 82L, 416L, 68L, 306L, 990L, 818L, 84L]
 ---------------------------------
 Impact user -->waterlou
 Repo URL --> https://github.com/xamarin/XobotOS
@@ -3848,55 +1823,30 @@ Repo URL --> https://github.com/venomous0x/WhatsAPI
 Standard Deviation --> 341.0
 impactVector = [935L, 253L]
 ---------------------------------
-Impact user -->davidchen007
-Repo URL --> https://github.com/imathis/octopress
-Standard Deviation --> 347.316378345
-impactVector = [1L, 24L, 749L]
----------------------------------
-Impact user -->zhangcheng
-Repo URL --> https://github.com/pydanny/django-mongonaut
-Standard Deviation --> 347.739126358
-impactVector = [19L, 15L, 418L, 11L, 10L, 1043L, 3L, 21L]
----------------------------------
 Impact user -->dopa
 Repo URL --> https://github.com/visionmedia/jade
 Standard Deviation --> 348.714439047
 impactVector = [237L, 1061L, 1103L, 1091L, 582L]
----------------------------------
-Impact user -->Philzen
-Repo URL --> https://github.com/yiisoft/yii
-Standard Deviation --> 351.0
-impactVector = [3L, 705L]
----------------------------------
-Impact user -->zoek1
-Repo URL --> https://github.com/zoek1/TiendadeRopa
-Standard Deviation --> 359.5
-impactVector = [720L, 1L]
 ---------------------------------
 Impact user -->a-ignatov-parc
 Repo URL --> https://github.com/rstacruz/jquery.transit
 Standard Deviation --> 375.5
 impactVector = [163L, 914L]
 ---------------------------------
+Impact user -->andris-silis
+Repo URL --> https://github.com/redroot/holmes
+Standard Deviation --> 381.0
+impactVector = [1012L, 250L]
+---------------------------------
 Impact user -->infynyxx
 Repo URL --> https://github.com/scala/scala
 Standard Deviation --> 385.0
 impactVector = [972L, 202L]
 ---------------------------------
-Impact user -->dsyph3r
-Repo URL --> https://github.com/EightMedia/hammer.js
-Standard Deviation --> 386.5
-impactVector = [17L, 790L]
----------------------------------
 Impact user -->Keithbsmiley
 Repo URL --> https://github.com/ryanb/cancan
 Standard Deviation --> 391.5
 impactVector = [1084L, 301L]
----------------------------------
-Impact user -->omni5cience
-Repo URL --> https://github.com/swank-js/swank-js
-Standard Deviation --> 392.5
-impactVector = [790L, 5L]
 ---------------------------------
 Impact user -->paulstefanort
 Repo URL --> https://github.com/twitter/activerecord-reputation-system
@@ -3913,10 +1863,15 @@ Repo URL --> https://github.com/jashkenas/coffee-script
 Standard Deviation --> 399.0
 impactVector = [81L, 879L]
 ---------------------------------
-Impact user -->nfedyashev
-Repo URL --> https://github.com/twitter/activerecord-reputation-system
-Standard Deviation --> 403.322038409
-impactVector = [990L, 22L, 677L]
+Impact user -->pyrotechnick
+Repo URL --> https://github.com/zaach/jison
+Standard Deviation --> 403.121569753
+impactVector = [1084L, 292L, 144L, 76L]
+---------------------------------
+Impact user -->keverw
+Repo URL --> https://github.com/visionmedia/express
+Standard Deviation --> 410.5
+impactVector = [270L, 1091L]
 ---------------------------------
 Impact user -->tzuryby
 Repo URL --> https://github.com/hojberg/cssarrowplease
@@ -3933,60 +1888,50 @@ Repo URL --> https://github.com/timrwood/moment
 Standard Deviation --> 425.5
 impactVector = [104L, 955L]
 ---------------------------------
-Impact user -->Anry
-Repo URL --> https://github.com/ztellman/aleph
-Standard Deviation --> 429.588867455
-impactVector = [11L, 682L, 126L, 184L, 53L, 24L, 370L, 167L, 233L, 181L, 128L, 128L, 114L, 2342L, 203L, 375L, 538L, 119L, 548L, 684L, 54L, 990L, 2L, 110L, 37L, 41L, 292L, 64L, 22L, 23L, 255L, 213L, 71L]
----------------------------------
-Impact user -->andris-silis
-Repo URL --> https://github.com/redroot/holmes
-Standard Deviation --> 429.760656904
-impactVector = [1012L, 2L, 250L]
+Impact user -->ziyasal
+Repo URL --> https://github.com/pilu/web-app-theme
+Standard Deviation --> 427.470045734
+impactVector = [534L, 495L, 285L, 1506L, 538L]
 ---------------------------------
 Impact user -->ranbeioc
 Repo URL --> https://github.com/SteveSanderson/knockout
 Standard Deviation --> 430.964035622
 impactVector = [376L, 241L, 614L, 520L, 158L, 164L, 633L, 504L, 1659L]
 ---------------------------------
-Impact user -->geraudmathe
-Repo URL --> https://github.com/twitter/twitter-cldr-rb
-Standard Deviation --> 431.043694614
-impactVector = [594L, 101L, 2L, 1469L, 596L, 109L, 212L, 253L, 144L]
----------------------------------
 Impact user -->idealhack
 Repo URL --> https://github.com/VeriteCo/Timeline
-Standard Deviation --> 434.777869211
-impactVector = [1332L, 415L, 397L, 31L, 419L, 348L, 164L, 519L, 79L, 114L, 255L, 559L, 1659L, 330L, 365L]
+Standard Deviation --> 433.670740568
+impactVector = [1332L, 415L, 397L, 419L, 348L, 164L, 519L, 79L, 114L, 255L, 559L, 1659L, 330L, 365L]
+---------------------------------
+Impact user -->geraudmathe
+Repo URL --> https://github.com/twitter/twitter-cldr-rb
+Standard Deviation --> 433.838031413
+impactVector = [594L, 101L, 1469L, 596L, 109L, 212L, 253L, 144L]
 ---------------------------------
 Impact user -->quirkyjack
 Repo URL --> https://github.com/Reflejo/jquery-countdown
 Standard Deviation --> 435.5
 impactVector = [1012L, 141L]
 ---------------------------------
+Impact user -->financeCoding
+Repo URL --> https://github.com/skwp/dotfiles
+Standard Deviation --> 452.112326259
+impactVector = [125L, 1170L, 330L]
+---------------------------------
+Impact user -->Anry
+Repo URL --> https://github.com/ztellman/aleph
+Standard Deviation --> 459.152673427
+impactVector = [682L, 126L, 184L, 53L, 370L, 167L, 233L, 181L, 128L, 128L, 114L, 2342L, 203L, 375L, 538L, 119L, 548L, 684L, 54L, 990L, 110L, 292L, 64L, 255L, 213L, 71L]
+---------------------------------
 Impact user -->alexeypetrushin
 Repo URL --> https://github.com/visionmedia/n
-Standard Deviation --> 439.968938298
-impactVector = [990L, 43L, 71L]
----------------------------------
-Impact user -->keverw
-Repo URL --> https://github.com/visionmedia/express
-Standard Deviation --> 451.114915145
-impactVector = [270L, 40L, 1091L]
+Standard Deviation --> 459.5
+impactVector = [990L, 71L]
 ---------------------------------
 Impact user -->abitno
 Repo URL --> https://github.com/schacon/ruby-git
-Standard Deviation --> 451.306990861
-impactVector = [990L, 69L, 0L]
----------------------------------
-Impact user -->malkia
-Repo URL --> https://github.com/xamarin/XobotOS
-Standard Deviation --> 451.5
-impactVector = [0L, 903L]
----------------------------------
-Impact user -->financeCoding
-Repo URL --> https://github.com/skwp/dotfiles
-Standard Deviation --> 455.751577068
-impactVector = [125L, 3L, 1170L, 330L]
+Standard Deviation --> 460.5
+impactVector = [990L, 69L]
 ---------------------------------
 Impact user -->tehmasp
 Repo URL --> https://github.com/spf13/spf13-vim
@@ -3997,11 +1942,6 @@ Impact user -->SandyWalsh
 Repo URL --> https://github.com/mitsuhiko/flask-sqlalchemy
 Standard Deviation --> 469.0
 impactVector = [990L, 52L]
----------------------------------
-Impact user -->ziyasal
-Repo URL --> https://github.com/pilu/web-app-theme
-Standard Deviation --> 470.326460655
-impactVector = [534L, 495L, 285L, 4L, 1506L, 538L, 6L]
 ---------------------------------
 Impact user -->nomospace
 Repo URL --> https://github.com/LearnBoost/socket.io
@@ -4018,6 +1958,11 @@ Repo URL --> https://github.com/LearnBoost/socket.io
 Standard Deviation --> 481.0
 impactVector = [2065L, 1103L]
 ---------------------------------
+Impact user -->adrienschuler
+Repo URL --> https://github.com/duncs/clusterssh
+Standard Deviation --> 483.0
+impactVector = [1332L, 366L]
+---------------------------------
 Impact user -->bullfight
 Repo URL --> https://github.com/warpech/jquery-handsontable
 Standard Deviation --> 483.0
@@ -4028,55 +1973,35 @@ Repo URL --> https://github.com/manifestinteractive/jqvmap
 Standard Deviation --> 488.0
 impactVector = [1332L, 356L]
 ---------------------------------
-Impact user -->iammahmudur
-Repo URL --> https://github.com/themeforce/framework
-Standard Deviation --> 492.118097841
-impactVector = [58L, 1084L, 23L]
----------------------------------
-Impact user -->viktors
-Repo URL --> https://github.com/mfoemmel/fig
-Standard Deviation --> 494.5
-impactVector = [989L, 0L]
----------------------------------
-Impact user -->pooriaazimi
-Repo URL --> https://github.com/prose/prose
-Standard Deviation --> 496.166862613
-impactVector = [27L, 1084L, 36L]
----------------------------------
 Impact user -->prashtx
 Repo URL --> https://github.com/LearnBoost/socket.io-client
 Standard Deviation --> 496.5
 impactVector = [1103L, 110L]
 ---------------------------------
-Impact user -->j4mie
-Repo URL --> https://github.com/lipka/piecon
-Standard Deviation --> 501.0
-impactVector = [10L, 1012L]
+Impact user -->mrsinguyen
+Repo URL --> https://github.com/pfraze/linkjs
+Standard Deviation --> 498.0
+impactVector = [1506L, 510L]
 ---------------------------------
 Impact user -->jsveron23
 Repo URL --> https://github.com/visionmedia/express
 Standard Deviation --> 501.5
 impactVector = [88L, 1091L]
 ---------------------------------
-Impact user -->TooTallNate
-Repo URL --> https://github.com/lipka/piecon
-Standard Deviation --> 501.5
-impactVector = [9L, 1012L]
----------------------------------
 Impact user -->taichi
 Repo URL --> https://github.com/bestiejs/lodash
 Standard Deviation --> 511.0
 impactVector = [1534L, 512L]
 ---------------------------------
+Impact user -->iammahmudur
+Repo URL --> https://github.com/themeforce/framework
+Standard Deviation --> 513.0
+impactVector = [58L, 1084L]
+---------------------------------
 Impact user -->jceb
 Repo URL --> https://github.com/simonwhitaker/gitignore-boilerplates
 Standard Deviation --> 541.5
 impactVector = [1195L, 112L]
----------------------------------
-Impact user -->adrienschuler
-Repo URL --> https://github.com/duncs/clusterssh
-Standard Deviation --> 560.198972588
-impactVector = [1332L, 366L, 5L]
 ---------------------------------
 Impact user -->Yasumoto
 Repo URL --> https://github.com/torvalds/linux
@@ -4088,45 +2013,15 @@ Repo URL --> https://github.com/botelho/flipboard-layout
 Standard Deviation --> 570.5
 impactVector = [1332L, 191L]
 ---------------------------------
-Impact user -->smith3v
-Repo URL --> https://github.com/mxcl/homebrew
-Standard Deviation --> 586.0
-impactVector = [32L, 1204L]
----------------------------------
-Impact user -->flaviozantut
-Repo URL --> https://github.com/soundcloud/soundcloud-custom-player
-Standard Deviation --> 592.423834767
-impactVector = [1376L, 2L, 0L, 22L]
----------------------------------
 Impact user -->aligo
 Repo URL --> https://github.com/thoughtbot/backbone-support
-Standard Deviation --> 592.859080127
-impactVector = [1748L, 584L, 66L, 296L, 226L, 10L]
----------------------------------
-Impact user -->majutsushi
-Repo URL --> https://github.com/xtaran/unburden-home-dir
-Standard Deviation --> 593.5
-impactVector = [1195L, 8L]
----------------------------------
-Impact user -->TimothyKlim
-Repo URL --> https://github.com/twall/jna
-Standard Deviation --> 599.364246515
-impactVector = [30L, 1423L, 7L, 84L]
+Standard Deviation --> 605.694312339
+impactVector = [1748L, 584L, 66L, 296L, 226L]
 ---------------------------------
 Impact user -->jandudulski
 Repo URL --> https://github.com/nathanl/authority
 Standard Deviation --> 611.5
 impactVector = [1332L, 109L]
----------------------------------
-Impact user -->mrsinguyen
-Repo URL --> https://github.com/pfraze/linkjs
-Standard Deviation --> 611.550488513
-impactVector = [1506L, 510L, 39L]
----------------------------------
-Impact user -->sethvincent
-Repo URL --> https://github.com/nathansearles/Slides
-Standard Deviation --> 636.046922404
-impactVector = [1534L, 92L, 43L, 62L]
 ---------------------------------
 Impact user -->kick191
 Repo URL --> https://github.com/p-m-p/jquery-box-slider
@@ -4148,30 +2043,30 @@ Repo URL --> https://github.com/wczekalski/CDPieMenu
 Standard Deviation --> 650.138959505
 impactVector = [1506L, 103L, 152L]
 ---------------------------------
-Impact user -->shiroyuki
-Repo URL --> https://github.com/sole/tween.js
-Standard Deviation --> 655.5
-impactVector = [1344L, 33L]
----------------------------------
 Impact user -->holtwick
 Repo URL --> https://github.com/wbhart/Cesium3
 Standard Deviation --> 658.200746142
 impactVector = [137L, 1506L, 84L]
 ---------------------------------
+Impact user -->TimothyKlim
+Repo URL --> https://github.com/twall/jna
+Standard Deviation --> 669.5
+impactVector = [1423L, 84L]
+---------------------------------
 Impact user -->oloed
 Repo URL --> https://github.com/thomasdavis/backbonetutorials
-Standard Deviation --> 666.682727671
-impactVector = [2065L, 990L, 52L, 138L, 0L, 107L, 823L, 274L]
----------------------------------
-Impact user -->aboynejames
-Repo URL --> https://github.com/davidcoallier/node-php
-Standard Deviation --> 686.5
-impactVector = [1376L, 3L]
+Standard Deviation --> 676.363143615
+impactVector = [2065L, 990L, 52L, 138L, 107L, 823L, 274L]
 ---------------------------------
 Impact user -->learning
 Repo URL --> https://github.com/pivotal/jasmine
 Standard Deviation --> 686.674271803
 impactVector = [2065L, 742L, 504L]
+---------------------------------
+Impact user -->sethvincent
+Repo URL --> https://github.com/nathansearles/Slides
+Standard Deviation --> 686.945574425
+impactVector = [1534L, 92L, 62L]
 ---------------------------------
 Impact user -->Battleroid
 Repo URL --> https://github.com/joyent/node
@@ -4198,65 +2093,50 @@ Repo URL --> https://github.com/janl/mustache.js
 Standard Deviation --> 746.0
 impactVector = [2012L, 520L]
 ---------------------------------
-Impact user -->sorryaboutyourface
-Repo URL --> https://github.com/wbond/flourish
-Standard Deviation --> 748.827379604
-impactVector = [137L, 1084L, 150L, 6L, 2458L, 117L, 363L, 538L, 28L]
----------------------------------
-Impact user -->cakey
-Repo URL --> https://github.com/jsocol/bleach
-Standard Deviation --> 749.5
-impactVector = [1534L, 35L]
----------------------------------
 Impact user -->BenjaminX
 Repo URL --> https://github.com/mojombo/jekyll
 Standard Deviation --> 751.5
 impactVector = [2458L, 955L]
 ---------------------------------
+Impact user -->timoxley
+Repo URL --> https://github.com/rupa/z
+Standard Deviation --> 754.0
+impactVector = [1748L, 240L]
+---------------------------------
 Impact user -->erickpatrick
 Repo URL --> https://github.com/tracelytics/pageguide
-Standard Deviation --> 759.168531602
-impactVector = [5L, 2342L, 4L, 2L, 665L, 1136L, 149L, 480L]
+Standard Deviation --> 763.66081476
+impactVector = [2342L, 665L, 1136L, 149L, 480L]
 ---------------------------------
 Impact user -->renatocarvalho
 Repo URL --> https://github.com/sferik/rails_admin
 Standard Deviation --> 766.0
 impactVector = [1748L, 216L]
 ---------------------------------
-Impact user -->timoxley
-Repo URL --> https://github.com/rupa/z
-Standard Deviation --> 766.034086854
-impactVector = [1748L, 27L, 240L]
----------------------------------
 Impact user -->feross
 Repo URL --> https://github.com/isaacs/npm
 Standard Deviation --> 767.5
 impactVector = [1681L, 146L]
 ---------------------------------
+Impact user -->sorryaboutyourface
+Repo URL --> https://github.com/wbond/flourish
+Standard Deviation --> 787.109514461
+impactVector = [137L, 1084L, 150L, 2458L, 117L, 363L, 538L]
+---------------------------------
+Impact user -->vojtech-dobes
+Repo URL --> https://github.com/react-php/react
+Standard Deviation --> 789.5
+impactVector = [2241L, 662L]
+---------------------------------
 Impact user -->Pirhoo
 Repo URL --> https://github.com/LearnBoost/mongoose
-Standard Deviation --> 787.319803017
-impactVector = [2239L, 86L, 550L, 4L, 117L, 1061L]
+Standard Deviation --> 797.127994741
+impactVector = [2239L, 86L, 550L, 117L, 1061L]
 ---------------------------------
 Impact user -->zubinkhavarian
 Repo URL --> https://github.com/fgnass/spin.js
 Standard Deviation --> 816.0
 impactVector = [2549L, 917L]
----------------------------------
-Impact user -->openweb
-Repo URL --> https://github.com/postgres/postgres
-Standard Deviation --> 817.824892966
-impactVector = [82L, 677L, 2342L, 215L, 43L, 101L]
----------------------------------
-Impact user -->farnoux
-Repo URL --> https://github.com/enjalot/tributary
-Standard Deviation --> 822.5
-impactVector = [1681L, 36L]
----------------------------------
-Impact user -->i-akhmadullin
-Repo URL --> https://github.com/jzaefferer/grunt-css
-Standard Deviation --> 823.0
-impactVector = [1681L, 35L]
 ---------------------------------
 Impact user -->flashbackzoo
 Repo URL --> https://github.com/h5bp/mobile-boilerplate
@@ -4268,75 +2148,70 @@ Repo URL --> https://github.com/zurb/foundation
 Standard Deviation --> 840.0
 impactVector = [90L, 1770L]
 ---------------------------------
-Impact user -->jmendeth
-Repo URL --> https://github.com/pepelsbey/shower
-Standard Deviation --> 852.54677291
-impactVector = [108L, 2239L, 495L, 17L, 1L]
+Impact user -->openweb
+Repo URL --> https://github.com/postgres/postgres
+Standard Deviation --> 856.885663318
+impactVector = [82L, 677L, 2342L, 215L, 101L]
 ---------------------------------
 Impact user -->kirai
 Repo URL --> https://github.com/thoughtbot/paperclip
 Standard Deviation --> 862.911737472
 impactVector = [2065L, 260L, 210L]
 ---------------------------------
-Impact user -->kynan
-Repo URL --> https://github.com/ubuwaits/beautiful-web-type
-Standard Deviation --> 864.215852666
-impactVector = [158L, 2342L, 336L, 243L, 43L]
----------------------------------
 Impact user -->seanpowell
 Repo URL --> https://github.com/visionmedia/jade
 Standard Deviation --> 867.593618868
 impactVector = [2549L, 1681L, 411L, 582L]
 ---------------------------------
-Impact user -->Slaver
-Repo URL --> https://github.com/RuslanG/Twitter-Bootstrap-PSD-ru
-Standard Deviation --> 872.5
-impactVector = [1748L, 3L]
+Impact user -->harrydeluxe
+Repo URL --> https://github.com/radiosilence/Ham
+Standard Deviation --> 868.0
+impactVector = [480L, 2216L]
 ---------------------------------
-Impact user -->conradkleinespel
-Repo URL --> https://github.com/zurb/foundation
-Standard Deviation --> 880.5
-impactVector = [9L, 1770L]
----------------------------------
-Impact user -->tmattia
-Repo URL --> https://github.com/meteor/meteor
-Standard Deviation --> 890.479189819
-impactVector = [26L, 418L, 117L, 2216L]
+Impact user -->kynan
+Repo URL --> https://github.com/ubuwaits/beautiful-web-type
+Standard Deviation --> 909.919330216
+impactVector = [158L, 2342L, 336L, 243L]
 ---------------------------------
 Impact user -->AdamEdgett
 Repo URL --> https://github.com/reddit/reddit
 Standard Deviation --> 925.0
 impactVector = [2342L, 492L]
 ---------------------------------
+Impact user -->syoichi
+Repo URL --> https://github.com/operasoftware/dragonfly
+Standard Deviation --> 925.009669619
+impactVector = [2065L, 2458L, 329L]
+---------------------------------
+Impact user -->tmattia
+Repo URL --> https://github.com/meteor/meteor
+Standard Deviation --> 926.71498675
+impactVector = [418L, 117L, 2216L]
+---------------------------------
+Impact user -->jmendeth
+Repo URL --> https://github.com/pepelsbey/shower
+Standard Deviation --> 926.910399601
+impactVector = [108L, 2239L, 495L]
+---------------------------------
 Impact user -->alexbihary
 Repo URL --> https://github.com/jhollingworth/bootstrap-wysihtml5
 Standard Deviation --> 937.470399533
 impactVector = [989L, 117L, 2549L, 419L]
----------------------------------
-Impact user -->vojtech-dobes
-Repo URL --> https://github.com/react-php/react
-Standard Deviation --> 937.669806844
-impactVector = [2241L, 7L, 662L]
 ---------------------------------
 Impact user -->noonesboy
 Repo URL --> https://github.com/h5bp/html5-boilerplate
 Standard Deviation --> 941.5
 impactVector = [129L, 2012L]
 ---------------------------------
-Impact user -->harrydeluxe
-Repo URL --> https://github.com/radiosilence/Ham
-Standard Deviation --> 942.812930661
-impactVector = [480L, 2216L, 29L]
----------------------------------
 Impact user -->machida
 Repo URL --> https://github.com/vwall/compass-twitter-bootstrap
 Standard Deviation --> 972.0
 impactVector = [2012L, 68L]
 ---------------------------------
-Impact user -->laserji
-Repo URL --> https://github.com/stubbornella/csslint
-Standard Deviation --> 1014.0
-impactVector = [2065L, 37L]
+Impact user -->ApipeMc
+Repo URL --> https://github.com/TooTallNate/NodObjC
+Standard Deviation --> 975.519989544
+impactVector = [2549L, 970L, 2216L, 115L]
 ---------------------------------
 Impact user -->mlzboy
 Repo URL --> https://github.com/codeparty/derby
@@ -4358,16 +2233,6 @@ Repo URL --> https://github.com/bartaz/impress.js
 Standard Deviation --> 1021.5
 impactVector = [196L, 2239L]
 ---------------------------------
-Impact user -->ApipeMc
-Repo URL --> https://github.com/TooTallNate/NodObjC
-Standard Deviation --> 1050.27070796
-impactVector = [2549L, 970L, 1L, 2216L, 115L]
----------------------------------
-Impact user -->syoichi
-Repo URL --> https://github.com/operasoftware/dragonfly
-Standard Deviation --> 1063.47367151
-impactVector = [2065L, 2458L, 329L, 2L]
----------------------------------
 Impact user -->JoeyButler
 Repo URL --> https://github.com/jonleighton/focused_controller
 Standard Deviation --> 1081.27527588
@@ -4383,16 +2248,6 @@ Repo URL --> https://github.com/razorjack/quicksand
 Standard Deviation --> 1114.0
 impactVector = [2342L, 114L]
 ---------------------------------
-Impact user -->sodabiscuit
-Repo URL --> https://github.com/kivy/kivy
-Standard Deviation --> 1117.77498481
-impactVector = [22L, 71L, 3109L, 96L, 1043L, 96L]
----------------------------------
-Impact user -->gregoriobenatti
-Repo URL --> https://github.com/freedomsponsors/www.freedomsponsors.org
-Standard Deviation --> 1118.5
-impactVector = [2239L, 2L]
----------------------------------
 Impact user -->Hezion
 Repo URL --> https://github.com/kennethreitz/legit
 Standard Deviation --> 1121.5
@@ -4400,18 +2255,13 @@ impactVector = [2549L, 306L]
 ---------------------------------
 Impact user -->nxbdi
 Repo URL --> https://github.com/yui/yui3
-Standard Deviation --> 1128.35313621
-impactVector = [201L, 21L, 955L, 3049L, 204L]
+Standard Deviation --> 1165.18482976
+impactVector = [201L, 955L, 3049L, 204L]
 ---------------------------------
-Impact user -->SteveVezina
-Repo URL --> https://github.com/xing/wysihtml5
-Standard Deviation --> 1155.98972314
-impactVector = [100L, 220L, 1L, 387L, 3049L]
----------------------------------
-Impact user -->edwardtoday
-Repo URL --> https://github.com/xing/wysihtml5
-Standard Deviation --> 1179.2006445
-impactVector = [1L, 110L, 71L, 250L, 3049L]
+Impact user -->sodabiscuit
+Repo URL --> https://github.com/kivy/kivy
+Standard Deviation --> 1172.92437949
+impactVector = [71L, 3109L, 96L, 1043L, 96L]
 ---------------------------------
 Impact user -->maxd
 Repo URL --> https://github.com/xing/wysihtml5
@@ -4428,10 +2278,20 @@ Repo URL --> https://github.com/flatiron/winston
 Standard Deviation --> 1194.0
 impactVector = [2549L, 161L]
 ---------------------------------
+Impact user -->SteveVezina
+Repo URL --> https://github.com/xing/wysihtml5
+Standard Deviation --> 1222.46533693
+impactVector = [100L, 220L, 387L, 3049L]
+---------------------------------
 Impact user -->garak
 Repo URL --> https://github.com/react-php/react
 Standard Deviation --> 1223.5
 impactVector = [3109L, 662L]
+---------------------------------
+Impact user -->edwardtoday
+Repo URL --> https://github.com/xing/wysihtml5
+Standard Deviation --> 1259.80573899
+impactVector = [110L, 71L, 250L, 3049L]
 ---------------------------------
 Impact user -->fool2fish
 Repo URL --> https://github.com/thomaspark/bootswatch
@@ -4448,35 +2308,25 @@ Repo URL --> https://github.com/FortAwesome/Font-Awesome
 Standard Deviation --> 1370.0
 impactVector = [369L, 3109L]
 ---------------------------------
-Impact user -->p-j
-Repo URL --> https://github.com/xing/wysihtml5
-Standard Deviation --> 1394.85538876
-impactVector = [188L, 1L, 3049L]
----------------------------------
 Impact user -->jspears
 Repo URL --> https://github.com/xing/wysihtml5
 Standard Deviation --> 1426.5
 impactVector = [196L, 3049L]
+---------------------------------
+Impact user -->p-j
+Repo URL --> https://github.com/xing/wysihtml5
+Standard Deviation --> 1430.5
+impactVector = [188L, 3049L]
 ---------------------------------
 Impact user -->telemaciek
 Repo URL --> https://github.com/xing/wysihtml5
 Standard Deviation --> 1448.5
 impactVector = [152L, 3049L]
 ---------------------------------
-Impact user -->fredwu
-Repo URL --> https://github.com/FortAwesome/Font-Awesome
-Standard Deviation --> 1453.10908056
-impactVector = [31L, 22L, 3109L]
----------------------------------
 Impact user -->doyleyoung
 Repo URL --> https://github.com/zurb/responsive-tables
 Standard Deviation --> 1461.5
 impactVector = [3049L, 126L]
----------------------------------
-Impact user -->mrexroad
-Repo URL --> https://github.com/SyrusAkbary/pyjade
-Standard Deviation --> 1508.01100927
-impactVector = [5906L, 2L, 77L, 245L, 15L, 25L, 39L, 10L, 3L, 247L, 7L, 27L, 38L, 27L]
 ---------------------------------
 Impact user -->pctj101
 Repo URL --> https://github.com/nodester/nodester
@@ -4488,11 +2338,6 @@ Repo URL --> https://github.com/xing/wysihtml5
 Standard Deviation --> 1533.14404629
 impactVector = [395L, 4023L, 3049L]
 ---------------------------------
-Impact user -->hungrymedia
-Repo URL --> https://github.com/FortAwesome/Font-Awesome
-Standard Deviation --> 1552.5
-impactVector = [4L, 3109L]
----------------------------------
 Impact user -->chrisfarrell
 Repo URL --> https://github.com/RestKit/RestKit
 Standard Deviation --> 1617.28792187
@@ -4500,33 +2345,8 @@ impactVector = [3849L, 230L, 644L]
 ---------------------------------
 Impact user -->bloudermilk
 Repo URL --> https://github.com/rails/rails
-Standard Deviation --> 1745.03301465
-impactVector = [753L, 4L, 4023L]
----------------------------------
-Impact user -->savage69kr
-Repo URL --> https://github.com/textmate/textmate
-Standard Deviation --> 1835.38662579
-impactVector = [682L, 619L, 169L, 9L, 245L, 21L, 11L, 6L, 210L, 5L, 6531L]
----------------------------------
-Impact user -->jpittman
-Repo URL --> https://github.com/nxtbgthng/OAuth2Client
-Standard Deviation --> 1921.0
-impactVector = [3849L, 7L]
----------------------------------
-Impact user -->s-kimura
-Repo URL --> https://github.com/komagata/lokka
-Standard Deviation --> 1924.0
-impactVector = [3849L, 1L]
----------------------------------
-Impact user -->kernelhcy
-Repo URL --> https://github.com/rails/rails
-Standard Deviation --> 1987.0
-impactVector = [49L, 4023L]
----------------------------------
-Impact user -->zeeshanlakhani
-Repo URL --> https://github.com/textmate/textmate
-Standard Deviation --> 1997.53881898
-impactVector = [487L, 250L, 198L, 1103L, 13L, 40L, 20L, 1L, 6531L]
+Standard Deviation --> 1635.0
+impactVector = [753L, 4023L]
 ---------------------------------
 Impact user -->berkayunal
 Repo URL --> https://github.com/HPNeo/gmaps
@@ -4538,70 +2358,60 @@ Repo URL --> https://github.com/textmate/textmate
 Standard Deviation --> 2279.17781228
 impactVector = [287L, 2342L, 2216L, 6531L]
 ---------------------------------
-Impact user -->florianbachmann
+Impact user -->savage69kr
 Repo URL --> https://github.com/textmate/textmate
-Standard Deviation --> 2285.21014083
-impactVector = [7L, 6L, 4L, 1L, -16L, 1L, 6531L]
+Standard Deviation --> 2299.18860084
+impactVector = [682L, 619L, 169L, 245L, 210L, 6531L]
 ---------------------------------
-Impact user -->myfreeweb
-Repo URL --> https://github.com/visionmedia/page.js
-Standard Deviation --> 2327.23896495
-impactVector = [5906L, 8L, 9L, 34L, 333L]
----------------------------------
-Impact user -->manobi
-Repo URL --> https://github.com/sivy/node-statsd
-Standard Deviation --> 2337.79309606
-impactVector = [5906L, 1L, 168L, 57L, 27L]
+Impact user -->zeeshanlakhani
+Repo URL --> https://github.com/textmate/textmate
+Standard Deviation --> 2429.97492991
+impactVector = [487L, 250L, 198L, 1103L, 6531L]
 ---------------------------------
 Impact user -->yaslama
 Repo URL --> https://github.com/maccman/stylo
 Standard Deviation --> 2445.56773686
 impactVector = [5906L, 1332L, 269L]
 ---------------------------------
-Impact user -->zeekay
-Repo URL --> https://github.com/Rykka/colorv.vim
-Standard Deviation --> 2552.1936153
-impactVector = [5906L, 27L, 6L, 3L]
----------------------------------
-Impact user -->mathieuravaux
-Repo URL --> https://github.com/textmate/textmate
-Standard Deviation --> 2569.67246162
-impactVector = [55L, 26L, 70L, 294L, 6531L]
+Impact user -->mrexroad
+Repo URL --> https://github.com/SyrusAkbary/pyjade
+Standard Deviation --> 2476.20641052
+impactVector = [5906L, 77L, 245L, 247L]
 ---------------------------------
 Impact user -->drmingdrmer
 Repo URL --> https://github.com/nvie/gitflow
-Standard Deviation --> 2644.8579462
-impactVector = [5906L, 7L, 637L]
+Standard Deviation --> 2634.5
+impactVector = [5906L, 637L]
 ---------------------------------
 Impact user -->pylemon
 Repo URL --> https://github.com/textmate/textmate
 Standard Deviation --> 2657.30444038
 impactVector = [2342L, 122L, 6531L]
 ---------------------------------
-Impact user -->Rafe
-Repo URL --> https://github.com/textmate/textmate
-Standard Deviation --> 2732.11758532
-impactVector = [2L, 269L, 422L, 6531L]
----------------------------------
-Impact user -->rmetzler
-Repo URL --> https://github.com/visionmedia/rediskit
-Standard Deviation --> 2735.11110378
-impactVector = [725L, 25L, 6531L, 1L]
+Impact user -->manobi
+Repo URL --> https://github.com/sivy/node-statsd
+Standard Deviation --> 2731.45801522
+impactVector = [5906L, 168L, 57L]
 ---------------------------------
 Impact user -->Beeblerox
 Repo URL --> https://github.com/fontello/fontello
 Standard Deviation --> 2768.5
 impactVector = [5906L, 369L]
 ---------------------------------
+Impact user -->mathieuravaux
+Repo URL --> https://github.com/textmate/textmate
+Standard Deviation --> 2769.14684515
+impactVector = [55L, 70L, 294L, 6531L]
+---------------------------------
+Impact user -->myfreeweb
+Repo URL --> https://github.com/visionmedia/page.js
+Standard Deviation --> 2786.5
+impactVector = [5906L, 333L]
+---------------------------------
 Impact user -->fyears
 Repo URL --> https://github.com/textmate/textmate
 Standard Deviation --> 2803.7124595
 impactVector = [271L, 955L, 6531L]
----------------------------------
-Impact user -->datagutt
-Repo URL --> https://github.com/textmate/textmate
-Standard Deviation --> 2817.54964464
-impactVector = [5L, 59L, 9L, 6531L]
 ---------------------------------
 Impact user -->Qard
 Repo URL --> https://github.com/jnicklas/capybara
@@ -4613,6 +2423,16 @@ Repo URL --> https://github.com/textmate/textmate
 Standard Deviation --> 2891.0
 impactVector = [749L, 6531L]
 ---------------------------------
+Impact user -->rmetzler
+Repo URL --> https://github.com/visionmedia/rediskit
+Standard Deviation --> 2903.0
+impactVector = [725L, 6531L]
+---------------------------------
+Impact user -->Rafe
+Repo URL --> https://github.com/textmate/textmate
+Standard Deviation --> 2916.54159732
+impactVector = [269L, 422L, 6531L]
+---------------------------------
 Impact user -->easychen
 Repo URL --> https://github.com/mojombo/grit
 Standard Deviation --> 2918.5
@@ -4623,35 +2443,10 @@ Repo URL --> https://github.com/twitter/bootstrap
 Standard Deviation --> 2920.68779357
 impactVector = [1376L, 2012L, 2458L, 8635L]
 ---------------------------------
-Impact user -->LeZuse
-Repo URL --> https://github.com/subtleGradient/StandaloneWebInspector.app
-Standard Deviation --> 2930.0
-impactVector = [5906L, 46L]
----------------------------------
-Impact user -->onishiweb
-Repo URL --> https://github.com/michaelw90/cPrompt
-Standard Deviation --> 2938.5
-impactVector = [5906L, 29L]
----------------------------------
-Impact user -->redaready
-Repo URL --> https://github.com/karussell/GraphHopper
-Standard Deviation --> 2939.5
-impactVector = [5906L, 27L]
----------------------------------
 Impact user -->fredmarketing
 Repo URL --> https://github.com/zurb/foundation
 Standard Deviation --> 2943.51443006
 impactVector = [2461L, 861L, 708L, 8635L, 1770L]
----------------------------------
-Impact user -->Tyler-Anderson
-Repo URL --> https://github.com/olabini/clj-gremlin
-Standard Deviation --> 2950.0
-impactVector = [5906L, 6L]
----------------------------------
-Impact user -->mitaku
-Repo URL --> https://github.com/textmate/textmate
-Standard Deviation --> 3036.23527854
-impactVector = [16L, 167L, 6531L]
 ---------------------------------
 Impact user -->cajun-code
 Repo URL --> https://github.com/textmate/textmate
@@ -4673,10 +2468,10 @@ Repo URL --> https://github.com/textmate/textmate
 Standard Deviation --> 3149.0
 impactVector = [233L, 6531L]
 ---------------------------------
-Impact user -->jonathanong
-Repo URL --> https://github.com/visionmedia/nib
-Standard Deviation --> 3170.98227421
-impactVector = [9L, 91L, 56L, 3109L, 8635L, 79L]
+Impact user -->mitaku
+Repo URL --> https://github.com/textmate/textmate
+Standard Deviation --> 3182.0
+impactVector = [167L, 6531L]
 ---------------------------------
 Impact user -->rsanchez
 Repo URL --> https://github.com/textmate/textmate
@@ -4688,30 +2483,25 @@ Repo URL --> https://github.com/textmate/textmate
 Standard Deviation --> 3223.0
 impactVector = [85L, 6531L]
 ---------------------------------
+Impact user -->datagutt
+Repo URL --> https://github.com/textmate/textmate
+Standard Deviation --> 3236.0
+impactVector = [59L, 6531L]
+---------------------------------
 Impact user -->Kjuly
 Repo URL --> https://github.com/textmate/textmate
 Standard Deviation --> 3237.0
 impactVector = [57L, 6531L]
 ---------------------------------
-Impact user -->igas
-Repo URL --> https://github.com/textmate/textmate
-Standard Deviation --> 3250.5
-impactVector = [30L, 6531L]
----------------------------------
-Impact user -->anggriawan
-Repo URL --> https://github.com/textmate/textmate
-Standard Deviation --> 3262.5
-impactVector = [6L, 6531L]
----------------------------------
-Impact user -->ezkl
-Repo URL --> https://github.com/textmate/textmate
-Standard Deviation --> 3262.5
-impactVector = [6L, 6531L]
----------------------------------
 Impact user -->Mte90
 Repo URL --> https://github.com/twitter/bootstrap
 Standard Deviation --> 3285.0521457
 impactVector = [260L, 422L, 935L, 178L, 8635L]
+---------------------------------
+Impact user -->jonathanong
+Repo URL --> https://github.com/visionmedia/nib
+Standard Deviation --> 3334.38402107
+impactVector = [91L, 56L, 3109L, 8635L, 79L]
 ---------------------------------
 Impact user -->gaurish
 Repo URL --> https://github.com/mbostock/d3
@@ -4728,11 +2518,6 @@ Repo URL --> https://github.com/mbostock/d3
 Standard Deviation --> 3674.5
 impactVector = [1332L, 8681L]
 ---------------------------------
-Impact user -->pedia
-Repo URL --> https://github.com/square/cubism
-Standard Deviation --> 3675.56726064
-impactVector = [58L, 5L, 8681L, 559L]
----------------------------------
 Impact user -->tiffany
 Repo URL --> https://github.com/twitter/bootstrap
 Standard Deviation --> 3749.5
@@ -4748,33 +2533,36 @@ Repo URL --> https://github.com/rstacruz/backbone-patterns
 Standard Deviation --> 3878.07661376
 impactVector = [879L, 8681L, 87L]
 ---------------------------------
+Impact user -->pedia
+Repo URL --> https://github.com/square/cubism
+Standard Deviation --> 3952.13042407
+impactVector = [58L, 8681L, 559L]
+---------------------------------
 Impact user -->duellsy
 Repo URL --> https://github.com/square/cube
 Standard Deviation --> 3994.39485057
 impactVector = [8681L, 161L, 255L]
----------------------------------
-Impact user -->santiagoangel
-Repo URL --> https://github.com/openshift/os-client-tools
-Standard Deviation --> 4025.26876949
-impactVector = [261L, 8681L, 28L]
 ---------------------------------
 Impact user -->anthonybrown
 Repo URL --> https://github.com/twitter/bootstrap
 Standard Deviation --> 4030.1020941
 impactVector = [114L, 58L, 8635L]
 ---------------------------------
-Impact user -->AaronFoltz
-Repo URL --> https://github.com/zaiste/vimified
-Standard Deviation --> 4072.0519261
-impactVector = [8681L, 16L, 70L]
----------------------------------
 Impact user -->lryfrank
 Repo URL --> https://github.com/twitter/bootstrap
 Standard Deviation --> 4085.0
 impactVector = [465L, 8635L]
 ---------------------------------
-Impact user -->tristanls
-Repo URL --> https://github.com/thingdom/node-neo4j
-Standard Deviation --> 4337.0
-impactVector = [8681L, 7L]
+Impact user -->santiagoangel
+Repo URL --> https://github.com/openshift/os-client-tools
+Standard Deviation --> 4210.0
+impactVector = [261L, 8681L]
 ---------------------------------
+Impact user -->AaronFoltz
+Repo URL --> https://github.com/zaiste/vimified
+Standard Deviation --> 4305.5
+impactVector = [8681L, 70L]
+---------------------------------
+Least SD of all SDs=1.5
+SD of all SDs=877.371913655
+Mean of all SDs=502.573877894
